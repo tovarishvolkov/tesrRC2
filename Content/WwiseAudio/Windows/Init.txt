@@ -1,0 +1,51 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	377355006	rev_indoor			\Default Work Unit\rev_indoor	
+	2994086662	rev_room			\Default Work Unit\rev_room	
+
+State	ID	Name	State Group			Notes
+	377355006	rev_indoor	rev_indoor			
+	748895195	None	rev_indoor			
+	1857588325	rev_outdoor	rev_indoor			
+	748895195	None	rev_room			
+	2087000386	rev_room_small	rev_room			
+	3829940232	rev_room_medium	rev_room			
+	4235432358	rev_room_large	rev_room			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	604469591	rev_room_small	rev_room	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\rev_indoor\Wwise RoomVerb (Custom)		
+	862446835	rev_outdoor	rev_indoor	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\rev_indoor		
+	929193699	rev_room_medium	rev_room	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\rev_indoor\Wwise RoomVerb (Custom)		
+	1003388938	rev_room_large	rev_room	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\rev_indoor\Wwise RoomVerb (Custom)		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	20863261	rev_decay_time			\Default Work Unit\rev_indoor\rev_decay_time	
+	22760086	rev_pre_delay			\Default Work Unit\rev_indoor\rev_pre_delay	
+	153877265	rev_balance			\Default Work Unit\rev_balance	
+	422411778	del_crossfeed_r			\Default Work Unit\del\del_crossfeed_r	
+	422411804	del_crossfeed_l			\Default Work Unit\del\del_crossfeed_l	
+	1192436428	del_out_wet			\Default Work Unit\del\del_out_wet	
+	1308072702	rev_hf_damping			\Default Work Unit\rev_indoor\rev_hf_damping	
+	1672330836	rev_diffusion			\Default Work Unit\rev_indoor\rev_diffusion	
+	1684592609	rev_filter_band_gain			\Default Work Unit\rev_indoor\rev_filter_band_gain	
+	3684179601	del_filter_gain			\Default Work Unit\del\del_filter_gain	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	sfx			\Default Work Unit\Master Audio Bus\sfx	
+	828766390	wpn			\Default Work Unit\Master Audio Bus\sfx\wpn	
+	1100459686	chr			\Default Work Unit\Master Audio Bus\sfx\chr	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	377355006	rev_indoor			\Default Work Unit\Master Audio Bus\rev_indoor	
+	378875104	del			\Default Work Unit\Master Audio Bus\del	
+	1857588325	rev_outdoor			\Default Work Unit\Master Audio Bus\rev_outdoor	
+
+Effect plug-ins	ID	Name	Type				Notes
+	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
+	393602995	Wwise Stereo Delay (Custom)	Wwise Stereo Delay			
+	561318128	Wwise RoomVerb (Custom)	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

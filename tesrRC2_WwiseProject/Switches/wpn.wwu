@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D8F81DBD-AB3C-4737-87FA-C80B80763BE7}" SchemaVersion="103">
+	<Switches>
+		<WorkUnit Name="wpn" ID="{D8F81DBD-AB3C-4737-87FA-C80B80763BE7}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="wpn_tail" ID="{6080CA4C-EA3F-4D17-81B2-3C0CB723DDC8}">
+					<ChildrenList>
+						<Switch Name="wpn_tail_long" ID="{06C1B1EE-8B81-4693-9B60-B6B447C2952A}"/>
+						<Switch Name="wpn_tail_short" ID="{A775C874-6AC7-4E72-A2E6-D284B3141AA6}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

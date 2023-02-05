@@ -1,0 +1,64 @@
+Event	ID	Name			Wwise Object Path	Notes
+	326539261	play_chr_move_fts			\chr\play_chr_move_fts	
+	1065512946	play_wpn_shot			\wpn\play_wpn_shot	
+	2178935873	play_chr_move_foley			\chr\play_chr_move_foley	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3111693583	wpn_tail			\wpn\wpn_tail	
+
+Switch	ID	Name	Switch Group			Notes
+	2469058192	wpn_tail_short	wpn_tail			
+	4116735728	wpn_tail_long	wpn_tail			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	24916773	UEFPS_Clothes__Bag_4	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Bag\UEFPS_Clothes__Bag_4_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_foley\chr_move_foley_bag\UEFPS_Clothes__Bag_4		58916
+	66186335	Shoot_Body_3	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Shoot_Body_3_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_body\Shoot_Body_3		99356
+	179918553	Shoot_Punch_1	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Shoot_Punch_1_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_punch\Shoot_Punch_1		62254
+	196009900	Shoot_Shell_Concrete_4	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Shoot_Shell_Concrete_4_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_shell\Shoot_Shell_Concrete_4		137658
+	219438685	UEFPS_Clothes__Jacket_4	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Jacket\UEFPS_Clothes__Jacket_4_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_foley\chr_move_foley_jacket\UEFPS_Clothes__Jacket_4		102476
+	229525645	Shoot_Body_4	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Shoot_Body_4_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_body\Shoot_Body_4		114670
+	247241512	UEFPS_Footsteps_Stone_4	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Stone_Steps\UEFPS_Footsteps_Stone_4_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_fts\UEFPS_Footsteps_Stone_4		62516
+	311082798	UEFPS_Footsteps_Stone_1	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Stone_Steps\UEFPS_Footsteps_Stone_1_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_fts\UEFPS_Footsteps_Stone_1		62516
+	331882705	UEFPS_Footsteps_Stone_8	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Stone_Steps\UEFPS_Footsteps_Stone_8_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_fts\UEFPS_Footsteps_Stone_8		62516
+	348322684	WP_FP_AK47Shot_Tail_A2	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\WP_FP_AK47Shot_Tail_A2_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_tail\wpn_shot_tail_long\WP_FP_AK47Shot_Tail_A2		468460
+	387229046	UEFPS_Clothes__Bag_8	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Bag\UEFPS_Clothes__Bag_8_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_foley\chr_move_foley_bag\UEFPS_Clothes__Bag_8		58916
+	399521446	Shoot_Shell_Concrete_2	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Shoot_Shell_Concrete_2_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_shell\Shoot_Shell_Concrete_2		117592
+	439433509	UEFPS_Clothes__Jacket_6	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Jacket\UEFPS_Clothes__Jacket_6_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_foley\chr_move_foley_jacket\UEFPS_Clothes__Jacket_6		102476
+	440826440	UEFPS_Clothes__Bag_6	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Bag\UEFPS_Clothes__Bag_6_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_foley\chr_move_foley_bag\UEFPS_Clothes__Bag_6		58916
+	447611173	Shoot_Tail_2	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Shoot_Tail_2_593E3545.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_tail\wpn_shot_tail_short\Shoot_Tail_2		115232
+	455277939	Shoot_Shell_Concrete_6	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Shoot_Shell_Concrete_6_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_shell\Shoot_Shell_Concrete_6		141502
+	458855336	UEFPS_Clothes__Jacket_8	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Jacket\UEFPS_Clothes__Jacket_8_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_foley\chr_move_foley_jacket\UEFPS_Clothes__Jacket_8		102476
+	461898670	WP_FP_AK47Shot_Tail_A3	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\WP_FP_AK47Shot_Tail_A3_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_tail\wpn_shot_tail_long\WP_FP_AK47Shot_Tail_A3		468460
+	485954773	Shoot_Punch_2	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Shoot_Punch_2_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_punch\Shoot_Punch_2		47488
+	493758573	Shoot_Body_1	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Shoot_Body_1_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_body\Shoot_Body_1		107536
+	501804727	Shoot_Punch_3	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Shoot_Punch_3_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_punch\Shoot_Punch_3		49194
+	569810458	Shoot_Closure_4	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Shoot_Closure_4_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_closure\Shoot_Closure_4		117394
+	585910709	UEFPS_Footsteps_Stone_7	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Stone_Steps\UEFPS_Footsteps_Stone_7_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_fts\UEFPS_Footsteps_Stone_7		62516
+	599714546	WP_FP_AK47Shot_Tail_A4	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\WP_FP_AK47Shot_Tail_A4_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_tail\wpn_shot_tail_long\WP_FP_AK47Shot_Tail_A4		481244
+	606688462	UEFPS_Clothes__Bag_7	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Bag\UEFPS_Clothes__Bag_7_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_foley\chr_move_foley_bag\UEFPS_Clothes__Bag_7		58916
+	615400086	Shoot_Punch_4	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Shoot_Punch_4_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_punch\Shoot_Punch_4		47782
+	637146960	Shoot_Shell_Concrete_1	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Shoot_Shell_Concrete_1_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_shell\Shoot_Shell_Concrete_1		102112
+	641669533	UEFPS_Footsteps_Stone_2	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Stone_Steps\UEFPS_Footsteps_Stone_2_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_fts\UEFPS_Footsteps_Stone_2		62516
+	644199517	UEFPS_Footsteps_Stone_5	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Stone_Steps\UEFPS_Footsteps_Stone_5_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_fts\UEFPS_Footsteps_Stone_5		62516
+	660182732	Shoot_Shell_Concrete_5	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Shoot_Shell_Concrete_5_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_shell\Shoot_Shell_Concrete_5		114726
+	661534329	WP_FP_AK47Shot_Tail_A1	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\WP_FP_AK47Shot_Tail_A1_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_tail\wpn_shot_tail_long\WP_FP_AK47Shot_Tail_A1		481244
+	691696890	Shoot_Closure_1	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Shoot_Closure_1_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_closure\Shoot_Closure_1		107580
+	724455354	UEFPS_Clothes__Jacket_1	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Jacket\UEFPS_Clothes__Jacket_1_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_foley\chr_move_foley_jacket\UEFPS_Clothes__Jacket_1		102476
+	750480184	Shoot_Tail_3	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Shoot_Tail_3_42AEA847.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_tail\wpn_shot_tail_short\Shoot_Tail_3		122206
+	805748893	UEFPS_Clothes__Jacket_5	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Jacket\UEFPS_Clothes__Jacket_5_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_foley\chr_move_foley_jacket\UEFPS_Clothes__Jacket_5		102476
+	808823150	UEFPS_Clothes__Jacket_2	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Jacket\UEFPS_Clothes__Jacket_2_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_foley\chr_move_foley_jacket\UEFPS_Clothes__Jacket_2		102476
+	851363444	Shoot_Tail_1	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Shoot_Tail_1_A0E6AD1F.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_tail\wpn_shot_tail_short\Shoot_Tail_1		125294
+	866608777	UEFPS_Clothes__Bag_5	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Bag\UEFPS_Clothes__Bag_5_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_foley\chr_move_foley_bag\UEFPS_Clothes__Bag_5		58916
+	913812359	UEFPS_Clothes__Bag_3	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Bag\UEFPS_Clothes__Bag_3_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_foley\chr_move_foley_bag\UEFPS_Clothes__Bag_3		58916
+	919242374	UEFPS_Clothes__Bag_2	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Bag\UEFPS_Clothes__Bag_2_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_foley\chr_move_foley_bag\UEFPS_Clothes__Bag_2		58916
+	935165918	Shoot_Closure_3	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Shoot_Closure_3_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_closure\Shoot_Closure_3		101190
+	949692509	UEFPS_Footsteps_Stone_6	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Stone_Steps\UEFPS_Footsteps_Stone_6_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_fts\UEFPS_Footsteps_Stone_6		62516
+	1006659683	Shoot_Body_2	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Shoot_Body_2_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_body\Shoot_Body_2		100110
+	1018279638	UEFPS_Footsteps_Stone_3	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Stone_Steps\UEFPS_Footsteps_Stone_3_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_fts\UEFPS_Footsteps_Stone_3		62516
+	1020422559	UEFPS_Clothes__Jacket_3	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Jacket\UEFPS_Clothes__Jacket_3_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_foley\chr_move_foley_jacket\UEFPS_Clothes__Jacket_3		102476
+	1025322966	Shoot_Closure_2	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Shoot_Closure_2_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_closure\Shoot_Closure_2		98942
+	1025759597	Shoot_Tail_4	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Shoot_Tail_4_8A29C0F0.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_tail\wpn_shot_tail_short\Shoot_Tail_4		125486
+	1030939619	UEFPS_Clothes__Bag_1	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Bag\UEFPS_Clothes__Bag_1_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_foley\chr_move_foley_bag\UEFPS_Clothes__Bag_1		58916
+	1046616801	Shoot_Shell_Concrete_3	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Shoot_Shell_Concrete_3_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_shell\Shoot_Shell_Concrete_3		106126
+	1067464638	UEFPS_Clothes__Jacket_7	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Jacket\UEFPS_Clothes__Jacket_7_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_foley\chr_move_foley_jacket\UEFPS_Clothes__Jacket_7		102476
+

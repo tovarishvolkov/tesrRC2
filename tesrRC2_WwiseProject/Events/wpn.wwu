@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{903DBC1C-8B93-40EC-8513-5A9FE64708B4}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="wpn" ID="{903DBC1C-8B93-40EC-8513-5A9FE64708B4}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="play_wpn_shot" ID="{A30167E7-A994-472B-A063-DF27896A0673}">
+					<ChildrenList>
+						<Action Name="" ID="{025FD959-816A-4F41-B1E4-D79508586CA2}" ShortID="423247579">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="wpn_shot" ID="{1CFFFFDA-64CA-4902-826D-3CD8B0CC948A}" WorkUnitID="{79566E07-8B88-4955-8B1F-3DB23900A545}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

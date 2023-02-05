@@ -1,0 +1,420 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Projects\\tesrRC2\\tesrRC2_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Projects\\tesrRC2\\tesrRC2_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Projects\\tesrRC2\\tesrRC2_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Projects\\tesrRC2\\tesrRC2_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "GUID": "{9AF0EBD7-2FD5-41AC-96AA-FBAEF073700F}",
+    "Language": "SFX",
+    "Hash": "1360096584",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\main",
+    "ShortName": "main",
+    "Path": "main.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2178935873",
+      "Name": "play_chr_move_foley",
+      "ObjectPath": "\\Events\\chr\\play_chr_move_foley",
+      "GUID": "{5A1C52A5-27AA-4E23-B3B7-DB83ED703ED3}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.580567",
+      "DurationMax": "0.633628",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "24916773",
+        "Language": "SFX",
+        "ShortName": "Bag\\UEFPS_Clothes__Bag_4.wav",
+        "Path": "SFX\\Bag\\UEFPS_Clothes__Bag_4_10C4C929.wem"
+       },
+       {
+        "Id": "219438685",
+        "Language": "SFX",
+        "ShortName": "Jacket\\UEFPS_Clothes__Jacket_4.wav",
+        "Path": "SFX\\Jacket\\UEFPS_Clothes__Jacket_4_10C4C929.wem"
+       },
+       {
+        "Id": "387229046",
+        "Language": "SFX",
+        "ShortName": "Bag\\UEFPS_Clothes__Bag_8.wav",
+        "Path": "SFX\\Bag\\UEFPS_Clothes__Bag_8_10C4C929.wem"
+       },
+       {
+        "Id": "439433509",
+        "Language": "SFX",
+        "ShortName": "Jacket\\UEFPS_Clothes__Jacket_6.wav",
+        "Path": "SFX\\Jacket\\UEFPS_Clothes__Jacket_6_10C4C929.wem"
+       },
+       {
+        "Id": "440826440",
+        "Language": "SFX",
+        "ShortName": "Bag\\UEFPS_Clothes__Bag_6.wav",
+        "Path": "SFX\\Bag\\UEFPS_Clothes__Bag_6_10C4C929.wem"
+       },
+       {
+        "Id": "458855336",
+        "Language": "SFX",
+        "ShortName": "Jacket\\UEFPS_Clothes__Jacket_8.wav",
+        "Path": "SFX\\Jacket\\UEFPS_Clothes__Jacket_8_10C4C929.wem"
+       },
+       {
+        "Id": "606688462",
+        "Language": "SFX",
+        "ShortName": "Bag\\UEFPS_Clothes__Bag_7.wav",
+        "Path": "SFX\\Bag\\UEFPS_Clothes__Bag_7_10C4C929.wem"
+       },
+       {
+        "Id": "724455354",
+        "Language": "SFX",
+        "ShortName": "Jacket\\UEFPS_Clothes__Jacket_1.wav",
+        "Path": "SFX\\Jacket\\UEFPS_Clothes__Jacket_1_10C4C929.wem"
+       },
+       {
+        "Id": "805748893",
+        "Language": "SFX",
+        "ShortName": "Jacket\\UEFPS_Clothes__Jacket_5.wav",
+        "Path": "SFX\\Jacket\\UEFPS_Clothes__Jacket_5_10C4C929.wem"
+       },
+       {
+        "Id": "808823150",
+        "Language": "SFX",
+        "ShortName": "Jacket\\UEFPS_Clothes__Jacket_2.wav",
+        "Path": "SFX\\Jacket\\UEFPS_Clothes__Jacket_2_10C4C929.wem"
+       },
+       {
+        "Id": "866608777",
+        "Language": "SFX",
+        "ShortName": "Bag\\UEFPS_Clothes__Bag_5.wav",
+        "Path": "SFX\\Bag\\UEFPS_Clothes__Bag_5_10C4C929.wem"
+       },
+       {
+        "Id": "913812359",
+        "Language": "SFX",
+        "ShortName": "Bag\\UEFPS_Clothes__Bag_3.wav",
+        "Path": "SFX\\Bag\\UEFPS_Clothes__Bag_3_10C4C929.wem"
+       },
+       {
+        "Id": "919242374",
+        "Language": "SFX",
+        "ShortName": "Bag\\UEFPS_Clothes__Bag_2.wav",
+        "Path": "SFX\\Bag\\UEFPS_Clothes__Bag_2_10C4C929.wem"
+       },
+       {
+        "Id": "1020422559",
+        "Language": "SFX",
+        "ShortName": "Jacket\\UEFPS_Clothes__Jacket_3.wav",
+        "Path": "SFX\\Jacket\\UEFPS_Clothes__Jacket_3_10C4C929.wem"
+       },
+       {
+        "Id": "1030939619",
+        "Language": "SFX",
+        "ShortName": "Bag\\UEFPS_Clothes__Bag_1.wav",
+        "Path": "SFX\\Bag\\UEFPS_Clothes__Bag_1_10C4C929.wem"
+       },
+       {
+        "Id": "1067464638",
+        "Language": "SFX",
+        "ShortName": "Jacket\\UEFPS_Clothes__Jacket_7.wav",
+        "Path": "SFX\\Jacket\\UEFPS_Clothes__Jacket_7_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "326539261",
+      "Name": "play_chr_move_fts",
+      "ObjectPath": "\\Events\\chr\\play_chr_move_fts",
+      "GUID": "{DD18B145-A870-42E5-A703-D92748CAE3D3}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.354036",
+      "DurationMax": "0.500683",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "247241512",
+        "Language": "SFX",
+        "ShortName": "Stone_Steps\\UEFPS_Footsteps_Stone_4.wav",
+        "Path": "SFX\\Stone_Steps\\UEFPS_Footsteps_Stone_4_10C4C929.wem"
+       },
+       {
+        "Id": "311082798",
+        "Language": "SFX",
+        "ShortName": "Stone_Steps\\UEFPS_Footsteps_Stone_1.wav",
+        "Path": "SFX\\Stone_Steps\\UEFPS_Footsteps_Stone_1_10C4C929.wem"
+       },
+       {
+        "Id": "331882705",
+        "Language": "SFX",
+        "ShortName": "Stone_Steps\\UEFPS_Footsteps_Stone_8.wav",
+        "Path": "SFX\\Stone_Steps\\UEFPS_Footsteps_Stone_8_10C4C929.wem"
+       },
+       {
+        "Id": "585910709",
+        "Language": "SFX",
+        "ShortName": "Stone_Steps\\UEFPS_Footsteps_Stone_7.wav",
+        "Path": "SFX\\Stone_Steps\\UEFPS_Footsteps_Stone_7_10C4C929.wem"
+       },
+       {
+        "Id": "641669533",
+        "Language": "SFX",
+        "ShortName": "Stone_Steps\\UEFPS_Footsteps_Stone_2.wav",
+        "Path": "SFX\\Stone_Steps\\UEFPS_Footsteps_Stone_2_10C4C929.wem"
+       },
+       {
+        "Id": "644199517",
+        "Language": "SFX",
+        "ShortName": "Stone_Steps\\UEFPS_Footsteps_Stone_5.wav",
+        "Path": "SFX\\Stone_Steps\\UEFPS_Footsteps_Stone_5_10C4C929.wem"
+       },
+       {
+        "Id": "949692509",
+        "Language": "SFX",
+        "ShortName": "Stone_Steps\\UEFPS_Footsteps_Stone_6.wav",
+        "Path": "SFX\\Stone_Steps\\UEFPS_Footsteps_Stone_6_10C4C929.wem"
+       },
+       {
+        "Id": "1018279638",
+        "Language": "SFX",
+        "ShortName": "Stone_Steps\\UEFPS_Footsteps_Stone_3.wav",
+        "Path": "SFX\\Stone_Steps\\UEFPS_Footsteps_Stone_3_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1065512946",
+      "Name": "play_wpn_shot",
+      "ObjectPath": "\\Events\\wpn\\play_wpn_shot",
+      "GUID": "{A30167E7-A994-472B-A063-DF27896A0673}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.363",
+      "DurationMax": "2.757778",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "66186335",
+        "Language": "SFX",
+        "ShortName": "Shoot_Body_3.wav",
+        "Path": "SFX\\Shoot_Body_3_10C4C929.wem"
+       },
+       {
+        "Id": "179918553",
+        "Language": "SFX",
+        "ShortName": "Shoot_Punch_1.wav",
+        "Path": "SFX\\Shoot_Punch_1_10C4C929.wem"
+       },
+       {
+        "Id": "196009900",
+        "Language": "SFX",
+        "ShortName": "Shoot_Shell_Concrete_4.wav",
+        "Path": "SFX\\Shoot_Shell_Concrete_4_10C4C929.wem"
+       },
+       {
+        "Id": "229525645",
+        "Language": "SFX",
+        "ShortName": "Shoot_Body_4.wav",
+        "Path": "SFX\\Shoot_Body_4_10C4C929.wem"
+       },
+       {
+        "Id": "348322684",
+        "Language": "SFX",
+        "ShortName": "WP_FP_AK47Shot_Tail_A2.WAV",
+        "Path": "SFX\\WP_FP_AK47Shot_Tail_A2_10C4C929.wem"
+       },
+       {
+        "Id": "399521446",
+        "Language": "SFX",
+        "ShortName": "Shoot_Shell_Concrete_2.wav",
+        "Path": "SFX\\Shoot_Shell_Concrete_2_10C4C929.wem"
+       },
+       {
+        "Id": "447611173",
+        "Language": "SFX",
+        "ShortName": "Shoot_Tail_2.wav",
+        "Path": "SFX\\Shoot_Tail_2_848BAE67.wem"
+       },
+       {
+        "Id": "455277939",
+        "Language": "SFX",
+        "ShortName": "Shoot_Shell_Concrete_6.wav",
+        "Path": "SFX\\Shoot_Shell_Concrete_6_10C4C929.wem"
+       },
+       {
+        "Id": "461898670",
+        "Language": "SFX",
+        "ShortName": "WP_FP_AK47Shot_Tail_A3.WAV",
+        "Path": "SFX\\WP_FP_AK47Shot_Tail_A3_10C4C929.wem"
+       },
+       {
+        "Id": "485954773",
+        "Language": "SFX",
+        "ShortName": "Shoot_Punch_2.wav",
+        "Path": "SFX\\Shoot_Punch_2_10C4C929.wem"
+       },
+       {
+        "Id": "493758573",
+        "Language": "SFX",
+        "ShortName": "Shoot_Body_1.wav",
+        "Path": "SFX\\Shoot_Body_1_10C4C929.wem"
+       },
+       {
+        "Id": "501804727",
+        "Language": "SFX",
+        "ShortName": "Shoot_Punch_3.wav",
+        "Path": "SFX\\Shoot_Punch_3_10C4C929.wem"
+       },
+       {
+        "Id": "569810458",
+        "Language": "SFX",
+        "ShortName": "Shoot_Closure_4.wav",
+        "Path": "SFX\\Shoot_Closure_4_10C4C929.wem"
+       },
+       {
+        "Id": "599714546",
+        "Language": "SFX",
+        "ShortName": "WP_FP_AK47Shot_Tail_A4.WAV",
+        "Path": "SFX\\WP_FP_AK47Shot_Tail_A4_10C4C929.wem"
+       },
+       {
+        "Id": "615400086",
+        "Language": "SFX",
+        "ShortName": "Shoot_Punch_4.wav",
+        "Path": "SFX\\Shoot_Punch_4_10C4C929.wem"
+       },
+       {
+        "Id": "637146960",
+        "Language": "SFX",
+        "ShortName": "Shoot_Shell_Concrete_1.wav",
+        "Path": "SFX\\Shoot_Shell_Concrete_1_10C4C929.wem"
+       },
+       {
+        "Id": "660182732",
+        "Language": "SFX",
+        "ShortName": "Shoot_Shell_Concrete_5.wav",
+        "Path": "SFX\\Shoot_Shell_Concrete_5_10C4C929.wem"
+       },
+       {
+        "Id": "661534329",
+        "Language": "SFX",
+        "ShortName": "WP_FP_AK47Shot_Tail_A1.WAV",
+        "Path": "SFX\\WP_FP_AK47Shot_Tail_A1_10C4C929.wem"
+       },
+       {
+        "Id": "691696890",
+        "Language": "SFX",
+        "ShortName": "Shoot_Closure_1.wav",
+        "Path": "SFX\\Shoot_Closure_1_10C4C929.wem"
+       },
+       {
+        "Id": "750480184",
+        "Language": "SFX",
+        "ShortName": "Shoot_Tail_3.wav",
+        "Path": "SFX\\Shoot_Tail_3_2363AC68.wem"
+       },
+       {
+        "Id": "851363444",
+        "Language": "SFX",
+        "ShortName": "Shoot_Tail_1.wav",
+        "Path": "SFX\\Shoot_Tail_1_E22D143D.wem"
+       },
+       {
+        "Id": "935165918",
+        "Language": "SFX",
+        "ShortName": "Shoot_Closure_3.wav",
+        "Path": "SFX\\Shoot_Closure_3_10C4C929.wem"
+       },
+       {
+        "Id": "1006659683",
+        "Language": "SFX",
+        "ShortName": "Shoot_Body_2.wav",
+        "Path": "SFX\\Shoot_Body_2_10C4C929.wem"
+       },
+       {
+        "Id": "1025322966",
+        "Language": "SFX",
+        "ShortName": "Shoot_Closure_2.wav",
+        "Path": "SFX\\Shoot_Closure_2_10C4C929.wem"
+       },
+       {
+        "Id": "1025759597",
+        "Language": "SFX",
+        "ShortName": "Shoot_Tail_4.wav",
+        "Path": "SFX\\Shoot_Tail_4_CD67E24B.wem"
+       },
+       {
+        "Id": "1046616801",
+        "Language": "SFX",
+        "ShortName": "Shoot_Shell_Concrete_3.wav",
+        "Path": "SFX\\Shoot_Shell_Concrete_3_10C4C929.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{A775C874-6AC7-4E72-A2E6-D284B3141AA6}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{A775C874-6AC7-4E72-A2E6-D284B3141AA6}",
+        "Media": [
+         {
+          "Id": "447611173"
+         },
+         {
+          "Id": "750480184"
+         },
+         {
+          "Id": "851363444"
+         },
+         {
+          "Id": "1025759597"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{06C1B1EE-8B81-4693-9B60-B6B447C2952A}",
+        "Media": [
+         {
+          "Id": "348322684"
+         },
+         {
+          "Id": "461898670"
+         },
+         {
+          "Id": "599714546"
+         },
+         {
+          "Id": "661534329"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "3111693583",
+      "Name": "wpn_tail",
+      "ObjectPath": "\\Switches\\wpn\\wpn_tail",
+      "GUID": "{6080CA4C-EA3F-4D17-81B2-3C0CB723DDC8}",
+      "Switches": [
+       {
+        "Id": "4116735728",
+        "Name": "wpn_tail_long",
+        "ObjectPath": "\\Switches\\wpn\\wpn_tail\\wpn_tail_long",
+        "GUID": "{06C1B1EE-8B81-4693-9B60-B6B447C2952A}"
+       },
+       {
+        "Id": "2469058192",
+        "Name": "wpn_tail_short",
+        "ObjectPath": "\\Switches\\wpn\\wpn_tail\\wpn_tail_short",
+        "GUID": "{A775C874-6AC7-4E72-A2E6-D284B3141AA6}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

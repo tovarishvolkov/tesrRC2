@@ -1,6 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{F07983A8-652A-4B27-80E1-A71E4EE0ABEE}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{CB49C282-2468-4F8B-AA56-DD8B331355A9}" SchemaVersion="103">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{F07983A8-652A-4B27-80E1-A71E4EE0ABEE}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{CB49C282-2468-4F8B-AA56-DD8B331355A9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="del" ID="{590DA2C1-FAA5-4222-9A9F-7E6AFDEE7BF6}" ShortID="834016463">
+					<ChildrenList>
+						<GameParameter Name="del_crossfeed_l" ID="{491E0969-4AA3-496E-9310-584677A0725F}"/>
+						<GameParameter Name="del_crossfeed_r" ID="{211E3999-D883-4D8F-948C-2E4AD8F5E5B0}"/>
+						<GameParameter Name="del_out_dry" ID="{A3899155-A6FB-4201-B5D3-45D2F19C1008}"/>
+						<GameParameter Name="del_out_wet" ID="{72A698F7-10FB-4DC7-BBE8-E83BD4E99D50}"/>
+						<GameParameter Name="del_filter_freq" ID="{48BC5F81-1455-4349-999D-8755ADDBF53A}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="20"/>
+								<Property Name="Max" Type="Real64" Value="20000"/>
+								<Property Name="Min" Type="Real64" Value="20"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="del_filter_gain" ID="{2AFCDF00-ED4F-4B7E-9ED8-4E06ED955113}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="24"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="rev_indoor" ID="{2A133A67-A280-4B0F-A085-0931A01CBEF7}" ShortID="154340722">
+					<ChildrenList>
+						<GameParameter Name="rev_decay_time" ID="{C4A71F1B-8BDE-4881-A6A8-79341A38C092}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="1.2"/>
+								<Property Name="Max" Type="Real64" Value="10"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="10"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="10"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="rev_hf_damping" ID="{A1A39C8C-AA58-4C85-A228-FE10734CEE3C}">
+							<PropertyList>
+								<Property Name="FilterTimeDown" Type="Real64" Value="1"/>
+								<Property Name="FilterTimeUp" Type="Real64" Value="0.6"/>
+								<Property Name="InitialValue" Type="Real64" Value="2.25"/>
+								<Property Name="Max" Type="Real64" Value="10"/>
+								<Property Name="RTPCRamping" Type="int16" Value="2"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="rev_diffusion" ID="{F238AA67-F22B-4648-9042-B8648D5FF09D}">
+							<PropertyList>
+								<Property Name="FilterTimeDown" Type="Real64" Value="0.6"/>
+								<Property Name="FilterTimeUp" Type="Real64" Value="0.3"/>
+								<Property Name="RTPCRamping" Type="int16" Value="2"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="rev_pre_delay" ID="{3E4FC29C-080B-4D6C-AAB0-05D36A9EF3B3}">
+							<PropertyList>
+								<Property Name="FilterTimeDown" Type="Real64" Value="0.6"/>
+								<Property Name="FilterTimeUp" Type="Real64" Value="0.3"/>
+								<Property Name="RTPCRamping" Type="int16" Value="2"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="rev_filter_band_gain" ID="{D6FBB5B8-06FD-4D6A-8157-1053C0F0A967}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+				<GameParameter Name="rev_balance" ID="{F75BC36C-3845-4E7E-A99A-124B9D0600A7}">
+					<PropertyList>
+						<Property Name="FilterTimeDown" Type="Real64" Value="0.5"/>
+						<Property Name="FilterTimeUp" Type="Real64" Value="0.2"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1500"/>
+						<Property Name="RTPCRamping" Type="int16" Value="2"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

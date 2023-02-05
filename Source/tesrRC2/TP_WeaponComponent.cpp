@@ -44,11 +44,11 @@ void UTP_WeaponComponent::Fire()
 	}
 	
 	// Try and play the sound if specified
-	if (FireSound != nullptr)
-	{
-		UGameplayStatics::PlaySoundAtLocation(this, FireSound, Character->GetActorLocation());
-	}
-	
+	//if (FireSound != nullptr)
+	//{
+	//	UGameplayStatics::PlaySoundAtLocation(this, FireSound, Character->GetActorLocation());
+	//}
+	PlayShotSound();
 	// Try and play a firing animation if specified
 	if (FireAnimation != nullptr)
 	{
@@ -59,6 +59,14 @@ void UTP_WeaponComponent::Fire()
 			AnimInstance->Montage_Play(FireAnimation, 1.f);
 		}
 	}
+}
+
+void UTP_WeaponComponent::PlayShotSound()
+{
+
+	FOnAkPostEventCallback nullCallback;
+	PlayingId = UAkGameplayStatics::PostEvent(Event_ShotSound, GetOwner(), int32(0), nullCallback);
+
 }
 
 void UTP_WeaponComponent::EndPlay(const EEndPlayReason::Type EndPlayReason)

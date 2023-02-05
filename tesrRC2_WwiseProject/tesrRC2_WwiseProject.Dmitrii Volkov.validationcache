@@ -2,11 +2,13 @@
 <ValidationCache Version="1" SchemaVersion="103">
 	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1675583666" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1675583666" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\tesrRC2_WwiseProject.wproj" DateLow="1675583666" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1675583666" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\States\Default Work Unit.wwu" DateLow="1675583666" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\tesrRC2_WwiseProject.wproj" DateLow="1675583809" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\tesrRC2_WwiseProject.Dmitrii Volkov.wsettings" DateLow="1675612885" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\Switches\wpn.wwu" DateLow="1675611800" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1675612885" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\States\Default Work Unit.wwu" DateLow="1675619281" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1675583666" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1675583666" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1675605220" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\Queries\Factory Queries.wwu" DateLow="1667455514" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1675583666" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\Presets\Factory Spatial Audio.wwu" DateLow="1667455514" DateHigh="0"/>
@@ -14,17 +16,21 @@
 	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1675583666" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1675583666" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\Metadata\Default Work Unit.wwu" DateLow="1675583666" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1675583666" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1675622064" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1675583666" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1675583666" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\Events\Default Work Unit.wwu" DateLow="1675583666" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1675621976" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\Events\wpn.wwu" DateLow="1675605180" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\Events\Default Work Unit.wwu" DateLow="1675605180" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\Events\chr.wwu" DateLow="1675605180" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\Effects\Factory Effects.wwu" DateLow="1667455514" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1675583666" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1675583666" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1667455514" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1675583666" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1675583666" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1675605180" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1675583666" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1675583666" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\Actor-Mixer Hierarchy\wpn.wwu" DateLow="1675621790" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1675583666" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\tesrRC2\tesrRC2_WwiseProject\Actor-Mixer Hierarchy\chr.wwu" DateLow="1675613260" DateHigh="0"/>
 </ValidationCache>

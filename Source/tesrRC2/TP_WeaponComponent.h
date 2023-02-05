@@ -2,6 +2,9 @@
 
 #pragma once
 
+#include "AkComponent.h"
+#include "AkGameplayStatics.h"
+
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "TP_WeaponComponent.generated.h"
@@ -19,8 +22,8 @@ public:
 	TSubclassOf<class AtesrRC2Projectile> ProjectileClass;
 
 	/** Sound to play each time we fire */
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Gameplay)
-	USoundBase* FireSound;
+	//UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Gameplay)
+	//USoundBase* FireSound;
 	
 	/** AnimMontage to play each time we fire */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
@@ -29,6 +32,11 @@ public:
 	/** Gun muzzle's offset from the characters location */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Gameplay)
 	FVector MuzzleOffset;
+
+	UPROPERTY(EditAnywhere, Category = "Wwise")
+	class UAkAudioEvent* Event_ShotSound;
+
+	int32 PlayingId;
 
 	/** Sets default values for this component's properties */
 	UTP_WeaponComponent();
@@ -40,6 +48,8 @@ public:
 	/** Make the weapon Fire a Projectile */
 	UFUNCTION(BlueprintCallable, Category="Weapon")
 	void Fire();
+
+	void PlayShotSound();
 
 protected:
 	/** Ends gameplay for this component. */

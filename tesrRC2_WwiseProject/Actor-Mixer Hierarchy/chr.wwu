@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3724AC62-1C50-4093-93C9-AB2B8AD78039}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="chr" ID="{3724AC62-1C50-4093-93C9-AB2B8AD78039}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="chr" ID="{A2D35E86-1EF4-46AE-A764-E4B45F8A96FA}" ShortID="10374551">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="chr" ID="{B49645DD-1FC3-4452-B8B8-2798DB8C5DB5}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="chr_move" ID="{E0CC2FD1-CD9A-48F3-91AF-94F9633397B7}" ShortID="480309">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<BlendContainer Name="chr_move_foley" ID="{78F80EA5-E176-49A3-8F34-8814032A63DD}" ShortID="791507973">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="chr_move_foley_bag" ID="{C0531D56-FEB1-4EDC-9884-FACA0BF074A7}" ShortID="75166573">
+											<PropertyList>
+												<Property Name="InitialDelay" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{95ABF52A-F46B-41CC-8995-D80D6FFBA4B9}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="0.3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-16</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="UEFPS_Clothes__Bag_1" ID="{F89B30A8-DA11-4182-BB95-47CF9DD87983}" ShortID="379863821">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="UEFPS_Clothes__Bag_1" ID="{9301FDBF-1DB3-46EC-9A36-B42993307FE3}">
+															<Language>SFX</Language>
+															<AudioFile>Bag\UEFPS_Clothes__Bag_1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1030939619"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="UEFPS_Clothes__Bag_1" ID="{9301FDBF-1DB3-46EC-9A36-B42993307FE3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="UEFPS_Clothes__Bag_2" ID="{6A014A48-808C-4B18-8BD4-2063D0D448B5}" ShortID="80237383">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="UEFPS_Clothes__Bag_2" ID="{27F148AE-C57E-4BFC-89B9-A233C3920797}">
+															<Language>SFX</Language>
+															<AudioFile>Bag\UEFPS_Clothes__Bag_2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="919242374"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="UEFPS_Clothes__Bag_2" ID="{27F148AE-C57E-4BFC-89B9-A233C3920797}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="UEFPS_Clothes__Bag_3" ID="{982B8C7A-CE28-43DE-8A27-DCD39ED48D7E}" ShortID="571354798">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="UEFPS_Clothes__Bag_3" ID="{8DAE16B4-5DBD-4A39-A199-449861673809}">
+															<Language>SFX</Language>
+															<AudioFile>Bag\UEFPS_Clothes__Bag_3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="913812359"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="UEFPS_Clothes__Bag_3" ID="{8DAE16B4-5DBD-4A39-A199-449861673809}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="UEFPS_Clothes__Bag_4" ID="{E459E799-2BD9-46E4-B353-6A2A323A3670}" ShortID="389670306">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="UEFPS_Clothes__Bag_4" ID="{1083C2B0-831A-43D4-8DD0-2F180FCC44F1}">
+															<Language>SFX</Language>
+															<AudioFile>Bag\UEFPS_Clothes__Bag_4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="24916773"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="UEFPS_Clothes__Bag_4" ID="{1083C2B0-831A-43D4-8DD0-2F180FCC44F1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="UEFPS_Clothes__Bag_5" ID="{8F95AC10-3392-419C-8C72-52E50856591B}" ShortID="643739921">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="UEFPS_Clothes__Bag_5" ID="{AD4F956C-1C71-4D26-B95C-0464D4D4D22E}">
+															<Language>SFX</Language>
+															<AudioFile>Bag\UEFPS_Clothes__Bag_5.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="866608777"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="UEFPS_Clothes__Bag_5" ID="{AD4F956C-1C71-4D26-B95C-0464D4D4D22E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="UEFPS_Clothes__Bag_6" ID="{A309AF9F-F1FE-4A21-9280-B74B0A46727B}" ShortID="571734055">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="UEFPS_Clothes__Bag_6" ID="{CEE8E0FE-9D55-491C-B6F8-FF2098A3A66A}">
+															<Language>SFX</Language>
+															<AudioFile>Bag\UEFPS_Clothes__Bag_6.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="440826440"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="UEFPS_Clothes__Bag_6" ID="{CEE8E0FE-9D55-491C-B6F8-FF2098A3A66A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="UEFPS_Clothes__Bag_7" ID="{5E78927E-6926-48C8-8B73-A6C9F257235D}" ShortID="316540065">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="UEFPS_Clothes__Bag_7" ID="{4D550EF1-E1D8-4131-8F6A-C8F850134304}">
+															<Language>SFX</Language>
+															<AudioFile>Bag\UEFPS_Clothes__Bag_7.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="606688462"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="UEFPS_Clothes__Bag_7" ID="{4D550EF1-E1D8-4131-8F6A-C8F850134304}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="UEFPS_Clothes__Bag_8" ID="{02DD431B-182D-45EE-BECA-CFCCFAA69A85}" ShortID="826800942">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="UEFPS_Clothes__Bag_8" ID="{D1265B63-7BE4-44A4-834A-DE6E9F2B3FF6}">
+															<Language>SFX</Language>
+															<AudioFile>Bag\UEFPS_Clothes__Bag_8.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="387229046"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="UEFPS_Clothes__Bag_8" ID="{D1265B63-7BE4-44A4-834A-DE6E9F2B3FF6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="chr_move_foley_jacket" ID="{394C02DE-3F10-476C-84C6-D23CAFDEE1FE}" ShortID="766809567">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-16</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="UEFPS_Clothes__Jacket_1" ID="{B868BB11-AA03-47BB-9A4E-F3AD4DAA8A1C}" ShortID="737761359">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="UEFPS_Clothes__Jacket_1" ID="{F82996A2-9E73-4AB3-86C5-CD509125CF05}">
+															<Language>SFX</Language>
+															<AudioFile>Jacket\UEFPS_Clothes__Jacket_1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="724455354"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="UEFPS_Clothes__Jacket_1" ID="{F82996A2-9E73-4AB3-86C5-CD509125CF05}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="UEFPS_Clothes__Jacket_2" ID="{AFC1884E-584F-4195-8343-8CCFBDA0643C}" ShortID="880160637">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="UEFPS_Clothes__Jacket_2" ID="{BA1FBD39-2408-41FE-9024-699C6E002CB0}">
+															<Language>SFX</Language>
+															<AudioFile>Jacket\UEFPS_Clothes__Jacket_2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="808823150"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="UEFPS_Clothes__Jacket_2" ID="{BA1FBD39-2408-41FE-9024-699C6E002CB0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="UEFPS_Clothes__Jacket_3" ID="{8DA342F7-D1AA-423C-933E-32C26CD751D0}" ShortID="1013726540">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="UEFPS_Clothes__Jacket_3" ID="{B55E3D0F-FF20-4614-84EB-CE97EA72A86F}">
+															<Language>SFX</Language>
+															<AudioFile>Jacket\UEFPS_Clothes__Jacket_3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1020422559"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="UEFPS_Clothes__Jacket_3" ID="{B55E3D0F-FF20-4614-84EB-CE97EA72A86F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="UEFPS_Clothes__Jacket_4" ID="{DF6D7959-3CD6-4A49-9EC9-0CE6F5BE1FF3}" ShortID="913364916">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="UEFPS_Clothes__Jacket_4" ID="{982AB28D-CE5D-4052-AE05-A5F2A696067D}">
+															<Language>SFX</Language>
+															<AudioFile>Jacket\UEFPS_Clothes__Jacket_4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="219438685"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="UEFPS_Clothes__Jacket_4" ID="{982AB28D-CE5D-4052-AE05-A5F2A696067D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="UEFPS_Clothes__Jacket_5" ID="{B932D114-E049-4217-8676-A6162A840C0F}" ShortID="599963589">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="UEFPS_Clothes__Jacket_5" ID="{B8E43CCC-AF7A-47E3-9185-7B0259D701B1}">
+															<Language>SFX</Language>
+															<AudioFile>Jacket\UEFPS_Clothes__Jacket_5.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="805748893"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="UEFPS_Clothes__Jacket_5" ID="{B8E43CCC-AF7A-47E3-9185-7B0259D701B1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="UEFPS_Clothes__Jacket_6" ID="{3B9A7B8A-8503-40CA-A3F6-2C4D7D612785}" ShortID="904068875">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="UEFPS_Clothes__Jacket_6" ID="{B4D0DC45-2B3F-49A2-860E-09E11E466731}">
+															<Language>SFX</Language>
+															<AudioFile>Jacket\UEFPS_Clothes__Jacket_6.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="439433509"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="UEFPS_Clothes__Jacket_6" ID="{B4D0DC45-2B3F-49A2-860E-09E11E466731}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="UEFPS_Clothes__Jacket_7" ID="{1EA6CD3C-849F-40FE-9DC8-AD287B2B66F3}" ShortID="130042172">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="UEFPS_Clothes__Jacket_7" ID="{2A8D0C44-02CC-4738-BC80-8D7613BBB1FE}">
+															<Language>SFX</Language>
+															<AudioFile>Jacket\UEFPS_Clothes__Jacket_7.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1067464638"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="UEFPS_Clothes__Jacket_7" ID="{2A8D0C44-02CC-4738-BC80-8D7613BBB1FE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="UEFPS_Clothes__Jacket_8" ID="{F8C5C434-C911-4695-8AF4-F5ECD85A848D}" ShortID="452237732">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="UEFPS_Clothes__Jacket_8" ID="{B8DD4028-9486-481F-872F-568CD4942B47}">
+															<Language>SFX</Language>
+															<AudioFile>Jacket\UEFPS_Clothes__Jacket_8.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="458855336"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="UEFPS_Clothes__Jacket_8" ID="{B8DD4028-9486-481F-872F-568CD4942B47}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+								</BlendContainer>
+								<RandomSequenceContainer Name="chr_move_fts" ID="{B6489745-C500-4241-88FB-E4EA3B5E4209}" ShortID="760747642">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{3FC34963-73C0-4D08-962F-D6C4573CE4F8}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-600"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{748B4B86-87BC-4144-AAE3-05ACF0243308}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="UEFPS_Footsteps_Stone_1" ID="{032B5EBE-E90C-4BD8-BCB2-9435C61E3892}" ShortID="791246177">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UEFPS_Footsteps_Stone_1" ID="{47BD4D25-945D-49A3-876B-00AB0C8E3F12}">
+													<Language>SFX</Language>
+													<AudioFile>Stone_Steps\UEFPS_Footsteps_Stone_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="311082798"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="UEFPS_Footsteps_Stone_1" ID="{47BD4D25-945D-49A3-876B-00AB0C8E3F12}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UEFPS_Footsteps_Stone_2" ID="{823E703D-FA83-4748-B533-0CEDE969B0C1}" ShortID="779521471">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UEFPS_Footsteps_Stone_2" ID="{BF855AA2-9173-4137-83B5-7E07435C54ED}">
+													<Language>SFX</Language>
+													<AudioFile>Stone_Steps\UEFPS_Footsteps_Stone_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="641669533"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="UEFPS_Footsteps_Stone_2" ID="{BF855AA2-9173-4137-83B5-7E07435C54ED}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UEFPS_Footsteps_Stone_3" ID="{4EDD5B27-9CFB-4D82-AB9C-BDC127569B6E}" ShortID="286155858">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UEFPS_Footsteps_Stone_3" ID="{0DA9F9CD-1CD7-4EF0-8EAE-859990D2E35B}">
+													<Language>SFX</Language>
+													<AudioFile>Stone_Steps\UEFPS_Footsteps_Stone_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1018279638"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="UEFPS_Footsteps_Stone_3" ID="{0DA9F9CD-1CD7-4EF0-8EAE-859990D2E35B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UEFPS_Footsteps_Stone_4" ID="{4E0E2C7F-8E7E-4C15-A5FD-B8504A483A92}" ShortID="737135349">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UEFPS_Footsteps_Stone_4" ID="{EB524D81-CC50-4A57-93BD-FAFB0039F433}">
+													<Language>SFX</Language>
+													<AudioFile>Stone_Steps\UEFPS_Footsteps_Stone_4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="247241512"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="UEFPS_Footsteps_Stone_4" ID="{EB524D81-CC50-4A57-93BD-FAFB0039F433}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UEFPS_Footsteps_Stone_5" ID="{43ECA04E-35DC-4729-B44C-771A624ED689}" ShortID="868197163">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UEFPS_Footsteps_Stone_5" ID="{B484AC0D-E5C7-4222-87B6-C667ECEAD88F}">
+													<Language>SFX</Language>
+													<AudioFile>Stone_Steps\UEFPS_Footsteps_Stone_5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="644199517"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="UEFPS_Footsteps_Stone_5" ID="{B484AC0D-E5C7-4222-87B6-C667ECEAD88F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UEFPS_Footsteps_Stone_6" ID="{202C9AF1-8793-4659-B7EB-70E569B5F178}" ShortID="1033688204">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UEFPS_Footsteps_Stone_6" ID="{475A3101-366A-42F4-A0C6-35240183914C}">
+													<Language>SFX</Language>
+													<AudioFile>Stone_Steps\UEFPS_Footsteps_Stone_6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="949692509"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="UEFPS_Footsteps_Stone_6" ID="{475A3101-366A-42F4-A0C6-35240183914C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UEFPS_Footsteps_Stone_7" ID="{F897D0F8-EAA1-4B64-B108-F1E34B63B204}" ShortID="32012746">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UEFPS_Footsteps_Stone_7" ID="{F6AE1A06-81AD-492B-8726-C8AE1BE88512}">
+													<Language>SFX</Language>
+													<AudioFile>Stone_Steps\UEFPS_Footsteps_Stone_7.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="585910709"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="UEFPS_Footsteps_Stone_7" ID="{F6AE1A06-81AD-492B-8726-C8AE1BE88512}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UEFPS_Footsteps_Stone_8" ID="{C3CBB366-6F55-4087-AF6F-6BD5DC3E6A68}" ShortID="132159389">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UEFPS_Footsteps_Stone_8" ID="{B6A7DD57-59FB-43BA-A832-C5B00D8B7B0A}">
+													<Language>SFX</Language>
+													<AudioFile>Stone_Steps\UEFPS_Footsteps_Stone_8.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="331882705"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="UEFPS_Footsteps_Stone_8" ID="{B6A7DD57-59FB-43BA-A832-C5B00D8B7B0A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<ObjectLists/>
+						</ActorMixer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

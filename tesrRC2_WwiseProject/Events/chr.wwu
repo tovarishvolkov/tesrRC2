@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5A4F553F-E85B-437B-9210-E25ED2F82142}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="chr" ID="{5A4F553F-E85B-437B-9210-E25ED2F82142}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="play_chr_move_fts" ID="{DD18B145-A870-42E5-A703-D92748CAE3D3}">
+					<ChildrenList>
+						<Action Name="" ID="{A23BC9AE-93AB-4701-ABFB-9678AFE25077}" ShortID="630082965">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="chr_move_fts" ID="{B6489745-C500-4241-88FB-E4EA3B5E4209}" WorkUnitID="{3724AC62-1C50-4093-93C9-AB2B8AD78039}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_chr_move_foley" ID="{5A1C52A5-27AA-4E23-B3B7-DB83ED703ED3}">
+					<ChildrenList>
+						<Action Name="" ID="{A38E3CF9-417B-49E0-8896-4D1381725CD3}" ShortID="133812967">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="chr_move_foley" ID="{78F80EA5-E176-49A3-8F34-8814032A63DD}" WorkUnitID="{3724AC62-1C50-4093-93C9-AB2B8AD78039}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
