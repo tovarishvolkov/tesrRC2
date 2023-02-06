@@ -16,7 +16,7 @@
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "354164514",
+    "Hash": "129998635",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -24,19 +24,19 @@
      {
       "Id": "377355006",
       "Name": "rev_indoor",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\rev_indoor",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\aux\\rev_indoor",
       "GUID": "{5A7C09D3-CEFE-4752-9C7A-4EE38FFC6BD7}"
      },
      {
       "Id": "378875104",
       "Name": "del",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\del",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\aux\\del",
       "GUID": "{1E13EDEF-53CB-424E-BB78-DAB00E943DAF}"
      },
      {
       "Id": "1857588325",
       "Name": "rev_outdoor",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\rev_outdoor",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\aux\\rev_outdoor",
       "GUID": "{59BAEE70-AC3D-47AE-8F72-D62634D713CB}"
      }
     ],
@@ -44,13 +44,13 @@
      {
       "Id": "20863261",
       "Name": "rev_decay_time",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\rev_indoor\\rev_decay_time",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\rev\\rev_decay_time",
       "GUID": "{C4A71F1B-8BDE-4881-A6A8-79341A38C092}"
      },
      {
       "Id": "22760086",
       "Name": "rev_pre_delay",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\rev_indoor\\rev_pre_delay",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\rev\\rev_pre_delay",
       "GUID": "{3E4FC29C-080B-4D6C-AAB0-05D36A9EF3B3}"
      },
      {
@@ -80,19 +80,19 @@
      {
       "Id": "1308072702",
       "Name": "rev_hf_damping",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\rev_indoor\\rev_hf_damping",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\rev\\rev_hf_damping",
       "GUID": "{A1A39C8C-AA58-4C85-A228-FE10734CEE3C}"
      },
      {
       "Id": "1672330836",
       "Name": "rev_diffusion",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\rev_indoor\\rev_diffusion",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\rev\\rev_diffusion",
       "GUID": "{F238AA67-F22B-4648-9042-B8648D5FF09D}"
      },
      {
       "Id": "1684592609",
       "Name": "rev_filter_band_gain",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\rev_indoor\\rev_filter_band_gain",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\rev\\rev_filter_band_gain",
       "GUID": "{D6FBB5B8-06FD-4D6A-8157-1053C0F0A967}"
      },
      {
@@ -100,34 +100,6 @@
       "Name": "del_filter_gain",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\del\\del_filter_gain",
       "GUID": "{2AFCDF00-ED4F-4B7E-9ED8-4E06ED955113}"
-     }
-    ],
-    "StateGroups": [
-     {
-      "Id": "377355006",
-      "Name": "rev_indoor",
-      "ObjectPath": "\\States\\Default Work Unit\\rev_indoor",
-      "GUID": "{48361964-45B5-4F67-9F67-5BFBA2E307B8}",
-      "States": [
-       {
-        "Id": "748895195",
-        "Name": "None",
-        "ObjectPath": "\\States\\Default Work Unit\\rev_indoor\\None",
-        "GUID": "{04264E31-A632-4AFE-9089-22C4CB6DE0AE}"
-       },
-       {
-        "Id": "377355006",
-        "Name": "rev_indoor",
-        "ObjectPath": "\\States\\Default Work Unit\\rev_indoor\\rev_indoor",
-        "GUID": "{54BCEDA8-E39A-446B-A643-2947130D3717}"
-       },
-       {
-        "Id": "1857588325",
-        "Name": "rev_outdoor",
-        "ObjectPath": "\\States\\Default Work Unit\\rev_indoor\\rev_outdoor",
-        "GUID": "{CF0E3A23-FAEF-41BA-9EC3-D8DA4A494C82}"
-       }
-      ]
      }
     ]
    }

@@ -19,17 +19,20 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+									<ObjectRef Name="wpn_shot" ID="{EF1E741F-911E-40A3-8061-3BC653910E75}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
 								<BlendContainer Name="wpn_shot" ID="{1CFFFFDA-64CA-4902-826D-3CD8B0CC948A}" ShortID="785382568">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+											<ObjectRef Name="wpn_shot" ID="{EF1E741F-911E-40A3-8061-3BC653910E75}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -42,7 +45,7 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-11</Value>
+														<Value>-6</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -55,7 +58,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Shoot_Body_1" ID="{5BA0C473-BCB7-453E-BACF-DBEAFB8705F9}" ShortID="592138110">
+												<Sound Name="WP_FP_AK47Shot_body_A01" ID="{D710A443-96FB-49E9-B6EB-1727F57FA11B}" ShortID="236123520">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
@@ -65,20 +68,20 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Shoot_Body_1" ID="{1F78B297-E4E5-4607-993E-F4F0ABEB49EA}">
+														<AudioFileSource Name="WP_FP_AK47Shot_body_A01" ID="{40F27C96-D694-4855-BC2A-FEFFC04F205D}">
 															<Language>SFX</Language>
-															<AudioFile>Shoot_Body_1.wav</AudioFile>
+															<AudioFile>WP_FP_AK47Shot_body_A01.WAV</AudioFile>
 															<MediaIDList>
-																<MediaID ID="493758573"/>
+																<MediaID ID="119907385"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ObjectLists/>
 													<ActiveSourceList>
-														<ActiveSource Name="Shoot_Body_1" ID="{1F78B297-E4E5-4607-993E-F4F0ABEB49EA}" Platform="Linked"/>
+														<ActiveSource Name="WP_FP_AK47Shot_body_A01" ID="{40F27C96-D694-4855-BC2A-FEFFC04F205D}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Shoot_Body_2" ID="{2E23C7F9-35CE-423A-BEB9-5F0F3451BBF8}" ShortID="973714731">
+												<Sound Name="WP_FP_AK47Shot_body_A02" ID="{74BBA665-2D40-4A8B-B8E2-C4F6EDE4865C}" ShortID="502907958">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
@@ -88,20 +91,20 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Shoot_Body_2" ID="{AA4894AF-CB16-4C38-ADA3-64716DA087BF}">
+														<AudioFileSource Name="WP_FP_AK47Shot_body_A02" ID="{671115EC-2091-464B-8FDB-C214F2631562}">
 															<Language>SFX</Language>
-															<AudioFile>Shoot_Body_2.wav</AudioFile>
+															<AudioFile>WP_FP_AK47Shot_body_A02.WAV</AudioFile>
 															<MediaIDList>
-																<MediaID ID="1006659683"/>
+																<MediaID ID="335805685"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ObjectLists/>
 													<ActiveSourceList>
-														<ActiveSource Name="Shoot_Body_2" ID="{AA4894AF-CB16-4C38-ADA3-64716DA087BF}" Platform="Linked"/>
+														<ActiveSource Name="WP_FP_AK47Shot_body_A02" ID="{671115EC-2091-464B-8FDB-C214F2631562}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Shoot_Body_3" ID="{9904C89D-0A21-4DE8-8DC3-2BB367D456C3}" ShortID="868547708">
+												<Sound Name="WP_FP_AK47Shot_body_A03" ID="{AE6C5DE7-8649-4CF0-A43A-D85F7044FA94}" ShortID="53876244">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
@@ -111,20 +114,20 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Shoot_Body_3" ID="{14E2FD00-0E14-464C-9986-450220FC5FBE}">
+														<AudioFileSource Name="WP_FP_AK47Shot_body_A03" ID="{DD8E9FCF-6B7D-43B8-8375-5028F8A978BE}">
 															<Language>SFX</Language>
-															<AudioFile>Shoot_Body_3.wav</AudioFile>
+															<AudioFile>WP_FP_AK47Shot_body_A03.WAV</AudioFile>
 															<MediaIDList>
-																<MediaID ID="66186335"/>
+																<MediaID ID="536346620"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ObjectLists/>
 													<ActiveSourceList>
-														<ActiveSource Name="Shoot_Body_3" ID="{14E2FD00-0E14-464C-9986-450220FC5FBE}" Platform="Linked"/>
+														<ActiveSource Name="WP_FP_AK47Shot_body_A03" ID="{DD8E9FCF-6B7D-43B8-8375-5028F8A978BE}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Shoot_Body_4" ID="{54D9CD5D-B8EE-4819-BC9E-19A3BF4E8A81}" ShortID="516301265">
+												<Sound Name="WP_FP_AK47Shot_body_A04" ID="{1BB3D270-780A-4BA7-8AAF-9A2FC90B6FB4}" ShortID="69210464">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
@@ -134,17 +137,17 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Shoot_Body_4" ID="{E7F13AB9-1CA1-4D4A-B9E9-38A90E891408}">
+														<AudioFileSource Name="WP_FP_AK47Shot_body_A04" ID="{C1763411-EC7F-4687-A2DE-0583DA63F855}">
 															<Language>SFX</Language>
-															<AudioFile>Shoot_Body_4.wav</AudioFile>
+															<AudioFile>WP_FP_AK47Shot_body_A04.WAV</AudioFile>
 															<MediaIDList>
-																<MediaID ID="229525645"/>
+																<MediaID ID="372453720"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ObjectLists/>
 													<ActiveSourceList>
-														<ActiveSource Name="Shoot_Body_4" ID="{E7F13AB9-1CA1-4D4A-B9E9-38A90E891408}" Platform="Linked"/>
+														<ActiveSource Name="WP_FP_AK47Shot_body_A04" ID="{C1763411-EC7F-4687-A2DE-0583DA63F855}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -159,7 +162,7 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-9</Value>
+														<Value>-10</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -172,7 +175,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Shoot_Closure_1" ID="{6B86E56C-5C0F-45C2-85CE-C0589F4D6521}" ShortID="1042742505">
+												<Sound Name="WP_FP_AK47Shot_mech_A01" ID="{1E96D228-1BA0-4653-9410-D1EFD4DA84D0}" ShortID="1027438305">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
@@ -182,20 +185,20 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Shoot_Closure_1" ID="{A3146623-07DA-43F6-AA3C-8B2A1639A2B8}">
+														<AudioFileSource Name="WP_FP_AK47Shot_mech_A01" ID="{17F32FD2-2EA1-4E26-821C-2B688318B6FF}">
 															<Language>SFX</Language>
-															<AudioFile>Shoot_Closure_1.wav</AudioFile>
+															<AudioFile>WP_FP_AK47Shot_mech_A01.WAV</AudioFile>
 															<MediaIDList>
-																<MediaID ID="691696890"/>
+																<MediaID ID="219938875"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ObjectLists/>
 													<ActiveSourceList>
-														<ActiveSource Name="Shoot_Closure_1" ID="{A3146623-07DA-43F6-AA3C-8B2A1639A2B8}" Platform="Linked"/>
+														<ActiveSource Name="WP_FP_AK47Shot_mech_A01" ID="{17F32FD2-2EA1-4E26-821C-2B688318B6FF}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Shoot_Closure_2" ID="{7939FA2D-8CC9-4A19-8375-6BA728867F09}" ShortID="716397066">
+												<Sound Name="WP_FP_AK47Shot_mech_A02" ID="{9F409648-9391-4DFA-AD3B-70EC06548B9B}" ShortID="962933781">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
@@ -205,20 +208,20 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Shoot_Closure_2" ID="{F6C749C4-BF34-4B63-AE6F-ED2035C2FFC4}">
+														<AudioFileSource Name="WP_FP_AK47Shot_mech_A02" ID="{2F9F9B6F-E6B8-4257-8114-721730F8B666}">
 															<Language>SFX</Language>
-															<AudioFile>Shoot_Closure_2.wav</AudioFile>
+															<AudioFile>WP_FP_AK47Shot_mech_A02.WAV</AudioFile>
 															<MediaIDList>
-																<MediaID ID="1025322966"/>
+																<MediaID ID="982294340"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ObjectLists/>
 													<ActiveSourceList>
-														<ActiveSource Name="Shoot_Closure_2" ID="{F6C749C4-BF34-4B63-AE6F-ED2035C2FFC4}" Platform="Linked"/>
+														<ActiveSource Name="WP_FP_AK47Shot_mech_A02" ID="{2F9F9B6F-E6B8-4257-8114-721730F8B666}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Shoot_Closure_3" ID="{DF2AFC77-0478-4955-86B4-ABB467C96017}" ShortID="858692015">
+												<Sound Name="WP_FP_AK47Shot_mech_A03" ID="{FEEDC463-A311-46A8-B74C-2D4CD7F5B61F}" ShortID="364381985">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
@@ -228,20 +231,20 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Shoot_Closure_3" ID="{F0DED68F-FDEE-4AD0-894C-3D5036E42489}">
+														<AudioFileSource Name="WP_FP_AK47Shot_mech_A03" ID="{294D2E1A-0AD7-42CD-B696-A098DB98A416}">
 															<Language>SFX</Language>
-															<AudioFile>Shoot_Closure_3.wav</AudioFile>
+															<AudioFile>WP_FP_AK47Shot_mech_A03.WAV</AudioFile>
 															<MediaIDList>
-																<MediaID ID="935165918"/>
+																<MediaID ID="550925127"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ObjectLists/>
 													<ActiveSourceList>
-														<ActiveSource Name="Shoot_Closure_3" ID="{F0DED68F-FDEE-4AD0-894C-3D5036E42489}" Platform="Linked"/>
+														<ActiveSource Name="WP_FP_AK47Shot_mech_A03" ID="{294D2E1A-0AD7-42CD-B696-A098DB98A416}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Shoot_Closure_4" ID="{856F3120-E8E7-46B3-A737-8F182A8564CB}" ShortID="916102517">
+												<Sound Name="WP_FP_AK47Shot_mech_A04" ID="{6E0DA8F7-BB86-4D4E-BFD1-EBD6906995C0}" ShortID="797448795">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
@@ -251,17 +254,17 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Shoot_Closure_4" ID="{E4AA7AD0-A815-4D68-BA79-2DFA6E3E325B}">
+														<AudioFileSource Name="WP_FP_AK47Shot_mech_A04" ID="{363A2B89-2317-4AD1-8B14-C16E885B151C}">
 															<Language>SFX</Language>
-															<AudioFile>Shoot_Closure_4.wav</AudioFile>
+															<AudioFile>WP_FP_AK47Shot_mech_A04.WAV</AudioFile>
 															<MediaIDList>
-																<MediaID ID="569810458"/>
+																<MediaID ID="286914954"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ObjectLists/>
 													<ActiveSourceList>
-														<ActiveSource Name="Shoot_Closure_4" ID="{E4AA7AD0-A815-4D68-BA79-2DFA6E3E325B}" Platform="Linked"/>
+														<ActiveSource Name="WP_FP_AK47Shot_mech_A04" ID="{363A2B89-2317-4AD1-8B14-C16E885B151C}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -366,6 +369,9 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Shoot_Punch_4" ID="{9BF97960-4D19-4F43-AAF1-86553E9195E6}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Shoot_Punch_4.wav</AudioFile>
 															<MediaIDList>
@@ -381,19 +387,11 @@
 											</ChildrenList>
 											<ObjectLists/>
 										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="wpn_shot_shell" ID="{BE59CC5F-2D7E-465A-A1CD-18AB99AAB4C4}" ShortID="878420034">
+										<RandomSequenceContainer Name="wpn_shot_transient" ID="{77747D03-DDCD-4ABF-AC27-AF4D503F433E}" ShortID="1061672444">
 											<PropertyList>
-												<Property Name="3DPosition" Type="int16" Value="2"/>
-												<Property Name="3DSpatialization" Type="int16" Value="1"/>
-												<Property Name="InitialDelay" Type="Real64">
-													<ValueList>
-														<Value>0.3</Value>
-													</ValueList>
-												</Property>
-												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-22</Value>
+														<Value>-8</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -406,867 +404,995 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Shoot_Shell_Concrete_1" ID="{C4B0AD09-9D2D-4533-A6BB-F0AA42765A91}" ShortID="51058279">
+												<Sound Name="WP_FP_AK47Shot_transient_A01" ID="{946A4F93-955E-48EA-A8A3-B95CC6A63E79}" ShortID="514853882">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+															<ObjectRef Name="wpn_shot" ID="{EF1E741F-911E-40A3-8061-3BC653910E75}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Shoot_Shell_Concrete_1" ID="{BE6AB0E7-A780-4039-999C-B30673927B7F}">
+														<AudioFileSource Name="WP_FP_AK47Shot_transient_A01" ID="{8018FEB5-43BA-43F9-83B0-63C0078A1BEB}">
 															<Language>SFX</Language>
-															<AudioFile>Shoot_Shell_Concrete_1.wav</AudioFile>
+															<AudioFile>WP_FP_AK47Shot_transient_A01.WAV</AudioFile>
 															<MediaIDList>
-																<MediaID ID="637146960"/>
+																<MediaID ID="769075720"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ObjectLists/>
 													<ActiveSourceList>
-														<ActiveSource Name="Shoot_Shell_Concrete_1" ID="{BE6AB0E7-A780-4039-999C-B30673927B7F}" Platform="Linked"/>
+														<ActiveSource Name="WP_FP_AK47Shot_transient_A01" ID="{8018FEB5-43BA-43F9-83B0-63C0078A1BEB}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Shoot_Shell_Concrete_2" ID="{1CFE8B59-44FC-4021-926C-70B4651FC065}" ShortID="573512598">
+												<Sound Name="WP_FP_AK47Shot_transient_A02" ID="{6B9053EB-85FF-4750-9422-6A1F1D66F51A}" ShortID="1014053481">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+															<ObjectRef Name="wpn_shot" ID="{EF1E741F-911E-40A3-8061-3BC653910E75}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Shoot_Shell_Concrete_2" ID="{3719F5C0-0BE4-4CDD-A573-EBFD16ACE25F}">
+														<AudioFileSource Name="WP_FP_AK47Shot_transient_A02" ID="{4FA6997E-9670-41C9-ACC0-5B478B9AA8A5}">
 															<Language>SFX</Language>
-															<AudioFile>Shoot_Shell_Concrete_2.wav</AudioFile>
+															<AudioFile>WP_FP_AK47Shot_transient_A02.WAV</AudioFile>
 															<MediaIDList>
-																<MediaID ID="399521446"/>
+																<MediaID ID="398448918"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ObjectLists/>
 													<ActiveSourceList>
-														<ActiveSource Name="Shoot_Shell_Concrete_2" ID="{3719F5C0-0BE4-4CDD-A573-EBFD16ACE25F}" Platform="Linked"/>
+														<ActiveSource Name="WP_FP_AK47Shot_transient_A02" ID="{4FA6997E-9670-41C9-ACC0-5B478B9AA8A5}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Shoot_Shell_Concrete_3" ID="{B9B8A485-D327-4C94-8028-9E6F5926EF99}" ShortID="950080611">
+												<Sound Name="WP_FP_AK47Shot_transient_A03" ID="{29DC62D0-2B06-4DDC-AC1F-B29EBF057BB2}" ShortID="274215254">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+															<ObjectRef Name="wpn_shot" ID="{EF1E741F-911E-40A3-8061-3BC653910E75}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Shoot_Shell_Concrete_3" ID="{322B2094-538F-42B1-A8D8-00815484AA74}">
+														<AudioFileSource Name="WP_FP_AK47Shot_transient_A03" ID="{1AC49443-BFF6-4481-9F6A-DC4FC70B1EC9}">
 															<Language>SFX</Language>
-															<AudioFile>Shoot_Shell_Concrete_3.wav</AudioFile>
+															<AudioFile>WP_FP_AK47Shot_transient_A03.WAV</AudioFile>
 															<MediaIDList>
-																<MediaID ID="1046616801"/>
+																<MediaID ID="718845180"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ObjectLists/>
 													<ActiveSourceList>
-														<ActiveSource Name="Shoot_Shell_Concrete_3" ID="{322B2094-538F-42B1-A8D8-00815484AA74}" Platform="Linked"/>
+														<ActiveSource Name="WP_FP_AK47Shot_transient_A03" ID="{1AC49443-BFF6-4481-9F6A-DC4FC70B1EC9}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Shoot_Shell_Concrete_4" ID="{DD1BBDC7-02FA-4F9C-A0C5-784923EEEDF2}" ShortID="591371854">
+												<Sound Name="WP_FP_AK47Shot_transient_A04" ID="{10C5431F-4718-4C6D-9FED-3FDDDA9656C0}" ShortID="37870498">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+															<ObjectRef Name="wpn_shot" ID="{EF1E741F-911E-40A3-8061-3BC653910E75}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Shoot_Shell_Concrete_4" ID="{B424822E-752E-4427-8BA1-147CC62D50DD}">
+														<AudioFileSource Name="WP_FP_AK47Shot_transient_A04" ID="{B551A306-7FA0-4D88-8AEE-2391A7AEE19C}">
 															<Language>SFX</Language>
-															<AudioFile>Shoot_Shell_Concrete_4.wav</AudioFile>
+															<AudioFile>WP_FP_AK47Shot_transient_A04.WAV</AudioFile>
 															<MediaIDList>
-																<MediaID ID="196009900"/>
+																<MediaID ID="141748067"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ObjectLists/>
 													<ActiveSourceList>
-														<ActiveSource Name="Shoot_Shell_Concrete_4" ID="{B424822E-752E-4427-8BA1-147CC62D50DD}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Shoot_Shell_Concrete_5" ID="{DD097901-9AFE-4CD2-802A-D31843BBA6C2}" ShortID="46833423">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Shoot_Shell_Concrete_5" ID="{6958BEA1-3416-4DE3-A6AF-6C2016C65D9A}">
-															<Language>SFX</Language>
-															<AudioFile>Shoot_Shell_Concrete_5.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="660182732"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ObjectLists/>
-													<ActiveSourceList>
-														<ActiveSource Name="Shoot_Shell_Concrete_5" ID="{6958BEA1-3416-4DE3-A6AF-6C2016C65D9A}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Shoot_Shell_Concrete_6" ID="{392DD783-06F2-4ED2-86BE-CAA28E39B97B}" ShortID="958548093">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Shoot_Shell_Concrete_6" ID="{B5B217C0-0F84-4282-808B-1334CEC98CB7}">
-															<Language>SFX</Language>
-															<AudioFile>Shoot_Shell_Concrete_6.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="455277939"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ObjectLists/>
-													<ActiveSourceList>
-														<ActiveSource Name="Shoot_Shell_Concrete_6" ID="{B5B217C0-0F84-4282-808B-1334CEC98CB7}" Platform="Linked"/>
+														<ActiveSource Name="WP_FP_AK47Shot_transient_A04" ID="{B551A306-7FA0-4D88-8AEE-2391A7AEE19C}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
-											<PositioningInfo>
-												<Position Name="" ID="{4EE9CBF1-B537-45B0-B3AA-A2B8C1482333}">
-													<PropertyList>
-														<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
-													</PropertyList>
-													<ChildrenList>
-														<Path2D Name="wpn_shot_shell_Path" ID="{C2BF829D-84C7-4EE7-A8AE-66DA1433AA49}">
-															<PointList>
-																<Point>
-																	<XPos>52.79188</XPos>
-																	<YPos>-27.9661</YPos>
-																	<Flags>12</Flags>
-																	<Time>0</Time>
-																</Point>
-																<Point>
-																	<XPos>30.9644670050761</XPos>
-																	<YPos>-49.1525423728814</YPos>
-																	<Flags>0</Flags>
-																	<Time>1250</Time>
-																</Point>
-																<Point>
-																	<XPos>-42.1319796954315</XPos>
-																	<YPos>-50.2824858757062</YPos>
-																	<Flags>0</Flags>
-																	<Time>2500</Time>
-																</Point>
-																<Point>
-																	<XPos>-40.1015228426396</XPos>
-																	<YPos>31.638418079096</YPos>
-																	<Flags>0</Flags>
-																	<Time>3750</Time>
-																</Point>
-																<Point>
-																	<XPos>-61.4213197969543</XPos>
-																	<YPos>23.728813559322</YPos>
-																	<Flags>0</Flags>
-																	<Time>5000</Time>
-																</Point>
-															</PointList>
-														</Path2D>
-														<Path2D Name="wpn_shot_shell_Path_01" ID="{3FFEA856-5488-4728-A96C-BD53B53D9E6B}">
-															<PointList>
-																<Point>
-																	<XPos>0</XPos>
-																	<YPos>50</YPos>
-																	<Flags>12</Flags>
-																	<Time>0</Time>
-																</Point>
-																<Point>
-																	<XPos>23.35025</XPos>
-																	<YPos>1.69492</YPos>
-																	<ZPos>-93</ZPos>
-																	<Flags>0</Flags>
-																	<Time>2500</Time>
-																</Point>
-																<Point>
-																	<XPos>27.91878</XPos>
-																	<YPos>-13.55932</YPos>
-																	<ZPos>-100</ZPos>
-																	<Flags>0</Flags>
-																	<Time>5000</Time>
-																</Point>
-															</PointList>
-														</Path2D>
-														<Path2D Name="wpn_shot_shell_Path_02" ID="{70C116C4-3002-481B-998A-60AE49D35EEF}">
-															<PointList>
-																<Point>
-																	<XPos>-26.90355</XPos>
-																	<YPos>-0.84746</YPos>
-																	<Flags>12</Flags>
-																	<Time>0</Time>
-																</Point>
-																<Point>
-																	<XPos>-30.4568527918782</XPos>
-																	<YPos>-28.8135593220339</YPos>
-																	<Flags>0</Flags>
-																	<Time>1250</Time>
-																</Point>
-																<Point>
-																	<XPos>-28.4263959390863</XPos>
-																	<YPos>-57.6271186440678</YPos>
-																	<Flags>0</Flags>
-																	<Time>2500</Time>
-																</Point>
-																<Point>
-																	<XPos>-15.736040609137</XPos>
-																	<YPos>-77.4011299435028</YPos>
-																	<Flags>0</Flags>
-																	<Time>3750</Time>
-																</Point>
-																<Point>
-																	<XPos>23.8578680203046</XPos>
-																	<YPos>-89.2655367231638</YPos>
-																	<Flags>0</Flags>
-																	<Time>5000</Time>
-																</Point>
-															</PointList>
-														</Path2D>
-														<Path2D Name="wpn_shot_shell_Path_03" ID="{486DD6E7-344F-453A-AB74-88A47E9BFF21}">
-															<PointList>
-																<Point>
-																	<XPos>24.8731</XPos>
-																	<YPos>-0.28249</YPos>
-																	<Flags>12</Flags>
-																	<Time>0</Time>
-																</Point>
-																<Point>
-																	<XPos>25.8883248730965</XPos>
-																	<YPos>-15.2542372881356</YPos>
-																	<Flags>0</Flags>
-																	<Time>1666</Time>
-																</Point>
-																<Point>
-																	<XPos>55.8375634517766</XPos>
-																	<YPos>-46.8926553672316</YPos>
-																	<Flags>0</Flags>
-																	<Time>3333</Time>
-																</Point>
-																<Point>
-																	<XPos>74.6192893401015</XPos>
-																	<YPos>-63.2768361581921</YPos>
-																	<Flags>0</Flags>
-																	<Time>5000</Time>
-																</Point>
-															</PointList>
-														</Path2D>
-														<Path2D Name="wpn_shot_shell_Path_04" ID="{21A3AA2E-78A8-49A7-BCE8-E8326E7E37B2}">
-															<PointList>
-																<Point>
-																	<XPos>-19.79695</XPos>
-																	<YPos>-17.23164</YPos>
-																	<Flags>12</Flags>
-																	<Time>0</Time>
-																</Point>
-																<Point>
-																	<XPos>-24.36548</XPos>
-																	<YPos>-33.33333</YPos>
-																	<Flags>0</Flags>
-																	<Time>833</Time>
-																</Point>
-																<Point>
-																	<XPos>-52.28426</XPos>
-																	<YPos>-40.11299</YPos>
-																	<Flags>0</Flags>
-																	<Time>1666</Time>
-																</Point>
-																<Point>
-																	<XPos>-75.1269035532995</XPos>
-																	<YPos>-20.9039548022599</YPos>
-																	<Flags>0</Flags>
-																	<Time>2500</Time>
-																</Point>
-																<Point>
-																	<XPos>-33.502538071066</XPos>
-																	<YPos>-11.864406779661</YPos>
-																	<Flags>0</Flags>
-																	<Time>3333</Time>
-																</Point>
-																<Point>
-																	<XPos>-35.5329949238579</XPos>
-																	<YPos>5.08474576271186</YPos>
-																	<Flags>0</Flags>
-																	<Time>4166</Time>
-																</Point>
-																<Point>
-																	<XPos>-91.3705583756345</XPos>
-																	<YPos>52.5423728813559</YPos>
-																	<Flags>0</Flags>
-																	<Time>5000</Time>
-																</Point>
-															</PointList>
-														</Path2D>
-														<Path2D Name="wpn_shot_shell_Path_05" ID="{A1455193-4965-40E8-8114-71A2A1CD24E8}">
-															<PointList>
-																<Point>
-																	<XPos>-7.1066</XPos>
-																	<YPos>9.32203</YPos>
-																	<Flags>12</Flags>
-																	<Time>0</Time>
-																</Point>
-																<Point>
-																	<XPos>-16.24365</XPos>
-																	<YPos>-15.81921</YPos>
-																	<ZPos>-92</ZPos>
-																	<Flags>0</Flags>
-																	<Time>2500</Time>
-																</Point>
-																<Point>
-																	<XPos>2.53807</XPos>
-																	<YPos>-54.80226</YPos>
-																	<ZPos>-100</ZPos>
-																	<Flags>0</Flags>
-																	<Time>5000</Time>
-																</Point>
-															</PointList>
-														</Path2D>
-														<Path2D Name="wpn_shot_shell_Path_06" ID="{692A1403-97C2-4137-8109-90441F3A9D53}">
-															<PointList>
-																<Point>
-																	<XPos>29.94924</XPos>
-																	<YPos>-13.84181</YPos>
-																	<Flags>12</Flags>
-																	<Time>0</Time>
-																</Point>
-																<Point>
-																	<XPos>29.9492385786802</XPos>
-																	<YPos>-56.4971751412429</YPos>
-																	<Flags>0</Flags>
-																	<Time>1666</Time>
-																</Point>
-																<Point>
-																	<XPos>-18.2741116751269</XPos>
-																	<YPos>-62.1468926553672</YPos>
-																	<Flags>0</Flags>
-																	<Time>3333</Time>
-																</Point>
-																<Point>
-																	<XPos>-45.1776649746193</XPos>
-																	<YPos>-31.0734463276836</YPos>
-																	<Flags>0</Flags>
-																	<Time>5000</Time>
-																</Point>
-															</PointList>
-														</Path2D>
-														<Path2D Name="wpn_shot_shell_Path_07" ID="{8F7E73AE-6EC7-44E4-A3DB-823A4832FE39}">
-															<PointList>
-																<Point>
-																	<XPos>-3.04569</XPos>
-																	<YPos>-9.32203</YPos>
-																	<Flags>12</Flags>
-																	<Time>0</Time>
-																</Point>
-																<Point>
-																	<XPos>-29.9492385786802</XPos>
-																	<YPos>-17.5141242937853</YPos>
-																	<Flags>0</Flags>
-																	<Time>1666</Time>
-																</Point>
-																<Point>
-																	<XPos>32.994923857868</XPos>
-																	<YPos>-38.9830508474576</YPos>
-																	<Flags>0</Flags>
-																	<Time>3333</Time>
-																</Point>
-																<Point>
-																	<XPos>56.8527918781726</XPos>
-																	<YPos>-20.9039548022599</YPos>
-																	<Flags>0</Flags>
-																	<Time>5000</Time>
-																</Point>
-															</PointList>
-														</Path2D>
-														<Path2D Name="wpn_shot_shell_Path_08" ID="{CD4A7D56-5847-4E35-8FCA-2AA30F5C8E10}">
-															<PointList>
-																<Point>
-																	<XPos>13.70558</XPos>
-																	<YPos>0.28249</YPos>
-																	<Flags>12</Flags>
-																	<Time>0</Time>
-																</Point>
-																<Point>
-																	<XPos>11.6751269035533</XPos>
-																	<YPos>-19.2090395480226</YPos>
-																	<Flags>0</Flags>
-																	<Time>1666</Time>
-																</Point>
-																<Point>
-																	<XPos>-21.3197969543147</XPos>
-																	<YPos>-41.8079096045198</YPos>
-																	<Flags>0</Flags>
-																	<Time>3333</Time>
-																</Point>
-																<Point>
-																	<XPos>1.5228426395939</XPos>
-																	<YPos>-74.5762711864407</YPos>
-																	<Flags>0</Flags>
-																	<Time>5000</Time>
-																</Point>
-															</PointList>
-														</Path2D>
-													</ChildrenList>
-												</Position>
-											</PositioningInfo>
 											<ObjectLists/>
 										</RandomSequenceContainer>
-										<SwitchContainer Name="wpn_shot_tail" ID="{9874C9B6-B60B-4C40-A27D-D45DE37BBFEC}" ShortID="485225859">
-											<PropertyList>
-												<Property Name="InitialDelay" Type="Real64">
-													<ValueList>
-														<Value>0.03</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
-												</Reference>
-												<Reference Name="DefaultSwitchOrState">
-													<ObjectRef Name="wpn_tail_short" ID="{A775C874-6AC7-4E72-A2E6-D284B3141AA6}" WorkUnitID="{D8F81DBD-AB3C-4737-87FA-C80B80763BE7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
-												</Reference>
-												<Reference Name="SwitchGroupOrStateGroup">
-													<ObjectRef Name="wpn_tail" ID="{6080CA4C-EA3F-4D17-81B2-3C0CB723DDC8}" WorkUnitID="{D8F81DBD-AB3C-4737-87FA-C80B80763BE7}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<RandomSequenceContainer Name="wpn_shot_tail_long" ID="{CCFD7539-5692-4BA9-969E-22CC37172131}" ShortID="96202406">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>-6</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<Sound Name="WP_FP_AK47Shot_Tail_A1" ID="{8C8CF798-662F-4788-A6B5-BA111AEF9FF6}" ShortID="291706809">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="WP_FP_AK47Shot_Tail_A1" ID="{869F9D3D-2D10-4B05-AFCF-467FF8E8EB6F}">
-																	<Language>SFX</Language>
-																	<AudioFile>WP_FP_AK47Shot_Tail_A1.WAV</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="661534329"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ObjectLists/>
-															<ActiveSourceList>
-																<ActiveSource Name="WP_FP_AK47Shot_Tail_A1" ID="{869F9D3D-2D10-4B05-AFCF-467FF8E8EB6F}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="WP_FP_AK47Shot_Tail_A2" ID="{2ED63E21-AF18-4196-AC37-3E12795BB04E}" ShortID="918720465">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="WP_FP_AK47Shot_Tail_A2" ID="{66787341-CFB7-4986-837A-50A8298EBA59}">
-																	<Language>SFX</Language>
-																	<AudioFile>WP_FP_AK47Shot_Tail_A2.WAV</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="348322684"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ObjectLists/>
-															<ActiveSourceList>
-																<ActiveSource Name="WP_FP_AK47Shot_Tail_A2" ID="{66787341-CFB7-4986-837A-50A8298EBA59}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="WP_FP_AK47Shot_Tail_A3" ID="{0884A267-7C27-4C38-9811-2DF11EEA4655}" ShortID="481739027">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="WP_FP_AK47Shot_Tail_A3" ID="{85769FCD-9703-483C-B213-7C3C53C2234B}">
-																	<Language>SFX</Language>
-																	<AudioFile>WP_FP_AK47Shot_Tail_A3.WAV</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="461898670"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ObjectLists/>
-															<ActiveSourceList>
-																<ActiveSource Name="WP_FP_AK47Shot_Tail_A3" ID="{85769FCD-9703-483C-B213-7C3C53C2234B}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="WP_FP_AK47Shot_Tail_A4" ID="{F0AFFDC6-4710-40C3-804D-D8672E66AB22}" ShortID="330506253">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="WP_FP_AK47Shot_Tail_A4" ID="{25427903-B0C9-4473-88E4-35EE7EB49569}">
-																	<Language>SFX</Language>
-																	<AudioFile>WP_FP_AK47Shot_Tail_A4.WAV</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="599714546"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ObjectLists/>
-															<ActiveSourceList>
-																<ActiveSource Name="WP_FP_AK47Shot_Tail_A4" ID="{25427903-B0C9-4473-88E4-35EE7EB49569}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-													</ChildrenList>
-													<ObjectLists/>
-												</RandomSequenceContainer>
-												<RandomSequenceContainer Name="wpn_shot_tail_short" ID="{2CC3222B-DF9A-487D-A7CB-31280459203A}" ShortID="503725176">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<Sound Name="Shoot_Tail_1" ID="{28C82423-A7F6-47FB-B943-6D2E79039179}" ShortID="999859554">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Shoot_Tail_1" ID="{A6F0C219-9368-48E0-8C08-202FE59272B9}">
-																	<PropertyList>
-																		<Property Name="LoopBegin" Type="Real64" Value="0.245523415977961"/>
-																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="0.245523415977961"/>
-																	</PropertyList>
-																	<Language>SFX</Language>
-																	<AudioFile>Shoot_Tail_1.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="851363444"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ObjectLists/>
-															<ActiveSourceList>
-																<ActiveSource Name="Shoot_Tail_1" ID="{A6F0C219-9368-48E0-8C08-202FE59272B9}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="Shoot_Tail_2" ID="{D5CC8736-A0C5-4573-B3BE-743E8AF7A175}" ShortID="1062361944">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Shoot_Tail_2" ID="{4613BCFB-7E17-442E-8E66-9E80ED49C078}">
-																	<PropertyList>
-																		<Property Name="LoopBegin" Type="Real64" Value="0.264127697428834"/>
-																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="0.264127697428834"/>
-																	</PropertyList>
-																	<Language>SFX</Language>
-																	<AudioFile>Shoot_Tail_2.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="447611173"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ObjectLists/>
-															<ActiveSourceList>
-																<ActiveSource Name="Shoot_Tail_2" ID="{4613BCFB-7E17-442E-8E66-9E80ED49C078}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="Shoot_Tail_3" ID="{4C6D5EC8-A56E-4307-9C1B-DDBA653675DF}" ShortID="328606893">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Shoot_Tail_3" ID="{180A65C7-50F4-4C44-88F0-1E16B6A30361}">
-																	<PropertyList>
-																		<Property Name="LoopBegin" Type="Real64" Value="0.215125258264463"/>
-																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="0.215125258264463"/>
-																	</PropertyList>
-																	<Language>SFX</Language>
-																	<AudioFile>Shoot_Tail_3.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="750480184"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ObjectLists/>
-															<ActiveSourceList>
-																<ActiveSource Name="Shoot_Tail_3" ID="{180A65C7-50F4-4C44-88F0-1E16B6A30361}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="Shoot_Tail_4" ID="{0C3A10BB-4CD6-4D53-B574-0A046DB7EC74}" ShortID="613440966">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Shoot_Tail_4" ID="{B9301A69-0AAA-42C7-9FC6-800BE4E39434}">
-																	<PropertyList>
-																		<Property Name="FadeOutDuration" Type="Real64" Value="0.350956152433425"/>
-																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="0.183402892561983"/>
-																		<Property Name="TrimEnd" Type="Real64" Value="1.48986547291093"/>
-																	</PropertyList>
-																	<Language>SFX</Language>
-																	<AudioFile>Shoot_Tail_4.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="1025759597"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ObjectLists/>
-															<ActiveSourceList>
-																<ActiveSource Name="Shoot_Tail_4" ID="{B9301A69-0AAA-42C7-9FC6-800BE4E39434}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-													</ChildrenList>
-													<ObjectLists/>
-												</RandomSequenceContainer>
-												<RandomSequenceContainer Name="wpn_shot_tail_medium" ID="{E9BB5C7B-A2F0-451C-8D33-7390CF94ADCE}" ShortID="847664917">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>-6</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="wpn" ID="{4845613B-3208-48A8-9094-A08A5420092A}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<Sound Name="WP_FP_AK47Shot_Tail_A1" ID="{381F85CC-E37D-47FD-B4C8-BFBECA196A8D}" ShortID="686319633">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="WP_FP_AK47Shot_Tail_A1" ID="{C85D5A93-FAF2-4633-949A-E30DFD0E16F6}">
-																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="0.123989898989899"/>
-																		<Property Name="FadeOutDuration" Type="Real64" Value="1.67574227119682"/>
-																		<Property Name="FadeOutShape" Type="int16" Value="2"/>
-																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="0.0563590449954086"/>
-																		<Property Name="TrimEnd" Type="Real64" Value="1.99886746250383"/>
-																	</PropertyList>
-																	<Language>SFX</Language>
-																	<AudioFile>WP_FP_AK47Shot_Tail_A1.WAV</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="494308763"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ObjectLists/>
-															<ActiveSourceList>
-																<ActiveSource Name="WP_FP_AK47Shot_Tail_A1" ID="{C85D5A93-FAF2-4633-949A-E30DFD0E16F6}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="WP_FP_AK47Shot_Tail_A2" ID="{B2AAD33F-F900-4B68-92B1-A48FE4E04463}" ShortID="404404002">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="WP_FP_AK47Shot_Tail_A2" ID="{0DB013FE-2A01-48AF-BDEB-0625634F6117}">
-																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="0.0658340360937764"/>
-																		<Property Name="FadeOutDuration" Type="Real64" Value="1.87627002867262"/>
-																		<Property Name="FadeOutShape" Type="int16" Value="2"/>
-																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																		<Property Name="TrimEnd" Type="Real64" Value="2.01525299375949"/>
-																	</PropertyList>
-																	<Language>SFX</Language>
-																	<AudioFile>WP_FP_AK47Shot_Tail_A2.WAV</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="296647904"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ObjectLists/>
-															<ActiveSourceList>
-																<ActiveSource Name="WP_FP_AK47Shot_Tail_A2" ID="{0DB013FE-2A01-48AF-BDEB-0625634F6117}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="WP_FP_AK47Shot_Tail_A3" ID="{B4946CB9-0CC0-469D-8A6B-205AB7BE2377}" ShortID="51159303">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="WP_FP_AK47Shot_Tail_A3" ID="{2E67867C-C186-45F6-A583-285A697FB64D}">
-																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="0.0621765896441221"/>
-																		<Property Name="FadeOutDuration" Type="Real64" Value="1.89089981447124"/>
-																		<Property Name="FadeOutShape" Type="int16" Value="2"/>
-																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																		<Property Name="TrimEnd" Type="Real64" Value="2.00062320796087"/>
-																	</PropertyList>
-																	<Language>SFX</Language>
-																	<AudioFile>WP_FP_AK47Shot_Tail_A3.WAV</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="843689611"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ObjectLists/>
-															<ActiveSourceList>
-																<ActiveSource Name="WP_FP_AK47Shot_Tail_A3" ID="{2E67867C-C186-45F6-A583-285A697FB64D}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="WP_FP_AK47Shot_Tail_A4" ID="{37D22BE2-0219-4567-8614-1C4A838F0EA4}" ShortID="344530562">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="WP_FP_AK47Shot_Tail_A4" ID="{CD09C722-8525-4C8E-9B81-71AD363E1004}">
-																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="0.172834404652587"/>
-																		<Property Name="FadeInShape" Type="int16" Value="2"/>
-																		<Property Name="FadeOutDuration" Type="Real64" Value="1.70204315886134"/>
-																		<Property Name="FadeOutShape" Type="int16" Value="1"/>
-																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="0.0713881236608509"/>
-																		<Property Name="TrimEnd" Type="Real64" Value="1.99511019283747"/>
-																	</PropertyList>
-																	<Language>SFX</Language>
-																	<AudioFile>WP_FP_AK47Shot_Tail_A4.WAV</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="638749931"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ObjectLists/>
-															<ActiveSourceList>
-																<ActiveSource Name="WP_FP_AK47Shot_Tail_A4" ID="{CD09C722-8525-4C8E-9B81-71AD363E1004}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-													</ChildrenList>
-													<ObjectLists/>
-												</RandomSequenceContainer>
-											</ChildrenList>
-											<ObjectLists/>
-											<GroupingInfo>
-												<GroupingBehaviorList>
-													<GroupingBehavior>
-														<ItemRef Name="wpn_shot_tail_short" ID="{2CC3222B-DF9A-487D-A7CB-31280459203A}"/>
-													</GroupingBehavior>
-													<GroupingBehavior>
-														<ItemRef Name="wpn_shot_tail_long" ID="{CCFD7539-5692-4BA9-969E-22CC37172131}"/>
-													</GroupingBehavior>
-													<GroupingBehavior>
-														<ItemRef Name="wpn_shot_tail_medium" ID="{E9BB5C7B-A2F0-451C-8D33-7390CF94ADCE}"/>
-													</GroupingBehavior>
-												</GroupingBehaviorList>
-												<GroupingList>
-													<Grouping>
-														<SwitchRef Name="wpn_tail_short" ID="{A775C874-6AC7-4E72-A2E6-D284B3141AA6}"/>
-														<ItemList>
-															<ItemRef Name="wpn_shot_tail_short" ID="{2CC3222B-DF9A-487D-A7CB-31280459203A}"/>
-														</ItemList>
-													</Grouping>
-													<Grouping>
-														<SwitchRef Name="wpn_tail_long" ID="{06C1B1EE-8B81-4693-9B60-B6B447C2952A}"/>
-														<ItemList>
-															<ItemRef Name="wpn_shot_tail_long" ID="{CCFD7539-5692-4BA9-969E-22CC37172131}"/>
-														</ItemList>
-													</Grouping>
-												</GroupingList>
-											</GroupingInfo>
-										</SwitchContainer>
 									</ChildrenList>
 									<ObjectLists/>
 								</BlendContainer>
+								<RandomSequenceContainer Name="wpn_shot_shell" ID="{BE59CC5F-2D7E-465A-A1CD-18AB99AAB4C4}" ShortID="878420034">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="2"/>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-22</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="wpn" ID="{4845613B-3208-48A8-9094-A08A5420092A}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Shoot_Shell_Concrete_1" ID="{C4B0AD09-9D2D-4533-A6BB-F0AA42765A91}" ShortID="51058279">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Shoot_Shell_Concrete_1" ID="{BE6AB0E7-A780-4039-999C-B30673927B7F}">
+													<Language>SFX</Language>
+													<AudioFile>Shoot_Shell_Concrete_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="637146960"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Shoot_Shell_Concrete_1" ID="{BE6AB0E7-A780-4039-999C-B30673927B7F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Shoot_Shell_Concrete_2" ID="{1CFE8B59-44FC-4021-926C-70B4651FC065}" ShortID="573512598">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Shoot_Shell_Concrete_2" ID="{3719F5C0-0BE4-4CDD-A573-EBFD16ACE25F}">
+													<Language>SFX</Language>
+													<AudioFile>Shoot_Shell_Concrete_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="399521446"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Shoot_Shell_Concrete_2" ID="{3719F5C0-0BE4-4CDD-A573-EBFD16ACE25F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Shoot_Shell_Concrete_3" ID="{B9B8A485-D327-4C94-8028-9E6F5926EF99}" ShortID="950080611">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Shoot_Shell_Concrete_3" ID="{322B2094-538F-42B1-A8D8-00815484AA74}">
+													<Language>SFX</Language>
+													<AudioFile>Shoot_Shell_Concrete_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1046616801"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Shoot_Shell_Concrete_3" ID="{322B2094-538F-42B1-A8D8-00815484AA74}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Shoot_Shell_Concrete_4" ID="{DD1BBDC7-02FA-4F9C-A0C5-784923EEEDF2}" ShortID="591371854">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Shoot_Shell_Concrete_4" ID="{B424822E-752E-4427-8BA1-147CC62D50DD}">
+													<Language>SFX</Language>
+													<AudioFile>Shoot_Shell_Concrete_4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="196009900"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Shoot_Shell_Concrete_4" ID="{B424822E-752E-4427-8BA1-147CC62D50DD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Shoot_Shell_Concrete_5" ID="{DD097901-9AFE-4CD2-802A-D31843BBA6C2}" ShortID="46833423">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Shoot_Shell_Concrete_5" ID="{6958BEA1-3416-4DE3-A6AF-6C2016C65D9A}">
+													<Language>SFX</Language>
+													<AudioFile>Shoot_Shell_Concrete_5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="660182732"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Shoot_Shell_Concrete_5" ID="{6958BEA1-3416-4DE3-A6AF-6C2016C65D9A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Shoot_Shell_Concrete_6" ID="{392DD783-06F2-4ED2-86BE-CAA28E39B97B}" ShortID="958548093">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Shoot_Shell_Concrete_6" ID="{B5B217C0-0F84-4282-808B-1334CEC98CB7}">
+													<Language>SFX</Language>
+													<AudioFile>Shoot_Shell_Concrete_6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="455277939"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Shoot_Shell_Concrete_6" ID="{B5B217C0-0F84-4282-808B-1334CEC98CB7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{4EE9CBF1-B537-45B0-B3AA-A2B8C1482333}">
+											<PropertyList>
+												<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+											</PropertyList>
+											<ChildrenList>
+												<Path2D Name="wpn_shot_shell_Path" ID="{C2BF829D-84C7-4EE7-A8AE-66DA1433AA49}">
+													<PointList>
+														<Point>
+															<XPos>52.79188</XPos>
+															<YPos>-27.9661</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>30.9644670050761</XPos>
+															<YPos>-49.1525423728814</YPos>
+															<Flags>0</Flags>
+															<Time>1250</Time>
+														</Point>
+														<Point>
+															<XPos>-42.1319796954315</XPos>
+															<YPos>-50.2824858757062</YPos>
+															<Flags>0</Flags>
+															<Time>2500</Time>
+														</Point>
+														<Point>
+															<XPos>-40.1015228426396</XPos>
+															<YPos>31.638418079096</YPos>
+															<Flags>0</Flags>
+															<Time>3750</Time>
+														</Point>
+														<Point>
+															<XPos>-61.4213197969543</XPos>
+															<YPos>23.728813559322</YPos>
+															<Flags>0</Flags>
+															<Time>5000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="wpn_shot_shell_Path_01" ID="{3FFEA856-5488-4728-A96C-BD53B53D9E6B}">
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>50</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>23.35025</XPos>
+															<YPos>1.69492</YPos>
+															<ZPos>-93</ZPos>
+															<Flags>0</Flags>
+															<Time>2500</Time>
+														</Point>
+														<Point>
+															<XPos>27.91878</XPos>
+															<YPos>-13.55932</YPos>
+															<ZPos>-100</ZPos>
+															<Flags>0</Flags>
+															<Time>5000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="wpn_shot_shell_Path_02" ID="{70C116C4-3002-481B-998A-60AE49D35EEF}">
+													<PointList>
+														<Point>
+															<XPos>-26.90355</XPos>
+															<YPos>-0.84746</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>-30.4568527918782</XPos>
+															<YPos>-28.8135593220339</YPos>
+															<Flags>0</Flags>
+															<Time>1250</Time>
+														</Point>
+														<Point>
+															<XPos>-28.4263959390863</XPos>
+															<YPos>-57.6271186440678</YPos>
+															<Flags>0</Flags>
+															<Time>2500</Time>
+														</Point>
+														<Point>
+															<XPos>-15.736040609137</XPos>
+															<YPos>-77.4011299435028</YPos>
+															<Flags>0</Flags>
+															<Time>3750</Time>
+														</Point>
+														<Point>
+															<XPos>23.8578680203046</XPos>
+															<YPos>-89.2655367231638</YPos>
+															<Flags>0</Flags>
+															<Time>5000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="wpn_shot_shell_Path_03" ID="{486DD6E7-344F-453A-AB74-88A47E9BFF21}">
+													<PointList>
+														<Point>
+															<XPos>24.8731</XPos>
+															<YPos>-0.28249</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>25.8883248730965</XPos>
+															<YPos>-15.2542372881356</YPos>
+															<Flags>0</Flags>
+															<Time>1666</Time>
+														</Point>
+														<Point>
+															<XPos>55.8375634517766</XPos>
+															<YPos>-46.8926553672316</YPos>
+															<Flags>0</Flags>
+															<Time>3333</Time>
+														</Point>
+														<Point>
+															<XPos>74.6192893401015</XPos>
+															<YPos>-63.2768361581921</YPos>
+															<Flags>0</Flags>
+															<Time>5000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="wpn_shot_shell_Path_04" ID="{21A3AA2E-78A8-49A7-BCE8-E8326E7E37B2}">
+													<PointList>
+														<Point>
+															<XPos>-19.79695</XPos>
+															<YPos>-17.23164</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>-24.36548</XPos>
+															<YPos>-33.33333</YPos>
+															<Flags>0</Flags>
+															<Time>833</Time>
+														</Point>
+														<Point>
+															<XPos>-52.28426</XPos>
+															<YPos>-40.11299</YPos>
+															<Flags>0</Flags>
+															<Time>1666</Time>
+														</Point>
+														<Point>
+															<XPos>-75.1269035532995</XPos>
+															<YPos>-20.9039548022599</YPos>
+															<Flags>0</Flags>
+															<Time>2500</Time>
+														</Point>
+														<Point>
+															<XPos>-33.502538071066</XPos>
+															<YPos>-11.864406779661</YPos>
+															<Flags>0</Flags>
+															<Time>3333</Time>
+														</Point>
+														<Point>
+															<XPos>-35.5329949238579</XPos>
+															<YPos>5.08474576271186</YPos>
+															<Flags>0</Flags>
+															<Time>4166</Time>
+														</Point>
+														<Point>
+															<XPos>-91.3705583756345</XPos>
+															<YPos>52.5423728813559</YPos>
+															<Flags>0</Flags>
+															<Time>5000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="wpn_shot_shell_Path_05" ID="{A1455193-4965-40E8-8114-71A2A1CD24E8}">
+													<PointList>
+														<Point>
+															<XPos>-7.1066</XPos>
+															<YPos>9.32203</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>-16.24365</XPos>
+															<YPos>-15.81921</YPos>
+															<ZPos>-92</ZPos>
+															<Flags>0</Flags>
+															<Time>2500</Time>
+														</Point>
+														<Point>
+															<XPos>2.53807</XPos>
+															<YPos>-54.80226</YPos>
+															<ZPos>-100</ZPos>
+															<Flags>0</Flags>
+															<Time>5000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="wpn_shot_shell_Path_06" ID="{692A1403-97C2-4137-8109-90441F3A9D53}">
+													<PointList>
+														<Point>
+															<XPos>29.94924</XPos>
+															<YPos>-13.84181</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>29.9492385786802</XPos>
+															<YPos>-56.4971751412429</YPos>
+															<Flags>0</Flags>
+															<Time>1666</Time>
+														</Point>
+														<Point>
+															<XPos>-18.2741116751269</XPos>
+															<YPos>-62.1468926553672</YPos>
+															<Flags>0</Flags>
+															<Time>3333</Time>
+														</Point>
+														<Point>
+															<XPos>-45.1776649746193</XPos>
+															<YPos>-31.0734463276836</YPos>
+															<Flags>0</Flags>
+															<Time>5000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="wpn_shot_shell_Path_07" ID="{8F7E73AE-6EC7-44E4-A3DB-823A4832FE39}">
+													<PointList>
+														<Point>
+															<XPos>-3.04569</XPos>
+															<YPos>-9.32203</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>-29.9492385786802</XPos>
+															<YPos>-17.5141242937853</YPos>
+															<Flags>0</Flags>
+															<Time>1666</Time>
+														</Point>
+														<Point>
+															<XPos>32.994923857868</XPos>
+															<YPos>-38.9830508474576</YPos>
+															<Flags>0</Flags>
+															<Time>3333</Time>
+														</Point>
+														<Point>
+															<XPos>56.8527918781726</XPos>
+															<YPos>-20.9039548022599</YPos>
+															<Flags>0</Flags>
+															<Time>5000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="wpn_shot_shell_Path_08" ID="{CD4A7D56-5847-4E35-8FCA-2AA30F5C8E10}">
+													<PointList>
+														<Point>
+															<XPos>13.70558</XPos>
+															<YPos>0.28249</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>11.6751269035533</XPos>
+															<YPos>-19.2090395480226</YPos>
+															<Flags>0</Flags>
+															<Time>1666</Time>
+														</Point>
+														<Point>
+															<XPos>-21.3197969543147</XPos>
+															<YPos>-41.8079096045198</YPos>
+															<Flags>0</Flags>
+															<Time>3333</Time>
+														</Point>
+														<Point>
+															<XPos>1.5228426395939</XPos>
+															<YPos>-74.5762711864407</YPos>
+															<Flags>0</Flags>
+															<Time>5000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<SwitchContainer Name="wpn_shot_tail" ID="{9874C9B6-B60B-4C40-A27D-D45DE37BBFEC}" ShortID="485225859">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="wpn_tail_short" ID="{A775C874-6AC7-4E72-A2E6-D284B3141AA6}" WorkUnitID="{D8F81DBD-AB3C-4737-87FA-C80B80763BE7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="wpn_tail" ID="{EAEB8F7D-5BAC-4B65-9357-86ED1DFDD121}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="wpn_tail" ID="{6080CA4C-EA3F-4D17-81B2-3C0CB723DDC8}" WorkUnitID="{D8F81DBD-AB3C-4737-87FA-C80B80763BE7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="wpn_shot_tail_long" ID="{CCFD7539-5692-4BA9-969E-22CC37172131}" ShortID="96202406">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="WP_FP_AK47Shot_Tail_A1" ID="{8C8CF798-662F-4788-A6B5-BA111AEF9FF6}" ShortID="291706809">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="WP_FP_AK47Shot_Tail_A1" ID="{869F9D3D-2D10-4B05-AFCF-467FF8E8EB6F}">
+															<Language>SFX</Language>
+															<AudioFile>WP_FP_AK47Shot_Tail_A1.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="661534329"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="WP_FP_AK47Shot_Tail_A1" ID="{869F9D3D-2D10-4B05-AFCF-467FF8E8EB6F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="WP_FP_AK47Shot_Tail_A2" ID="{2ED63E21-AF18-4196-AC37-3E12795BB04E}" ShortID="918720465">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="WP_FP_AK47Shot_Tail_A2" ID="{66787341-CFB7-4986-837A-50A8298EBA59}">
+															<Language>SFX</Language>
+															<AudioFile>WP_FP_AK47Shot_Tail_A2.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="348322684"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="WP_FP_AK47Shot_Tail_A2" ID="{66787341-CFB7-4986-837A-50A8298EBA59}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="WP_FP_AK47Shot_Tail_A3" ID="{0884A267-7C27-4C38-9811-2DF11EEA4655}" ShortID="481739027">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="WP_FP_AK47Shot_Tail_A3" ID="{85769FCD-9703-483C-B213-7C3C53C2234B}">
+															<Language>SFX</Language>
+															<AudioFile>WP_FP_AK47Shot_Tail_A3.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="461898670"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="WP_FP_AK47Shot_Tail_A3" ID="{85769FCD-9703-483C-B213-7C3C53C2234B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="WP_FP_AK47Shot_Tail_A4" ID="{F0AFFDC6-4710-40C3-804D-D8672E66AB22}" ShortID="330506253">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="WP_FP_AK47Shot_Tail_A4" ID="{25427903-B0C9-4473-88E4-35EE7EB49569}">
+															<Language>SFX</Language>
+															<AudioFile>WP_FP_AK47Shot_Tail_A4.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="599714546"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="WP_FP_AK47Shot_Tail_A4" ID="{25427903-B0C9-4473-88E4-35EE7EB49569}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="wpn_shot_tail_short" ID="{2CC3222B-DF9A-487D-A7CB-31280459203A}" ShortID="503725176">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Shoot_Tail_1" ID="{28C82423-A7F6-47FB-B943-6D2E79039179}" ShortID="999859554">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Shoot_Tail_1" ID="{A6F0C219-9368-48E0-8C08-202FE59272B9}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.245523415977961"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.245523415977961"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Shoot_Tail_1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="851363444"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Shoot_Tail_1" ID="{A6F0C219-9368-48E0-8C08-202FE59272B9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Shoot_Tail_2" ID="{D5CC8736-A0C5-4573-B3BE-743E8AF7A175}" ShortID="1062361944">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Shoot_Tail_2" ID="{4613BCFB-7E17-442E-8E66-9E80ED49C078}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.264127697428834"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.264127697428834"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Shoot_Tail_2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="447611173"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Shoot_Tail_2" ID="{4613BCFB-7E17-442E-8E66-9E80ED49C078}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Shoot_Tail_3" ID="{4C6D5EC8-A56E-4307-9C1B-DDBA653675DF}" ShortID="328606893">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Shoot_Tail_3" ID="{180A65C7-50F4-4C44-88F0-1E16B6A30361}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.215125258264463"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.215125258264463"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Shoot_Tail_3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="750480184"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Shoot_Tail_3" ID="{180A65C7-50F4-4C44-88F0-1E16B6A30361}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Shoot_Tail_4" ID="{0C3A10BB-4CD6-4D53-B574-0A046DB7EC74}" ShortID="613440966">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Shoot_Tail_4" ID="{B9301A69-0AAA-42C7-9FC6-800BE4E39434}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.350956152433425"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.183402892561983"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.48986547291093"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Shoot_Tail_4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1025759597"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Shoot_Tail_4" ID="{B9301A69-0AAA-42C7-9FC6-800BE4E39434}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="wpn_shot_tail_middle" ID="{E9BB5C7B-A2F0-451C-8D33-7390CF94ADCE}" ShortID="847664917">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>21</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="wpn" ID="{4845613B-3208-48A8-9094-A08A5420092A}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="WP_FP_AK47Shot_Tail_A1" ID="{381F85CC-E37D-47FD-B4C8-BFBECA196A8D}" ShortID="686319633">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="WP_FP_AK47Shot_Tail_A1" ID="{C85D5A93-FAF2-4633-949A-E30DFD0E16F6}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.123989898989899"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.55175237220692"/>
+																<Property Name="FadeOutShape" Type="int16" Value="2"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0563590449954086"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.60811141720233"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>WP_FP_AK47Shot_Tail_A1.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="494308763"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="WP_FP_AK47Shot_Tail_A1" ID="{C85D5A93-FAF2-4633-949A-E30DFD0E16F6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="WP_FP_AK47Shot_Tail_A2" ID="{B2AAD33F-F900-4B68-92B1-A48FE4E04463}" ShortID="404404002">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="WP_FP_AK47Shot_Tail_A2" ID="{0DB013FE-2A01-48AF-BDEB-0625634F6117}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0658340360937764"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.57270197335133"/>
+																<Property Name="FadeOutShape" Type="int16" Value="2"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.57270197335133"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>WP_FP_AK47Shot_Tail_A2.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="296647904"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="WP_FP_AK47Shot_Tail_A2" ID="{0DB013FE-2A01-48AF-BDEB-0625634F6117}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="WP_FP_AK47Shot_Tail_A3" ID="{B4946CB9-0CC0-469D-8A6B-205AB7BE2377}" ShortID="51159303">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="WP_FP_AK47Shot_Tail_A3" ID="{2E67867C-C186-45F6-A583-285A697FB64D}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0621765896441221"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.50321049080789"/>
+																<Property Name="FadeOutShape" Type="int16" Value="2"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.50321049080789"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>WP_FP_AK47Shot_Tail_A3.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="843689611"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="WP_FP_AK47Shot_Tail_A3" ID="{2E67867C-C186-45F6-A583-285A697FB64D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="WP_FP_AK47Shot_Tail_A4" ID="{37D22BE2-0219-4567-8614-1C4A838F0EA4}" ShortID="344530562">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="WP_FP_AK47Shot_Tail_A4" ID="{CD09C722-8525-4C8E-9B81-71AD363E1004}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.172834404652587"/>
+																<Property Name="FadeInShape" Type="int16" Value="2"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.47284970921335"/>
+																<Property Name="FadeOutShape" Type="int16" Value="1"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0713881236608509"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.5442378328742"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>WP_FP_AK47Shot_Tail_A4.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="638749931"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="WP_FP_AK47Shot_Tail_A4" ID="{CD09C722-8525-4C8E-9B81-71AD363E1004}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="wpn_shot_tail_short" ID="{2CC3222B-DF9A-487D-A7CB-31280459203A}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="wpn_shot_tail_long" ID="{CCFD7539-5692-4BA9-969E-22CC37172131}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="wpn_shot_tail_middle" ID="{E9BB5C7B-A2F0-451C-8D33-7390CF94ADCE}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="wpn_tail_short" ID="{A775C874-6AC7-4E72-A2E6-D284B3141AA6}"/>
+												<ItemList>
+													<ItemRef Name="wpn_shot_tail_short" ID="{2CC3222B-DF9A-487D-A7CB-31280459203A}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="wpn_tail_middle" ID="{B0CE23D6-9A2A-4132-9F77-A1FD30796A1C}"/>
+												<ItemList>
+													<ItemRef Name="wpn_shot_tail_middle" ID="{E9BB5C7B-A2F0-451C-8D33-7390CF94ADCE}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="wpn_tail_long" ID="{06C1B1EE-8B81-4693-9B60-B6B447C2952A}"/>
+												<ItemList>
+													<ItemRef Name="wpn_shot_tail_long" ID="{CCFD7539-5692-4BA9-969E-22CC37172131}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
 							</ChildrenList>
 							<ObjectLists/>
 						</ActorMixer>

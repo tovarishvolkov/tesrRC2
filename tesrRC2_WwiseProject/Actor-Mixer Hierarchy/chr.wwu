@@ -14,12 +14,15 @@
 					</ReferenceList>
 					<ChildrenList>
 						<ActorMixer Name="chr_move" ID="{E0CC2FD1-CD9A-48F3-91AF-94F9633397B7}" ShortID="480309">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+									<ObjectRef Name="chr_move" ID="{9E5F32E0-C853-4C17-AD02-3C792E62E144}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -465,6 +468,7 @@
 								</BlendContainer>
 								<RandomSequenceContainer Name="chr_move_fts" ID="{B6489745-C500-4241-88FB-E4EA3B5E4209}" ShortID="760747642">
 									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -493,7 +497,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+											<ObjectRef Name="chr_move_fts" ID="{6E24998C-5832-49B4-AFB9-138776FE4D62}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>

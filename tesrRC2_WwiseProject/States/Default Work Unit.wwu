@@ -14,11 +14,14 @@
 						<State Name="rev_room_small" ID="{4385D722-21E5-43A5-A185-F68D8B5FEE6B}"/>
 					</ChildrenList>
 				</StateGroup>
-				<StateGroup Name="rev_indoor" ID="{48361964-45B5-4F67-9F67-5BFBA2E307B8}">
+				<StateGroup Name="chr_indoor" ID="{48361964-45B5-4F67-9F67-5BFBA2E307B8}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.3"/>
+					</PropertyList>
 					<ChildrenList>
 						<State Name="None" ID="{04264E31-A632-4AFE-9089-22C4CB6DE0AE}"/>
-						<State Name="rev_indoor" ID="{54BCEDA8-E39A-446B-A643-2947130D3717}"/>
-						<State Name="rev_outdoor" ID="{CF0E3A23-FAEF-41BA-9EC3-D8DA4A494C82}"/>
+						<State Name="chr_indoor" ID="{54BCEDA8-E39A-446B-A643-2947130D3717}"/>
+						<State Name="chr_outdoor" ID="{CF0E3A23-FAEF-41BA-9EC3-D8DA4A494C82}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

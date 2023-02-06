@@ -7,6 +7,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="wpn" ID="{903DBC1C-8B93-40EC-8513-5A9FE64708B4}" WorkUnitID="{903DBC1C-8B93-40EC-8513-5A9FE64708B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="chr" ID="{5A4F553F-E85B-437B-9210-E25ED2F82142}" WorkUnitID="{5A4F553F-E85B-437B-9210-E25ED2F82142}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="amb" ID="{C00D92B6-E4D5-47CB-A0B8-92DF84B4DD29}" WorkUnitID="{C00D92B6-E4D5-47CB-A0B8-92DF84B4DD29}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

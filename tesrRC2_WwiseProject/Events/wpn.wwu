@@ -12,6 +12,26 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{C34F11AE-7D50-4201-86C1-BEDFC843DBA4}" ShortID="453425157">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="wpn_shot_shell" ID="{BE59CC5F-2D7E-465A-A1CD-18AB99AAB4C4}" WorkUnitID="{79566E07-8B88-4955-8B1F-3DB23900A545}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3DD4D828-DCA4-45E7-8D05-D6FEAED23FE9}" ShortID="18468875">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.03"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="wpn_shot_tail" ID="{9874C9B6-B60B-4C40-A27D-D45DE37BBFEC}" WorkUnitID="{79566E07-8B88-4955-8B1F-3DB23900A545}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 			</ChildrenList>

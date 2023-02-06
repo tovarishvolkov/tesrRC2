@@ -16,11 +16,26 @@
     "Id": "3161908922",
     "GUID": "{9AF0EBD7-2FD5-41AC-96AA-FBAEF073700F}",
     "Language": "SFX",
-    "Hash": "3536867521",
+    "Hash": "1865669838",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\main",
     "ShortName": "main",
     "Path": "main.bnk",
     "IncludedEvents": [
+     {
+      "Id": "2959533290",
+      "Name": "play_amb",
+      "ObjectPath": "\\Events\\amb\\play_amb",
+      "GUID": "{98FE3895-6F18-4D4D-B9AC-FEEE53EDC4FD}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "547880536",
+        "Language": "SFX",
+        "ShortName": "Wind Gusts 2016 Lookout Snow - Biggest Gusts Long.wav",
+        "Path": "SFX\\Wind Gusts 2016 Lookout Snow - Biggest Gusts Long_96233AD4.wem"
+       }
+      ]
+     },
      {
       "Id": "2178935873",
       "Name": "play_chr_move_foley",
@@ -193,14 +208,20 @@
       "ObjectPath": "\\Events\\wpn\\play_wpn_shot",
       "GUID": "{A30167E7-A994-472B-A063-DF27896A0673}",
       "DurationType": "OneShot",
-      "DurationMin": "1.363",
+      "DurationMin": "1.229664",
       "DurationMax": "2.757778",
       "IncludedMemoryFiles": [
        {
-        "Id": "66186335",
+        "Id": "119907385",
         "Language": "SFX",
-        "ShortName": "Shoot_Body_3.wav",
-        "Path": "SFX\\Shoot_Body_3_10C4C929.wem"
+        "ShortName": "WP_FP_AK47Shot_body_A01.WAV",
+        "Path": "SFX\\WP_FP_AK47Shot_body_A01_10C4C929.wem"
+       },
+       {
+        "Id": "141748067",
+        "Language": "SFX",
+        "ShortName": "WP_FP_AK47Shot_transient_A04.WAV",
+        "Path": "SFX\\WP_FP_AK47Shot_transient_A04_10C4C929.wem"
        },
        {
         "Id": "179918553",
@@ -209,16 +230,28 @@
         "Path": "SFX\\Shoot_Punch_1_10C4C929.wem"
        },
        {
-        "Id": "196009900",
+        "Id": "219938875",
         "Language": "SFX",
-        "ShortName": "Shoot_Shell_Concrete_4.wav",
-        "Path": "SFX\\Shoot_Shell_Concrete_4_10C4C929.wem"
+        "ShortName": "WP_FP_AK47Shot_mech_A01.WAV",
+        "Path": "SFX\\WP_FP_AK47Shot_mech_A01_10C4C929.wem"
        },
        {
-        "Id": "229525645",
+        "Id": "286914954",
         "Language": "SFX",
-        "ShortName": "Shoot_Body_4.wav",
-        "Path": "SFX\\Shoot_Body_4_10C4C929.wem"
+        "ShortName": "WP_FP_AK47Shot_mech_A04.WAV",
+        "Path": "SFX\\WP_FP_AK47Shot_mech_A04_10C4C929.wem"
+       },
+       {
+        "Id": "296647904",
+        "Language": "SFX",
+        "ShortName": "WP_FP_AK47Shot_Tail_A2.WAV",
+        "Path": "SFX\\WP_FP_AK47Shot_Tail_A2_C6D51573.wem"
+       },
+       {
+        "Id": "335805685",
+        "Language": "SFX",
+        "ShortName": "WP_FP_AK47Shot_body_A02.WAV",
+        "Path": "SFX\\WP_FP_AK47Shot_body_A02_10C4C929.wem"
        },
        {
         "Id": "348322684",
@@ -227,22 +260,22 @@
         "Path": "SFX\\WP_FP_AK47Shot_Tail_A2_10C4C929.wem"
        },
        {
-        "Id": "399521446",
+        "Id": "372453720",
         "Language": "SFX",
-        "ShortName": "Shoot_Shell_Concrete_2.wav",
-        "Path": "SFX\\Shoot_Shell_Concrete_2_10C4C929.wem"
+        "ShortName": "WP_FP_AK47Shot_body_A04.WAV",
+        "Path": "SFX\\WP_FP_AK47Shot_body_A04_10C4C929.wem"
+       },
+       {
+        "Id": "398448918",
+        "Language": "SFX",
+        "ShortName": "WP_FP_AK47Shot_transient_A02.WAV",
+        "Path": "SFX\\WP_FP_AK47Shot_transient_A02_10C4C929.wem"
        },
        {
         "Id": "447611173",
         "Language": "SFX",
         "ShortName": "Shoot_Tail_2.wav",
         "Path": "SFX\\Shoot_Tail_2_593E3545.wem"
-       },
-       {
-        "Id": "455277939",
-        "Language": "SFX",
-        "ShortName": "Shoot_Shell_Concrete_6.wav",
-        "Path": "SFX\\Shoot_Shell_Concrete_6_10C4C929.wem"
        },
        {
         "Id": "461898670",
@@ -257,10 +290,10 @@
         "Path": "SFX\\Shoot_Punch_2_10C4C929.wem"
        },
        {
-        "Id": "493758573",
+        "Id": "494308763",
         "Language": "SFX",
-        "ShortName": "Shoot_Body_1.wav",
-        "Path": "SFX\\Shoot_Body_1_10C4C929.wem"
+        "ShortName": "WP_FP_AK47Shot_Tail_A1.WAV",
+        "Path": "SFX\\WP_FP_AK47Shot_Tail_A1_47762486.wem"
        },
        {
         "Id": "501804727",
@@ -269,10 +302,16 @@
         "Path": "SFX\\Shoot_Punch_3_10C4C929.wem"
        },
        {
-        "Id": "569810458",
+        "Id": "536346620",
         "Language": "SFX",
-        "ShortName": "Shoot_Closure_4.wav",
-        "Path": "SFX\\Shoot_Closure_4_10C4C929.wem"
+        "ShortName": "WP_FP_AK47Shot_body_A03.WAV",
+        "Path": "SFX\\WP_FP_AK47Shot_body_A03_10C4C929.wem"
+       },
+       {
+        "Id": "550925127",
+        "Language": "SFX",
+        "ShortName": "WP_FP_AK47Shot_mech_A03.WAV",
+        "Path": "SFX\\WP_FP_AK47Shot_mech_A03_10C4C929.wem"
        },
        {
         "Id": "599714546",
@@ -287,16 +326,10 @@
         "Path": "SFX\\Shoot_Punch_4_10C4C929.wem"
        },
        {
-        "Id": "637146960",
+        "Id": "638749931",
         "Language": "SFX",
-        "ShortName": "Shoot_Shell_Concrete_1.wav",
-        "Path": "SFX\\Shoot_Shell_Concrete_1_10C4C929.wem"
-       },
-       {
-        "Id": "660182732",
-        "Language": "SFX",
-        "ShortName": "Shoot_Shell_Concrete_5.wav",
-        "Path": "SFX\\Shoot_Shell_Concrete_5_10C4C929.wem"
+        "ShortName": "WP_FP_AK47Shot_Tail_A4.WAV",
+        "Path": "SFX\\WP_FP_AK47Shot_Tail_A4_4E2AA773.wem"
        },
        {
         "Id": "661534329",
@@ -305,10 +338,10 @@
         "Path": "SFX\\WP_FP_AK47Shot_Tail_A1_10C4C929.wem"
        },
        {
-        "Id": "691696890",
+        "Id": "718845180",
         "Language": "SFX",
-        "ShortName": "Shoot_Closure_1.wav",
-        "Path": "SFX\\Shoot_Closure_1_10C4C929.wem"
+        "ShortName": "WP_FP_AK47Shot_transient_A03.WAV",
+        "Path": "SFX\\WP_FP_AK47Shot_transient_A03_10C4C929.wem"
        },
        {
         "Id": "750480184",
@@ -317,40 +350,34 @@
         "Path": "SFX\\Shoot_Tail_3_42AEA847.wem"
        },
        {
+        "Id": "769075720",
+        "Language": "SFX",
+        "ShortName": "WP_FP_AK47Shot_transient_A01.WAV",
+        "Path": "SFX\\WP_FP_AK47Shot_transient_A01_10C4C929.wem"
+       },
+       {
+        "Id": "843689611",
+        "Language": "SFX",
+        "ShortName": "WP_FP_AK47Shot_Tail_A3.WAV",
+        "Path": "SFX\\WP_FP_AK47Shot_Tail_A3_AD3DBAC7.wem"
+       },
+       {
         "Id": "851363444",
         "Language": "SFX",
         "ShortName": "Shoot_Tail_1.wav",
         "Path": "SFX\\Shoot_Tail_1_A0E6AD1F.wem"
        },
        {
-        "Id": "935165918",
+        "Id": "982294340",
         "Language": "SFX",
-        "ShortName": "Shoot_Closure_3.wav",
-        "Path": "SFX\\Shoot_Closure_3_10C4C929.wem"
-       },
-       {
-        "Id": "1006659683",
-        "Language": "SFX",
-        "ShortName": "Shoot_Body_2.wav",
-        "Path": "SFX\\Shoot_Body_2_10C4C929.wem"
-       },
-       {
-        "Id": "1025322966",
-        "Language": "SFX",
-        "ShortName": "Shoot_Closure_2.wav",
-        "Path": "SFX\\Shoot_Closure_2_10C4C929.wem"
+        "ShortName": "WP_FP_AK47Shot_mech_A02.WAV",
+        "Path": "SFX\\WP_FP_AK47Shot_mech_A02_10C4C929.wem"
        },
        {
         "Id": "1025759597",
         "Language": "SFX",
         "ShortName": "Shoot_Tail_4.wav",
         "Path": "SFX\\Shoot_Tail_4_8A29C0F0.wem"
-       },
-       {
-        "Id": "1046616801",
-        "Language": "SFX",
-        "ShortName": "Shoot_Shell_Concrete_3.wav",
-        "Path": "SFX\\Shoot_Shell_Concrete_3_10C4C929.wem"
        }
       ],
       "DefaultSwitchValue": "{A775C874-6AC7-4E72-A2E6-D284B3141AA6}",
@@ -369,6 +396,23 @@
          },
          {
           "Id": "1025759597"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{B0CE23D6-9A2A-4132-9F77-A1FD30796A1C}",
+        "Media": [
+         {
+          "Id": "296647904"
+         },
+         {
+          "Id": "494308763"
+         },
+         {
+          "Id": "638749931"
+         },
+         {
+          "Id": "843689611"
          }
         ]
        },
@@ -392,6 +436,14 @@
       ]
      }
     ],
+    "GameParameters": [
+     {
+      "Id": "3111693583",
+      "Name": "wpn_tail",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\wpn_tail",
+      "GUID": "{C251EC34-5437-4C09-8749-3E2DC1E9BB06}"
+     }
+    ],
     "SwitchGroups": [
      {
       "Id": "3111693583",
@@ -410,6 +462,12 @@
         "Name": "wpn_tail_short",
         "ObjectPath": "\\Switches\\wpn\\wpn_tail\\wpn_tail_short",
         "GUID": "{A775C874-6AC7-4E72-A2E6-D284B3141AA6}"
+       },
+       {
+        "Id": "752400417",
+        "Name": "wpn_tail_middle",
+        "ObjectPath": "\\Switches\\wpn\\wpn_tail\\wpn_tail_middle",
+        "GUID": "{B0CE23D6-9A2A-4132-9F77-A1FD30796A1C}"
        }
       ]
      }

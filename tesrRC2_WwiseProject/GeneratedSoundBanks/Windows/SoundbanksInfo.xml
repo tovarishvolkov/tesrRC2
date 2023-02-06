@@ -11,42 +11,41 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="354164514">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="129998635">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<IncludedAuxBusses>
-				<AuxBus Id="377355006" Name="rev_indoor" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\rev_indoor" GUID="{5A7C09D3-CEFE-4752-9C7A-4EE38FFC6BD7}"/>
-				<AuxBus Id="378875104" Name="del" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\del" GUID="{1E13EDEF-53CB-424E-BB78-DAB00E943DAF}"/>
-				<AuxBus Id="1857588325" Name="rev_outdoor" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\rev_outdoor" GUID="{59BAEE70-AC3D-47AE-8F72-D62634D713CB}"/>
+				<AuxBus Id="377355006" Name="rev_indoor" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\aux\rev_indoor" GUID="{5A7C09D3-CEFE-4752-9C7A-4EE38FFC6BD7}"/>
+				<AuxBus Id="378875104" Name="del" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\aux\del" GUID="{1E13EDEF-53CB-424E-BB78-DAB00E943DAF}"/>
+				<AuxBus Id="1857588325" Name="rev_outdoor" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\aux\rev_outdoor" GUID="{59BAEE70-AC3D-47AE-8F72-D62634D713CB}"/>
 			</IncludedAuxBusses>
 			<GameParameters>
-				<GameParameter Id="20863261" Name="rev_decay_time" ObjectPath="\Game Parameters\Default Work Unit\rev_indoor\rev_decay_time" GUID="{C4A71F1B-8BDE-4881-A6A8-79341A38C092}"/>
-				<GameParameter Id="22760086" Name="rev_pre_delay" ObjectPath="\Game Parameters\Default Work Unit\rev_indoor\rev_pre_delay" GUID="{3E4FC29C-080B-4D6C-AAB0-05D36A9EF3B3}"/>
+				<GameParameter Id="20863261" Name="rev_decay_time" ObjectPath="\Game Parameters\Default Work Unit\rev\rev_decay_time" GUID="{C4A71F1B-8BDE-4881-A6A8-79341A38C092}"/>
+				<GameParameter Id="22760086" Name="rev_pre_delay" ObjectPath="\Game Parameters\Default Work Unit\rev\rev_pre_delay" GUID="{3E4FC29C-080B-4D6C-AAB0-05D36A9EF3B3}"/>
 				<GameParameter Id="153877265" Name="rev_balance" ObjectPath="\Game Parameters\Default Work Unit\rev_balance" GUID="{F75BC36C-3845-4E7E-A99A-124B9D0600A7}"/>
 				<GameParameter Id="422411778" Name="del_crossfeed_r" ObjectPath="\Game Parameters\Default Work Unit\del\del_crossfeed_r" GUID="{211E3999-D883-4D8F-948C-2E4AD8F5E5B0}"/>
 				<GameParameter Id="422411804" Name="del_crossfeed_l" ObjectPath="\Game Parameters\Default Work Unit\del\del_crossfeed_l" GUID="{491E0969-4AA3-496E-9310-584677A0725F}"/>
 				<GameParameter Id="1192436428" Name="del_out_wet" ObjectPath="\Game Parameters\Default Work Unit\del\del_out_wet" GUID="{72A698F7-10FB-4DC7-BBE8-E83BD4E99D50}"/>
-				<GameParameter Id="1308072702" Name="rev_hf_damping" ObjectPath="\Game Parameters\Default Work Unit\rev_indoor\rev_hf_damping" GUID="{A1A39C8C-AA58-4C85-A228-FE10734CEE3C}"/>
-				<GameParameter Id="1672330836" Name="rev_diffusion" ObjectPath="\Game Parameters\Default Work Unit\rev_indoor\rev_diffusion" GUID="{F238AA67-F22B-4648-9042-B8648D5FF09D}"/>
-				<GameParameter Id="1684592609" Name="rev_filter_band_gain" ObjectPath="\Game Parameters\Default Work Unit\rev_indoor\rev_filter_band_gain" GUID="{D6FBB5B8-06FD-4D6A-8157-1053C0F0A967}"/>
+				<GameParameter Id="1308072702" Name="rev_hf_damping" ObjectPath="\Game Parameters\Default Work Unit\rev\rev_hf_damping" GUID="{A1A39C8C-AA58-4C85-A228-FE10734CEE3C}"/>
+				<GameParameter Id="1672330836" Name="rev_diffusion" ObjectPath="\Game Parameters\Default Work Unit\rev\rev_diffusion" GUID="{F238AA67-F22B-4648-9042-B8648D5FF09D}"/>
+				<GameParameter Id="1684592609" Name="rev_filter_band_gain" ObjectPath="\Game Parameters\Default Work Unit\rev\rev_filter_band_gain" GUID="{D6FBB5B8-06FD-4D6A-8157-1053C0F0A967}"/>
 				<GameParameter Id="3684179601" Name="del_filter_gain" ObjectPath="\Game Parameters\Default Work Unit\del\del_filter_gain" GUID="{2AFCDF00-ED4F-4B7E-9ED8-4E06ED955113}"/>
 			</GameParameters>
-			<StateGroups>
-				<StateGroup Id="377355006" Name="rev_indoor" ObjectPath="\States\Default Work Unit\rev_indoor" GUID="{48361964-45B5-4F67-9F67-5BFBA2E307B8}">
-					<States>
-						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\rev_indoor\None" GUID="{04264E31-A632-4AFE-9089-22C4CB6DE0AE}"/>
-						<State Id="377355006" Name="rev_indoor" ObjectPath="\States\Default Work Unit\rev_indoor\rev_indoor" GUID="{54BCEDA8-E39A-446B-A643-2947130D3717}"/>
-						<State Id="1857588325" Name="rev_outdoor" ObjectPath="\States\Default Work Unit\rev_indoor\rev_outdoor" GUID="{CF0E3A23-FAEF-41BA-9EC3-D8DA4A494C82}"/>
-					</States>
-				</StateGroup>
-			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" GUID="{9AF0EBD7-2FD5-41AC-96AA-FBAEF073700F}" Language="SFX" Hash="1360096584">
+		<SoundBank Id="3161908922" GUID="{9AF0EBD7-2FD5-41AC-96AA-FBAEF073700F}" Language="SFX" Hash="1492936160">
 			<ObjectPath>\SoundBanks\Default Work Unit\main</ObjectPath>
 			<ShortName>main</ShortName>
 			<Path>main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2959533290" Name="play_amb" ObjectPath="\Events\amb\play_amb" GUID="{98FE3895-6F18-4D4D-B9AC-FEEE53EDC4FD}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="547880536" Language="SFX">
+							<ShortName>Wind Gusts 2016 Lookout Snow - Biggest Gusts Long.wav</ShortName>
+							<Path>SFX\Wind Gusts 2016 Lookout Snow - Biggest Gusts Long_6E58E766.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2178935873" Name="play_chr_move_foley" ObjectPath="\Events\chr\play_chr_move_foley" GUID="{5A1C52A5-27AA-4E23-B3B7-DB83ED703ED3}" DurationType="OneShot" DurationMin="0.580567" DurationMax="0.633628">
 					<IncludedMemoryFiles>
 						<File Id="24916773" Language="SFX">
@@ -151,39 +150,51 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1065512946" Name="play_wpn_shot" ObjectPath="\Events\wpn\play_wpn_shot" GUID="{A30167E7-A994-472B-A063-DF27896A0673}" DurationType="OneShot" DurationMin="1.363" DurationMax="2.757778">
+				<Event Id="1065512946" Name="play_wpn_shot" ObjectPath="\Events\wpn\play_wpn_shot" GUID="{A30167E7-A994-472B-A063-DF27896A0673}" DurationType="OneShot" DurationMin="1.229664" DurationMax="2.757778">
 					<IncludedMemoryFiles>
-						<File Id="66186335" Language="SFX">
-							<ShortName>Shoot_Body_3.wav</ShortName>
-							<Path>SFX\Shoot_Body_3_10C4C929.wem</Path>
+						<File Id="119907385" Language="SFX">
+							<ShortName>WP_FP_AK47Shot_body_A01.WAV</ShortName>
+							<Path>SFX\WP_FP_AK47Shot_body_A01_10C4C929.wem</Path>
+						</File>
+						<File Id="141748067" Language="SFX">
+							<ShortName>WP_FP_AK47Shot_transient_A04.WAV</ShortName>
+							<Path>SFX\WP_FP_AK47Shot_transient_A04_10C4C929.wem</Path>
 						</File>
 						<File Id="179918553" Language="SFX">
 							<ShortName>Shoot_Punch_1.wav</ShortName>
 							<Path>SFX\Shoot_Punch_1_10C4C929.wem</Path>
 						</File>
-						<File Id="196009900" Language="SFX">
-							<ShortName>Shoot_Shell_Concrete_4.wav</ShortName>
-							<Path>SFX\Shoot_Shell_Concrete_4_10C4C929.wem</Path>
+						<File Id="219938875" Language="SFX">
+							<ShortName>WP_FP_AK47Shot_mech_A01.WAV</ShortName>
+							<Path>SFX\WP_FP_AK47Shot_mech_A01_10C4C929.wem</Path>
 						</File>
-						<File Id="229525645" Language="SFX">
-							<ShortName>Shoot_Body_4.wav</ShortName>
-							<Path>SFX\Shoot_Body_4_10C4C929.wem</Path>
+						<File Id="286914954" Language="SFX">
+							<ShortName>WP_FP_AK47Shot_mech_A04.WAV</ShortName>
+							<Path>SFX\WP_FP_AK47Shot_mech_A04_10C4C929.wem</Path>
+						</File>
+						<File Id="296647904" Language="SFX">
+							<ShortName>WP_FP_AK47Shot_Tail_A2.WAV</ShortName>
+							<Path>SFX\WP_FP_AK47Shot_Tail_A2_F7D7A6A7.wem</Path>
+						</File>
+						<File Id="335805685" Language="SFX">
+							<ShortName>WP_FP_AK47Shot_body_A02.WAV</ShortName>
+							<Path>SFX\WP_FP_AK47Shot_body_A02_10C4C929.wem</Path>
 						</File>
 						<File Id="348322684" Language="SFX">
 							<ShortName>WP_FP_AK47Shot_Tail_A2.WAV</ShortName>
 							<Path>SFX\WP_FP_AK47Shot_Tail_A2_10C4C929.wem</Path>
 						</File>
-						<File Id="399521446" Language="SFX">
-							<ShortName>Shoot_Shell_Concrete_2.wav</ShortName>
-							<Path>SFX\Shoot_Shell_Concrete_2_10C4C929.wem</Path>
+						<File Id="372453720" Language="SFX">
+							<ShortName>WP_FP_AK47Shot_body_A04.WAV</ShortName>
+							<Path>SFX\WP_FP_AK47Shot_body_A04_10C4C929.wem</Path>
+						</File>
+						<File Id="398448918" Language="SFX">
+							<ShortName>WP_FP_AK47Shot_transient_A02.WAV</ShortName>
+							<Path>SFX\WP_FP_AK47Shot_transient_A02_10C4C929.wem</Path>
 						</File>
 						<File Id="447611173" Language="SFX">
 							<ShortName>Shoot_Tail_2.wav</ShortName>
-							<Path>SFX\Shoot_Tail_2_848BAE67.wem</Path>
-						</File>
-						<File Id="455277939" Language="SFX">
-							<ShortName>Shoot_Shell_Concrete_6.wav</ShortName>
-							<Path>SFX\Shoot_Shell_Concrete_6_10C4C929.wem</Path>
+							<Path>SFX\Shoot_Tail_2_593E3545.wem</Path>
 						</File>
 						<File Id="461898670" Language="SFX">
 							<ShortName>WP_FP_AK47Shot_Tail_A3.WAV</ShortName>
@@ -193,17 +204,21 @@
 							<ShortName>Shoot_Punch_2.wav</ShortName>
 							<Path>SFX\Shoot_Punch_2_10C4C929.wem</Path>
 						</File>
-						<File Id="493758573" Language="SFX">
-							<ShortName>Shoot_Body_1.wav</ShortName>
-							<Path>SFX\Shoot_Body_1_10C4C929.wem</Path>
+						<File Id="494308763" Language="SFX">
+							<ShortName>WP_FP_AK47Shot_Tail_A1.WAV</ShortName>
+							<Path>SFX\WP_FP_AK47Shot_Tail_A1_2B617AE1.wem</Path>
 						</File>
 						<File Id="501804727" Language="SFX">
 							<ShortName>Shoot_Punch_3.wav</ShortName>
 							<Path>SFX\Shoot_Punch_3_10C4C929.wem</Path>
 						</File>
-						<File Id="569810458" Language="SFX">
-							<ShortName>Shoot_Closure_4.wav</ShortName>
-							<Path>SFX\Shoot_Closure_4_10C4C929.wem</Path>
+						<File Id="536346620" Language="SFX">
+							<ShortName>WP_FP_AK47Shot_body_A03.WAV</ShortName>
+							<Path>SFX\WP_FP_AK47Shot_body_A03_10C4C929.wem</Path>
+						</File>
+						<File Id="550925127" Language="SFX">
+							<ShortName>WP_FP_AK47Shot_mech_A03.WAV</ShortName>
+							<Path>SFX\WP_FP_AK47Shot_mech_A03_10C4C929.wem</Path>
 						</File>
 						<File Id="599714546" Language="SFX">
 							<ShortName>WP_FP_AK47Shot_Tail_A4.WAV</ShortName>
@@ -213,49 +228,41 @@
 							<ShortName>Shoot_Punch_4.wav</ShortName>
 							<Path>SFX\Shoot_Punch_4_10C4C929.wem</Path>
 						</File>
-						<File Id="637146960" Language="SFX">
-							<ShortName>Shoot_Shell_Concrete_1.wav</ShortName>
-							<Path>SFX\Shoot_Shell_Concrete_1_10C4C929.wem</Path>
-						</File>
-						<File Id="660182732" Language="SFX">
-							<ShortName>Shoot_Shell_Concrete_5.wav</ShortName>
-							<Path>SFX\Shoot_Shell_Concrete_5_10C4C929.wem</Path>
+						<File Id="638749931" Language="SFX">
+							<ShortName>WP_FP_AK47Shot_Tail_A4.WAV</ShortName>
+							<Path>SFX\WP_FP_AK47Shot_Tail_A4_0DA18BB7.wem</Path>
 						</File>
 						<File Id="661534329" Language="SFX">
 							<ShortName>WP_FP_AK47Shot_Tail_A1.WAV</ShortName>
 							<Path>SFX\WP_FP_AK47Shot_Tail_A1_10C4C929.wem</Path>
 						</File>
-						<File Id="691696890" Language="SFX">
-							<ShortName>Shoot_Closure_1.wav</ShortName>
-							<Path>SFX\Shoot_Closure_1_10C4C929.wem</Path>
+						<File Id="718845180" Language="SFX">
+							<ShortName>WP_FP_AK47Shot_transient_A03.WAV</ShortName>
+							<Path>SFX\WP_FP_AK47Shot_transient_A03_10C4C929.wem</Path>
 						</File>
 						<File Id="750480184" Language="SFX">
 							<ShortName>Shoot_Tail_3.wav</ShortName>
-							<Path>SFX\Shoot_Tail_3_2363AC68.wem</Path>
+							<Path>SFX\Shoot_Tail_3_42AEA847.wem</Path>
+						</File>
+						<File Id="769075720" Language="SFX">
+							<ShortName>WP_FP_AK47Shot_transient_A01.WAV</ShortName>
+							<Path>SFX\WP_FP_AK47Shot_transient_A01_10C4C929.wem</Path>
+						</File>
+						<File Id="843689611" Language="SFX">
+							<ShortName>WP_FP_AK47Shot_Tail_A3.WAV</ShortName>
+							<Path>SFX\WP_FP_AK47Shot_Tail_A3_F95ED8F7.wem</Path>
 						</File>
 						<File Id="851363444" Language="SFX">
 							<ShortName>Shoot_Tail_1.wav</ShortName>
-							<Path>SFX\Shoot_Tail_1_E22D143D.wem</Path>
+							<Path>SFX\Shoot_Tail_1_A0E6AD1F.wem</Path>
 						</File>
-						<File Id="935165918" Language="SFX">
-							<ShortName>Shoot_Closure_3.wav</ShortName>
-							<Path>SFX\Shoot_Closure_3_10C4C929.wem</Path>
-						</File>
-						<File Id="1006659683" Language="SFX">
-							<ShortName>Shoot_Body_2.wav</ShortName>
-							<Path>SFX\Shoot_Body_2_10C4C929.wem</Path>
-						</File>
-						<File Id="1025322966" Language="SFX">
-							<ShortName>Shoot_Closure_2.wav</ShortName>
-							<Path>SFX\Shoot_Closure_2_10C4C929.wem</Path>
+						<File Id="982294340" Language="SFX">
+							<ShortName>WP_FP_AK47Shot_mech_A02.WAV</ShortName>
+							<Path>SFX\WP_FP_AK47Shot_mech_A02_10C4C929.wem</Path>
 						</File>
 						<File Id="1025759597" Language="SFX">
 							<ShortName>Shoot_Tail_4.wav</ShortName>
-							<Path>SFX\Shoot_Tail_4_CD67E24B.wem</Path>
-						</File>
-						<File Id="1046616801" Language="SFX">
-							<ShortName>Shoot_Shell_Concrete_3.wav</ShortName>
-							<Path>SFX\Shoot_Shell_Concrete_3_10C4C929.wem</Path>
+							<Path>SFX\Shoot_Tail_4_8A29C0F0.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<DefaultSwitchValue>{A775C874-6AC7-4E72-A2E6-D284B3141AA6}</DefaultSwitchValue>
@@ -266,6 +273,14 @@
 								<File Id="750480184"/>
 								<File Id="851363444"/>
 								<File Id="1025759597"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{B0CE23D6-9A2A-4132-9F77-A1FD30796A1C}">
+							<Media>
+								<File Id="296647904"/>
+								<File Id="494308763"/>
+								<File Id="638749931"/>
+								<File Id="843689611"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{06C1B1EE-8B81-4693-9B60-B6B447C2952A}">
@@ -279,11 +294,15 @@
 					</SwitchContainers>
 				</Event>
 			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="3111693583" Name="wpn_tail" ObjectPath="\Game Parameters\Default Work Unit\wpn_tail" GUID="{C251EC34-5437-4C09-8749-3E2DC1E9BB06}"/>
+			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="3111693583" Name="wpn_tail" ObjectPath="\Switches\wpn\wpn_tail" GUID="{6080CA4C-EA3F-4D17-81B2-3C0CB723DDC8}">
 					<Switches>
 						<Switch Id="4116735728" Name="wpn_tail_long" ObjectPath="\Switches\wpn\wpn_tail\wpn_tail_long" GUID="{06C1B1EE-8B81-4693-9B60-B6B447C2952A}"/>
 						<Switch Id="2469058192" Name="wpn_tail_short" ObjectPath="\Switches\wpn\wpn_tail\wpn_tail_short" GUID="{A775C874-6AC7-4E72-A2E6-D284B3141AA6}"/>
+						<Switch Id="752400417" Name="wpn_tail_middle" ObjectPath="\Switches\wpn\wpn_tail\wpn_tail_middle" GUID="{B0CE23D6-9A2A-4132-9F77-A1FD30796A1C}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>

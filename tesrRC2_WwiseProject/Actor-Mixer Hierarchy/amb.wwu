@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0CB940FB-772B-42FC-A08C-EF7C809782B5}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="amb" ID="{0CB940FB-772B-42FC-A08C-EF7C809782B5}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="amb" ID="{3B665298-8AF6-42F4-8310-28806E201C16}" ShortID="247813083">
+					<PropertyList>
+						<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Wind Gusts 2016 Lookout Snow - Biggest Gusts Long" ID="{1E35154E-9AE9-436C-8D13-6FCD345664A8}" ShortID="496569547">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Wind Gusts 2016 Lookout Snow - Biggest Gusts Long" ID="{A8EA1772-F049-4E69-89DF-B3C70584EBD4}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="7738.596"/>
+										<Property Name="LoopBegin" Type="Real64" Value="10.6325757575758"/>
+										<Property Name="LoopEnd" Type="Real64" Value="176.956439393939"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Wind Gusts 2016 Lookout Snow - Biggest Gusts Long.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="547880536"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Wind Gusts 2016 Lookout Snow - Biggest Gusts Long" ID="{A8EA1772-F049-4E69-89DF-B3C70584EBD4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="chr_indoor" ID="{48361964-45B5-4F67-9F67-5BFBA2E307B8}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="chr_outdoor" ID="{CF0E3A23-FAEF-41BA-9EC3-D8DA4A494C82}"/>
+								<CustomState Name="" ID="{24C7A472-B586-4DDE-8331-1BBD1E93671E}" ShortID="639584808"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="chr_indoor" ID="{54BCEDA8-E39A-446B-A643-2947130D3717}"/>
+								<CustomState Name="" ID="{8C225D87-CE20-443D-AF54-0B7A20FDA67D}" ShortID="791255567">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16" Value="50"/>
+										<Property Name="Volume" Type="Real64" Value="-5"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
