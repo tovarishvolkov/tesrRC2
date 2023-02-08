@@ -16,7 +16,7 @@
     "Id": "3161908922",
     "GUID": "{9AF0EBD7-2FD5-41AC-96AA-FBAEF073700F}",
     "Language": "SFX",
-    "Hash": "1865669838",
+    "Hash": "4258673478",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\main",
     "ShortName": "main",
     "Path": "main.bnk",
@@ -434,6 +434,20 @@
         ]
        }
       ]
+     }
+    ],
+    "IncludedAuxBusses": [
+     {
+      "Id": "2061305165",
+      "Name": "rev_indoor_big",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\aux2\\rev_indoor_big",
+      "GUID": "{5DF9886B-BB90-40A0-9FAF-479AFFA6FD61}"
+     },
+     {
+      "Id": "2380144714",
+      "Name": "rev_intdoor_small",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\aux2\\rev_intdoor_small",
+      "GUID": "{A6295A75-F7C1-4547-A2CF-0B83B3DFE2CB}"
      }
     ],
     "GameParameters": [

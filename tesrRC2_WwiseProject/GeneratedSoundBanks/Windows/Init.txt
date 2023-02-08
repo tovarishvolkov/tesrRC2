@@ -34,6 +34,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	1308072702	rev_hf_damping			\Default Work Unit\rev\rev_hf_damping	
 	1672330836	rev_diffusion			\Default Work Unit\rev\rev_diffusion	
 	1684592609	rev_filter_band_gain			\Default Work Unit\rev\rev_filter_band_gain	
+	2267810008	rev_balance_outdoor			\Default Work Unit\rev_balance_outdoor	
 	3684179601	del_filter_gain			\Default Work Unit\del\del_filter_gain	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
@@ -46,17 +47,26 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	1117531639	amb			\Default Work Unit\Master Audio Bus\sfx\amb	
 	1195860610	chr_move_fts			\Default Work Unit\Master Audio Bus\sfx\chr\chr_move\chr_move_fts	
 	3111693583	wpn_tail			\Default Work Unit\Master Audio Bus\sfx\wpn\wpn_tail	
+	3368497517	aux2			\Default Work Unit\Master Audio Bus\aux2	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	377355006	rev_indoor			\Default Work Unit\Master Audio Bus\aux\rev_indoor	
 	378875104	del			\Default Work Unit\Master Audio Bus\aux\del	
+	1687993343	rev_outdoor_generic			\Default Work Unit\Master Audio Bus\aux2\rev_outdoor_generic	
 	1857588325	rev_outdoor			\Default Work Unit\Master Audio Bus\aux\rev_outdoor	
+	2061305165	rev_indoor_big			\Default Work Unit\Master Audio Bus\aux2\rev_indoor_big	
+	2118898693	rev_outdoor_medium			\Default Work Unit\Master Audio Bus\aux2\rev_outdoor_medium	
+	2380144714	rev_intdoor_small			\Default Work Unit\Master Audio Bus\aux2\rev_intdoor_small	
 
 Effect plug-ins	ID	Name	Type				Notes
 	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
 	393602995	Wwise Stereo Delay (Custom)	Wwise Stereo Delay			
 	561318128	Wwise RoomVerb (Custom)	Wwise RoomVerb			
+	713696496	Underground_Parking1 (Custom)	Wwise Matrix Reverb			
+	730890656	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb			
+	2171127646	Hall_Conversation	Wwise RoomVerb			
+	2995775460	Room_Small	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

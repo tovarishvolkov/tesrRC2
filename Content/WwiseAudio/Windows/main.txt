@@ -26,6 +26,18 @@ Custom State	ID	Name	State Group	Owner		Notes
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	3111693583	wpn_tail			\Default Work Unit\wpn_tail	
 
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3368497517	aux2			\Default Work Unit\Master Audio Bus\aux2	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	2061305165	rev_indoor_big			\Default Work Unit\Master Audio Bus\aux2\rev_indoor_big	
+	2380144714	rev_intdoor_small			\Default Work Unit\Master Audio Bus\aux2\rev_intdoor_small	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2171127646	Hall_Conversation	Wwise RoomVerb			
+	2995775460	Room_Small	Wwise RoomVerb			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	24916773	UEFPS_Clothes__Bag_4	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Bag\UEFPS_Clothes__Bag_4_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_foley\chr_move_foley_bag\UEFPS_Clothes__Bag_4		58916
 	119907385	WP_FP_AK47Shot_body_A01	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\WP_FP_AK47Shot_body_A01_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_body\WP_FP_AK47Shot_body_A01		90552

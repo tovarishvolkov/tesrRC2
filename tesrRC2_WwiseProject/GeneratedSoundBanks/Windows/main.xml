@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>D:\Projects\tesrRC2\tesrRC2_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="3161908922" GUID="{9AF0EBD7-2FD5-41AC-96AA-FBAEF073700F}" Language="SFX" Hash="1492936160">
+		<SoundBank Id="3161908922" GUID="{9AF0EBD7-2FD5-41AC-96AA-FBAEF073700F}" Language="SFX" Hash="1865669838">
 			<ObjectPath>\SoundBanks\Default Work Unit\main</ObjectPath>
 			<ShortName>main</ShortName>
 			<Path>main.bnk</Path>
@@ -17,7 +17,7 @@
 					<IncludedMemoryFiles>
 						<File Id="547880536" Language="SFX">
 							<ShortName>Wind Gusts 2016 Lookout Snow - Biggest Gusts Long.wav</ShortName>
-							<Path>SFX\Wind Gusts 2016 Lookout Snow - Biggest Gusts Long_6E58E766.wem</Path>
+							<Path>SFX\Wind Gusts 2016 Lookout Snow - Biggest Gusts Long_96233AD4.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -149,7 +149,7 @@
 						</File>
 						<File Id="296647904" Language="SFX">
 							<ShortName>WP_FP_AK47Shot_Tail_A2.WAV</ShortName>
-							<Path>SFX\WP_FP_AK47Shot_Tail_A2_F7D7A6A7.wem</Path>
+							<Path>SFX\WP_FP_AK47Shot_Tail_A2_C6D51573.wem</Path>
 						</File>
 						<File Id="335805685" Language="SFX">
 							<ShortName>WP_FP_AK47Shot_body_A02.WAV</ShortName>
@@ -181,7 +181,7 @@
 						</File>
 						<File Id="494308763" Language="SFX">
 							<ShortName>WP_FP_AK47Shot_Tail_A1.WAV</ShortName>
-							<Path>SFX\WP_FP_AK47Shot_Tail_A1_2B617AE1.wem</Path>
+							<Path>SFX\WP_FP_AK47Shot_Tail_A1_47762486.wem</Path>
 						</File>
 						<File Id="501804727" Language="SFX">
 							<ShortName>Shoot_Punch_3.wav</ShortName>
@@ -205,7 +205,7 @@
 						</File>
 						<File Id="638749931" Language="SFX">
 							<ShortName>WP_FP_AK47Shot_Tail_A4.WAV</ShortName>
-							<Path>SFX\WP_FP_AK47Shot_Tail_A4_0DA18BB7.wem</Path>
+							<Path>SFX\WP_FP_AK47Shot_Tail_A4_4E2AA773.wem</Path>
 						</File>
 						<File Id="661534329" Language="SFX">
 							<ShortName>WP_FP_AK47Shot_Tail_A1.WAV</ShortName>
@@ -225,7 +225,7 @@
 						</File>
 						<File Id="843689611" Language="SFX">
 							<ShortName>WP_FP_AK47Shot_Tail_A3.WAV</ShortName>
-							<Path>SFX\WP_FP_AK47Shot_Tail_A3_F95ED8F7.wem</Path>
+							<Path>SFX\WP_FP_AK47Shot_Tail_A3_AD3DBAC7.wem</Path>
 						</File>
 						<File Id="851363444" Language="SFX">
 							<ShortName>Shoot_Tail_1.wav</ShortName>

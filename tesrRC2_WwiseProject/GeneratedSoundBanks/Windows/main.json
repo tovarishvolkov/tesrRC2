@@ -16,7 +16,7 @@
     "Id": "3161908922",
     "GUID": "{9AF0EBD7-2FD5-41AC-96AA-FBAEF073700F}",
     "Language": "SFX",
-    "Hash": "1492936160",
+    "Hash": "1865669838",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\main",
     "ShortName": "main",
     "Path": "main.bnk",
@@ -32,7 +32,7 @@
         "Id": "547880536",
         "Language": "SFX",
         "ShortName": "Wind Gusts 2016 Lookout Snow - Biggest Gusts Long.wav",
-        "Path": "SFX\\Wind Gusts 2016 Lookout Snow - Biggest Gusts Long_6E58E766.wem"
+        "Path": "SFX\\Wind Gusts 2016 Lookout Snow - Biggest Gusts Long_96233AD4.wem"
        }
       ]
      },
@@ -245,7 +245,7 @@
         "Id": "296647904",
         "Language": "SFX",
         "ShortName": "WP_FP_AK47Shot_Tail_A2.WAV",
-        "Path": "SFX\\WP_FP_AK47Shot_Tail_A2_F7D7A6A7.wem"
+        "Path": "SFX\\WP_FP_AK47Shot_Tail_A2_C6D51573.wem"
        },
        {
         "Id": "335805685",
@@ -293,7 +293,7 @@
         "Id": "494308763",
         "Language": "SFX",
         "ShortName": "WP_FP_AK47Shot_Tail_A1.WAV",
-        "Path": "SFX\\WP_FP_AK47Shot_Tail_A1_2B617AE1.wem"
+        "Path": "SFX\\WP_FP_AK47Shot_Tail_A1_47762486.wem"
        },
        {
         "Id": "501804727",
@@ -329,7 +329,7 @@
         "Id": "638749931",
         "Language": "SFX",
         "ShortName": "WP_FP_AK47Shot_Tail_A4.WAV",
-        "Path": "SFX\\WP_FP_AK47Shot_Tail_A4_0DA18BB7.wem"
+        "Path": "SFX\\WP_FP_AK47Shot_Tail_A4_4E2AA773.wem"
        },
        {
         "Id": "661534329",
@@ -359,7 +359,7 @@
         "Id": "843689611",
         "Language": "SFX",
         "ShortName": "WP_FP_AK47Shot_Tail_A3.WAV",
-        "Path": "SFX\\WP_FP_AK47Shot_Tail_A3_F95ED8F7.wem"
+        "Path": "SFX\\WP_FP_AK47Shot_Tail_A3_AD3DBAC7.wem"
        },
        {
         "Id": "851363444",
