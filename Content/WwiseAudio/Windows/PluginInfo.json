@@ -5,10 +5,10 @@
   "BasePlatform": "Windows",
   "Plugins": [
    {
-    "Name": "Wwise Matrix Reverb",
-    "ID": "7536643",
-    "DLL": "AkMatrixReverb",
-    "StaticLib": "AkMatrixReverbFX"
+    "Name": "Wwise Parametric EQ",
+    "ID": "6881283",
+    "DLL": "AkParametricEQ",
+    "StaticLib": "AkParametricEQFX"
    },
    {
     "Name": "Wwise RoomVerb",

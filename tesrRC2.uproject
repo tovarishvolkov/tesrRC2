@@ -7,7 +7,11 @@
 		{
 			"Name": "tesrRC2",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"AkAudio",
+				"Engine"
+			]
 		}
 	],
 	"Plugins": [

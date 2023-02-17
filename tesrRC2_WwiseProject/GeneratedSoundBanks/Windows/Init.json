@@ -16,7 +16,7 @@
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "2157411394",
+    "Hash": "1604384123",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -38,6 +38,12 @@
       "Name": "rev_outdoor_generic",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\aux2\\rev_outdoor_generic",
       "GUID": "{254D0349-1BD1-4827-ADAD-0E80B6226717}"
+     },
+     {
+      "Id": "1825940626",
+      "Name": "del2",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\aux3\\del2",
+      "GUID": "{6EA4113C-5C50-4406-A0BD-2FDB21B0EF07}"
      },
      {
       "Id": "1857588325",
@@ -62,6 +68,24 @@
       "Name": "rev_intdoor_small",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\aux2\\rev_intdoor_small",
       "GUID": "{A6295A75-F7C1-4547-A2CF-0B83B3DFE2CB}"
+     },
+     {
+      "Id": "2587660709",
+      "Name": "del2_015",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\aux3\\del2_015",
+      "GUID": "{31511B15-54EB-491E-99A4-139B87D3AB23}"
+     },
+     {
+      "Id": "2604438288",
+      "Name": "del2_003",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\aux3\\del2_003",
+      "GUID": "{A88EFA3F-9E4B-41CD-A9CF-6D18EF426FA1}"
+     },
+     {
+      "Id": "2621215878",
+      "Name": "del2_030",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\aux3\\del2_030",
+      "GUID": "{EC81B701-AE42-480C-B4FD-9FE990B29472}"
      }
     ],
     "GameParameters": [
@@ -76,12 +100,6 @@
       "Name": "rev_pre_delay",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\rev\\rev_pre_delay",
       "GUID": "{3E4FC29C-080B-4D6C-AAB0-05D36A9EF3B3}"
-     },
-     {
-      "Id": "153877265",
-      "Name": "rev_balance",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\rev_balance",
-      "GUID": "{F75BC36C-3845-4E7E-A99A-124B9D0600A7}"
      },
      {
       "Id": "422411778",
@@ -126,10 +144,44 @@
       "GUID": "{3B85A441-6B2B-4085-9769-167CF5790ED8}"
      },
      {
+      "Id": "2834370659",
+      "Name": "eq_band_gain",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\eq_band_gain",
+      "GUID": "{18DE0141-C1D2-4661-8BA9-2F40A41D5616}"
+     },
+     {
       "Id": "3684179601",
       "Name": "del_filter_gain",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\del\\del_filter_gain",
       "GUID": "{2AFCDF00-ED4F-4B7E-9ED8-4E06ED955113}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "971753100",
+      "Name": "chr_indoor",
+      "ObjectPath": "\\States\\Default Work Unit\\chr_indoor",
+      "GUID": "{48361964-45B5-4F67-9F67-5BFBA2E307B8}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\chr_indoor\\None",
+        "GUID": "{04264E31-A632-4AFE-9089-22C4CB6DE0AE}"
+       },
+       {
+        "Id": "971753100",
+        "Name": "chr_indoor",
+        "ObjectPath": "\\States\\Default Work Unit\\chr_indoor\\chr_indoor",
+        "GUID": "{54BCEDA8-E39A-446B-A643-2947130D3717}"
+       },
+       {
+        "Id": "3689046263",
+        "Name": "chr_outdoor",
+        "ObjectPath": "\\States\\Default Work Unit\\chr_indoor\\chr_outdoor",
+        "GUID": "{CF0E3A23-FAEF-41BA-9EC3-D8DA4A494C82}"
+       }
+      ]
      }
     ]
    }

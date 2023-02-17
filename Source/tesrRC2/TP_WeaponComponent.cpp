@@ -7,6 +7,8 @@
 #include "GameFramework/PlayerController.h"
 #include "Camera/PlayerCameraManager.h"
 #include "Kismet/GameplayStatics.h"
+#include "AkComponent.h"
+#include "AkGameplayStatics.h"
 
 // Sets default values for this component's properties
 UTP_WeaponComponent::UTP_WeaponComponent()
@@ -48,6 +50,7 @@ void UTP_WeaponComponent::Fire()
 	//{
 	//	UGameplayStatics::PlaySoundAtLocation(this, FireSound, Character->GetActorLocation());
 	//}
+	
 	PlayShotSound();
 	// Try and play a firing animation if specified
 	if (FireAnimation != nullptr)
@@ -59,6 +62,8 @@ void UTP_WeaponComponent::Fire()
 			AnimInstance->Montage_Play(FireAnimation, 1.f);
 		}
 	}
+
+	
 }
 
 void UTP_WeaponComponent::PlayShotSound()
@@ -66,7 +71,7 @@ void UTP_WeaponComponent::PlayShotSound()
 
 	FOnAkPostEventCallback nullCallback;
 	PlayingId = UAkGameplayStatics::PostEvent(Event_ShotSound, GetOwner(), int32(0), nullCallback);
-
+	bIsFire = true;
 }
 
 void UTP_WeaponComponent::EndPlay(const EEndPlayReason::Type EndPlayReason)
@@ -75,7 +80,9 @@ void UTP_WeaponComponent::EndPlay(const EEndPlayReason::Type EndPlayReason)
 	{
 		// Unregister from the OnUseItem Event
 		Character->OnUseItem.RemoveDynamic(this, &UTP_WeaponComponent::Fire);
+		
 	}
+	
 }
 
 void UTP_WeaponComponent::AttachWeapon(AtesrRC2Character* TargetCharacter)

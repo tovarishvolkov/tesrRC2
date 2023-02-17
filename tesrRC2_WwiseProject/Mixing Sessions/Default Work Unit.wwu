@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{CCF639B2-93C1-4009-BB7E-621E17377F3F}" SchemaVersion="103">
 	<MixingSessions>
-		<WorkUnit Name="Default Work Unit" ID="{CCF639B2-93C1-4009-BB7E-621E17377F3F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{CCF639B2-93C1-4009-BB7E-621E17377F3F}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="New Mixing Session" ID="{3EED0038-420A-4BC2-B2C1-9439F3362A60}">
+					<ObjectList>
+						<ObjectRef Name="rev_indoor_big" ID="{5DF9886B-BB90-40A0-9FAF-479AFFA6FD61}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+						<ObjectRef Name="rev_intdoor_small" ID="{A6295A75-F7C1-4547-A2CF-0B83B3DFE2CB}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+						<ObjectRef Name="rev_outdoor_generic" ID="{254D0349-1BD1-4827-ADAD-0E80B6226717}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+						<ObjectRef Name="rev_outdoor_medium" ID="{99D901E7-AFC4-4B0D-B456-3AA7AD468C89}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+						<ObjectRef Name="del2" ID="{6EA4113C-5C50-4406-A0BD-2FDB21B0EF07}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+						<ObjectRef Name="del" ID="{1E13EDEF-53CB-424E-BB78-DAB00E943DAF}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+						<ObjectRef Name="del2_003" ID="{A88EFA3F-9E4B-41CD-A9CF-6D18EF426FA1}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+						<ObjectRef Name="del2_015" ID="{31511B15-54EB-491E-99A4-139B87D3AB23}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+						<ObjectRef Name="del2_030" ID="{EC81B701-AE42-480C-B4FD-9FE990B29472}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
 	</MixingSessions>
 </WwiseDocument>

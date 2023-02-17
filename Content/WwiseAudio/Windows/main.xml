@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>D:\Projects\tesrRC2\tesrRC2_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="3161908922" GUID="{9AF0EBD7-2FD5-41AC-96AA-FBAEF073700F}" Language="SFX" Hash="4258673478">
+		<SoundBank Id="3161908922" GUID="{9AF0EBD7-2FD5-41AC-96AA-FBAEF073700F}" Language="SFX" Hash="3474787703">
 			<ObjectPath>\SoundBanks\Default Work Unit\main</ObjectPath>
 			<ShortName>main</ShortName>
 			<Path>main.bnk</Path>
@@ -124,149 +124,241 @@
 							<Path>SFX\Stone_Steps\UEFPS_Footsteps_Stone_3_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="378875104" Name="del" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\aux\del" GUID="{1E13EDEF-53CB-424E-BB78-DAB00E943DAF}"/>
+					</AuxBusSends>
 				</Event>
-				<Event Id="1065512946" Name="play_wpn_shot" ObjectPath="\Events\wpn\play_wpn_shot" GUID="{A30167E7-A994-472B-A063-DF27896A0673}" DurationType="OneShot" DurationMin="1.229664" DurationMax="2.757778">
+				<Event Id="1065512946" Name="play_wpn_shot" ObjectPath="\Events\wpn\play_wpn_shot" GUID="{A30167E7-A994-472B-A063-DF27896A0673}" DurationType="OneShot" DurationMin="0.991276" DurationMax="3.687063">
 					<IncludedMemoryFiles>
-						<File Id="119907385" Language="SFX">
-							<ShortName>WP_FP_AK47Shot_body_A01.WAV</ShortName>
-							<Path>SFX\WP_FP_AK47Shot_body_A01_10C4C929.wem</Path>
+						<File Id="32059659" Language="SFX">
+							<ShortName>shot_tail_indoor\shot_tail_indoor_04.wav</ShortName>
+							<Path>SFX\shot_tail_indoor\shot_tail_indoor_04_10C4C929.wem</Path>
 						</File>
-						<File Id="141748067" Language="SFX">
-							<ShortName>WP_FP_AK47Shot_transient_A04.WAV</ShortName>
-							<Path>SFX\WP_FP_AK47Shot_transient_A04_10C4C929.wem</Path>
+						<File Id="63756252" Language="SFX">
+							<ShortName>shot_tail_indoor\shot_tail_indoor_02.wav</ShortName>
+							<Path>SFX\shot_tail_indoor\shot_tail_indoor_02_C56EDA19.wem</Path>
 						</File>
-						<File Id="179918553" Language="SFX">
-							<ShortName>Shoot_Punch_1.wav</ShortName>
-							<Path>SFX\Shoot_Punch_1_10C4C929.wem</Path>
+						<File Id="98637166" Language="SFX">
+							<ShortName>shot_transition\shot_transition_03.wav</ShortName>
+							<Path>SFX\shot_transition\shot_transition_03_B5F56441.wem</Path>
 						</File>
-						<File Id="219938875" Language="SFX">
-							<ShortName>WP_FP_AK47Shot_mech_A01.WAV</ShortName>
-							<Path>SFX\WP_FP_AK47Shot_mech_A01_10C4C929.wem</Path>
+						<File Id="105232043" Language="SFX">
+							<ShortName>shot_tail_outdoor_long_03.wav</ShortName>
+							<Path>SFX\shot_tail_outdoor_long_03_10C4C929.wem</Path>
 						</File>
-						<File Id="286914954" Language="SFX">
-							<ShortName>WP_FP_AK47Shot_mech_A04.WAV</ShortName>
-							<Path>SFX\WP_FP_AK47Shot_mech_A04_10C4C929.wem</Path>
+						<File Id="209765456" Language="SFX">
+							<ShortName>shot_tail_outdoor\shot_tail_outdoor_04.wav</ShortName>
+							<Path>SFX\shot_tail_outdoor\shot_tail_outdoor_04_A1D0DD47.wem</Path>
 						</File>
-						<File Id="296647904" Language="SFX">
-							<ShortName>WP_FP_AK47Shot_Tail_A2.WAV</ShortName>
-							<Path>SFX\WP_FP_AK47Shot_Tail_A2_C6D51573.wem</Path>
+						<File Id="242135135" Language="SFX">
+							<ShortName>shot_tail_outdoor\shot_tail_outdoor_01.wav</ShortName>
+							<Path>SFX\shot_tail_outdoor\shot_tail_outdoor_01_6F079940.wem</Path>
 						</File>
-						<File Id="335805685" Language="SFX">
-							<ShortName>WP_FP_AK47Shot_body_A02.WAV</ShortName>
-							<Path>SFX\WP_FP_AK47Shot_body_A02_10C4C929.wem</Path>
+						<File Id="282526503" Language="SFX">
+							<ShortName>shot_mech\shot_mech_03.wav</ShortName>
+							<Path>SFX\shot_mech\shot_mech_03_10C4C929.wem</Path>
 						</File>
-						<File Id="348322684" Language="SFX">
-							<ShortName>WP_FP_AK47Shot_Tail_A2.WAV</ShortName>
-							<Path>SFX\WP_FP_AK47Shot_Tail_A2_10C4C929.wem</Path>
+						<File Id="319226548" Language="SFX">
+							<ShortName>shot_body\shot_body_02.wav</ShortName>
+							<Path>SFX\shot_body\shot_body_02_74888386.wem</Path>
 						</File>
-						<File Id="372453720" Language="SFX">
-							<ShortName>WP_FP_AK47Shot_body_A04.WAV</ShortName>
-							<Path>SFX\WP_FP_AK47Shot_body_A04_10C4C929.wem</Path>
+						<File Id="412047916" Language="SFX">
+							<ShortName>shot_tail_indoor\shot_tail_indoor_03.wav</ShortName>
+							<Path>SFX\shot_tail_indoor\shot_tail_indoor_03_10C4C929.wem</Path>
 						</File>
-						<File Id="398448918" Language="SFX">
-							<ShortName>WP_FP_AK47Shot_transient_A02.WAV</ShortName>
-							<Path>SFX\WP_FP_AK47Shot_transient_A02_10C4C929.wem</Path>
+						<File Id="442847679" Language="SFX">
+							<ShortName>shot_body\shot_body_01.wav</ShortName>
+							<Path>SFX\shot_body\shot_body_01_10C4C929.wem</Path>
 						</File>
-						<File Id="447611173" Language="SFX">
-							<ShortName>Shoot_Tail_2.wav</ShortName>
-							<Path>SFX\Shoot_Tail_2_593E3545.wem</Path>
+						<File Id="443553733" Language="SFX">
+							<ShortName>shot_tail_outdoor_long_01.wav</ShortName>
+							<Path>SFX\shot_tail_outdoor_long_01_10C4C929.wem</Path>
 						</File>
-						<File Id="461898670" Language="SFX">
-							<ShortName>WP_FP_AK47Shot_Tail_A3.WAV</ShortName>
-							<Path>SFX\WP_FP_AK47Shot_Tail_A3_10C4C929.wem</Path>
+						<File Id="549399180" Language="SFX">
+							<ShortName>shot_mech\shot_mech_04.wav</ShortName>
+							<Path>SFX\shot_mech\shot_mech_04_10C4C929.wem</Path>
 						</File>
-						<File Id="485954773" Language="SFX">
-							<ShortName>Shoot_Punch_2.wav</ShortName>
-							<Path>SFX\Shoot_Punch_2_10C4C929.wem</Path>
+						<File Id="553348405" Language="SFX">
+							<ShortName>shot_tail_outdoor_long_02.wav</ShortName>
+							<Path>SFX\shot_tail_outdoor_long_02_10C4C929.wem</Path>
 						</File>
-						<File Id="494308763" Language="SFX">
-							<ShortName>WP_FP_AK47Shot_Tail_A1.WAV</ShortName>
-							<Path>SFX\WP_FP_AK47Shot_Tail_A1_47762486.wem</Path>
+						<File Id="591919378" Language="SFX">
+							<ShortName>shot_tail_outdoor\shot_tail_outdoor_03.wav</ShortName>
+							<Path>SFX\shot_tail_outdoor\shot_tail_outdoor_03_9CBB8EF3.wem</Path>
 						</File>
-						<File Id="501804727" Language="SFX">
-							<ShortName>Shoot_Punch_3.wav</ShortName>
-							<Path>SFX\Shoot_Punch_3_10C4C929.wem</Path>
+						<File Id="630926644" Language="SFX">
+							<ShortName>shot_kick\shot_kick_04.wav</ShortName>
+							<Path>SFX\shot_kick\shot_kick_04_10C4C929.wem</Path>
 						</File>
-						<File Id="536346620" Language="SFX">
-							<ShortName>WP_FP_AK47Shot_body_A03.WAV</ShortName>
-							<Path>SFX\WP_FP_AK47Shot_body_A03_10C4C929.wem</Path>
+						<File Id="669380658" Language="SFX">
+							<ShortName>shot_kick\shot_kick_02.wav</ShortName>
+							<Path>SFX\shot_kick\shot_kick_02_10C4C929.wem</Path>
 						</File>
-						<File Id="550925127" Language="SFX">
-							<ShortName>WP_FP_AK47Shot_mech_A03.WAV</ShortName>
-							<Path>SFX\WP_FP_AK47Shot_mech_A03_10C4C929.wem</Path>
+						<File Id="671186861" Language="SFX">
+							<ShortName>shot_transition\shot_transition_01.wav</ShortName>
+							<Path>SFX\shot_transition\shot_transition_01_A69780FF.wem</Path>
 						</File>
-						<File Id="599714546" Language="SFX">
-							<ShortName>WP_FP_AK47Shot_Tail_A4.WAV</ShortName>
-							<Path>SFX\WP_FP_AK47Shot_Tail_A4_10C4C929.wem</Path>
+						<File Id="762718164" Language="SFX">
+							<ShortName>shot_kick\shot_kick_01.wav</ShortName>
+							<Path>SFX\shot_kick\shot_kick_01_10C4C929.wem</Path>
 						</File>
-						<File Id="615400086" Language="SFX">
-							<ShortName>Shoot_Punch_4.wav</ShortName>
-							<Path>SFX\Shoot_Punch_4_10C4C929.wem</Path>
+						<File Id="813162444" Language="SFX">
+							<ShortName>shot_body\shot_body_03.wav</ShortName>
+							<Path>SFX\shot_body\shot_body_03_AB8F10D7.wem</Path>
 						</File>
-						<File Id="638749931" Language="SFX">
-							<ShortName>WP_FP_AK47Shot_Tail_A4.WAV</ShortName>
-							<Path>SFX\WP_FP_AK47Shot_Tail_A4_4E2AA773.wem</Path>
+						<File Id="877950958" Language="SFX">
+							<ShortName>shot_tail_outdoor_long_04.wav</ShortName>
+							<Path>SFX\shot_tail_outdoor_long_04_10C4C929.wem</Path>
 						</File>
-						<File Id="661534329" Language="SFX">
-							<ShortName>WP_FP_AK47Shot_Tail_A1.WAV</ShortName>
-							<Path>SFX\WP_FP_AK47Shot_Tail_A1_10C4C929.wem</Path>
+						<File Id="880079457" Language="SFX">
+							<ShortName>shot_kick\shot_kick_03.wav</ShortName>
+							<Path>SFX\shot_kick\shot_kick_03_10C4C929.wem</Path>
 						</File>
-						<File Id="718845180" Language="SFX">
-							<ShortName>WP_FP_AK47Shot_transient_A03.WAV</ShortName>
-							<Path>SFX\WP_FP_AK47Shot_transient_A03_10C4C929.wem</Path>
+						<File Id="945517092" Language="SFX">
+							<ShortName>shot_mech\shot_mech_01.wav</ShortName>
+							<Path>SFX\shot_mech\shot_mech_01_10C4C929.wem</Path>
 						</File>
-						<File Id="750480184" Language="SFX">
-							<ShortName>Shoot_Tail_3.wav</ShortName>
-							<Path>SFX\Shoot_Tail_3_42AEA847.wem</Path>
+						<File Id="969392037" Language="SFX">
+							<ShortName>shot_transition\shot_transition_04.wav</ShortName>
+							<Path>SFX\shot_transition\shot_transition_04_10C4C929.wem</Path>
 						</File>
-						<File Id="769075720" Language="SFX">
-							<ShortName>WP_FP_AK47Shot_transient_A01.WAV</ShortName>
-							<Path>SFX\WP_FP_AK47Shot_transient_A01_10C4C929.wem</Path>
+						<File Id="979262880" Language="SFX">
+							<ShortName>shot_tail_indoor\shot_tail_indoor_01.wav</ShortName>
+							<Path>SFX\shot_tail_indoor\shot_tail_indoor_01_93A2B593.wem</Path>
 						</File>
-						<File Id="843689611" Language="SFX">
-							<ShortName>WP_FP_AK47Shot_Tail_A3.WAV</ShortName>
-							<Path>SFX\WP_FP_AK47Shot_Tail_A3_AD3DBAC7.wem</Path>
+						<File Id="996357027" Language="SFX">
+							<ShortName>shot_mech\shot_mech_02.wav</ShortName>
+							<Path>SFX\shot_mech\shot_mech_02_10C4C929.wem</Path>
 						</File>
-						<File Id="851363444" Language="SFX">
-							<ShortName>Shoot_Tail_1.wav</ShortName>
-							<Path>SFX\Shoot_Tail_1_A0E6AD1F.wem</Path>
+						<File Id="1007766969" Language="SFX">
+							<ShortName>shot_body\shot_body_04.wav</ShortName>
+							<Path>SFX\shot_body\shot_body_04_F2A1A740.wem</Path>
 						</File>
-						<File Id="982294340" Language="SFX">
-							<ShortName>WP_FP_AK47Shot_mech_A02.WAV</ShortName>
-							<Path>SFX\WP_FP_AK47Shot_mech_A02_10C4C929.wem</Path>
+						<File Id="1042160656" Language="SFX">
+							<ShortName>shot_transition\shot_transition_02.wav</ShortName>
+							<Path>SFX\shot_transition\shot_transition_02_220BC030.wem</Path>
 						</File>
-						<File Id="1025759597" Language="SFX">
-							<ShortName>Shoot_Tail_4.wav</ShortName>
-							<Path>SFX\Shoot_Tail_4_8A29C0F0.wem</Path>
+						<File Id="1072918428" Language="SFX">
+							<ShortName>shot_tail_outdoor\shot_tail_outdoor_02.wav</ShortName>
+							<Path>SFX\shot_tail_outdoor\shot_tail_outdoor_02_AA47F898.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<DefaultSwitchValue>{A775C874-6AC7-4E72-A2E6-D284B3141AA6}</DefaultSwitchValue>
 					<SwitchContainers>
 						<SwitchContainer SwitchValue="{A775C874-6AC7-4E72-A2E6-D284B3141AA6}">
 							<Media>
-								<File Id="447611173"/>
-								<File Id="750480184"/>
-								<File Id="851363444"/>
-								<File Id="1025759597"/>
+								<File Id="32059659"/>
+								<File Id="63756252"/>
+								<File Id="412047916"/>
+								<File Id="979262880"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{B0CE23D6-9A2A-4132-9F77-A1FD30796A1C}">
 							<Media>
-								<File Id="296647904"/>
-								<File Id="494308763"/>
-								<File Id="638749931"/>
-								<File Id="843689611"/>
+								<File Id="209765456"/>
+								<File Id="242135135"/>
+								<File Id="591919378"/>
+								<File Id="1072918428"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{06C1B1EE-8B81-4693-9B60-B6B447C2952A}">
 							<Media>
-								<File Id="348322684"/>
-								<File Id="461898670"/>
-								<File Id="599714546"/>
-								<File Id="661534329"/>
+								<File Id="105232043"/>
+								<File Id="443553733"/>
+								<File Id="553348405"/>
+								<File Id="877950958"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
+					<AuxBusSends>
+						<AuxBus Id="2587660709" Name="del2_015" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\aux3\del2_015" GUID="{31511B15-54EB-491E-99A4-139B87D3AB23}"/>
+						<AuxBus Id="2604438288" Name="del2_003" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\aux3\del2_003" GUID="{A88EFA3F-9E4B-41CD-A9CF-6D18EF426FA1}"/>
+						<AuxBus Id="2621215878" Name="del2_030" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\aux3\del2_030" GUID="{EC81B701-AE42-480C-B4FD-9FE990B29472}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="997856860" Name="play_wpn_shot_ref" ObjectPath="\Events\wpn\play_wpn_shot_ref" GUID="{BC8A563B-8F5A-491A-BFA5-4A1D85CEDFCC}" MaxAttenuation="10000." DurationType="OneShot" DurationMin="0.808333" DurationMax="4.349005">
+					<IncludedMemoryFiles>
+						<File Id="16703720" Language="SFX">
+							<ShortName>shot_tail_outdoor\shot_tail_outdoor_01.wav</ShortName>
+							<Path>SFX\shot_tail_outdoor\shot_tail_outdoor_01_25FCD860.wem</Path>
+						</File>
+						<File Id="32059659" Language="SFX">
+							<ShortName>shot_tail_indoor\shot_tail_indoor_04.wav</ShortName>
+							<Path>SFX\shot_tail_indoor\shot_tail_indoor_04_10C4C929.wem</Path>
+						</File>
+						<File Id="63756252" Language="SFX">
+							<ShortName>shot_tail_indoor\shot_tail_indoor_02.wav</ShortName>
+							<Path>SFX\shot_tail_indoor\shot_tail_indoor_02_C56EDA19.wem</Path>
+						</File>
+						<File Id="104081736" Language="SFX">
+							<ShortName>shot_tail_outdoor\shot_tail_outdoor_02.wav</ShortName>
+							<Path>SFX\shot_tail_outdoor\shot_tail_outdoor_02_7818EEF2.wem</Path>
+						</File>
+						<File Id="169041833" Language="SFX">
+							<ShortName>shot_tail_outdoor_long_02.wav</ShortName>
+							<Path>SFX\shot_tail_outdoor_long_02_E184A6F9.wem</Path>
+						</File>
+						<File Id="378852303" Language="SFX">
+							<ShortName>shot_tail_outdoor_long_03.wav</ShortName>
+							<Path>SFX\shot_tail_outdoor_long_03_9646EDE5.wem</Path>
+						</File>
+						<File Id="412047916" Language="SFX">
+							<ShortName>shot_tail_indoor\shot_tail_indoor_03.wav</ShortName>
+							<Path>SFX\shot_tail_indoor\shot_tail_indoor_03_10C4C929.wem</Path>
+						</File>
+						<File Id="531000373" Language="SFX">
+							<ShortName>shot_tail_outdoor\shot_tail_outdoor_03.wav</ShortName>
+							<Path>SFX\shot_tail_outdoor\shot_tail_outdoor_03_7283B281.wem</Path>
+						</File>
+						<File Id="537069956" Language="SFX">
+							<ShortName>shot_tail_outdoor_long_04.wav</ShortName>
+							<Path>SFX\shot_tail_outdoor_long_04_AD41830E.wem</Path>
+						</File>
+						<File Id="667943352" Language="SFX">
+							<ShortName>shot_tail_outdoor_long_01.wav</ShortName>
+							<Path>SFX\shot_tail_outdoor_long_01_91BAD89E.wem</Path>
+						</File>
+						<File Id="938737134" Language="SFX">
+							<ShortName>shot_tail_outdoor\shot_tail_outdoor_04.wav</ShortName>
+							<Path>SFX\shot_tail_outdoor\shot_tail_outdoor_04_59FA8BF7.wem</Path>
+						</File>
+						<File Id="979262880" Language="SFX">
+							<ShortName>shot_tail_indoor\shot_tail_indoor_01.wav</ShortName>
+							<Path>SFX\shot_tail_indoor\shot_tail_indoor_01_93A2B593.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{A775C874-6AC7-4E72-A2E6-D284B3141AA6}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{A775C874-6AC7-4E72-A2E6-D284B3141AA6}">
+							<Media>
+								<File Id="32059659"/>
+								<File Id="63756252"/>
+								<File Id="412047916"/>
+								<File Id="979262880"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{B0CE23D6-9A2A-4132-9F77-A1FD30796A1C}">
+							<Media>
+								<File Id="16703720"/>
+								<File Id="104081736"/>
+								<File Id="531000373"/>
+								<File Id="938737134"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{06C1B1EE-8B81-4693-9B60-B6B447C2952A}">
+							<Media>
+								<File Id="169041833"/>
+								<File Id="378852303"/>
+								<File Id="537069956"/>
+								<File Id="667943352"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<AuxBusSends>
+						<AuxBus Id="2587660709" Name="del2_015" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\aux3\del2_015" GUID="{31511B15-54EB-491E-99A4-139B87D3AB23}"/>
+						<AuxBus Id="2604438288" Name="del2_003" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\aux3\del2_003" GUID="{A88EFA3F-9E4B-41CD-A9CF-6D18EF426FA1}"/>
+						<AuxBus Id="2621215878" Name="del2_030" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\aux3\del2_030" GUID="{EC81B701-AE42-480C-B4FD-9FE990B29472}"/>
+					</AuxBusSends>
 				</Event>
 			</IncludedEvents>
 			<IncludedAuxBusses>
@@ -274,6 +366,10 @@
 				<AuxBus Id="2380144714" Name="rev_intdoor_small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\aux2\rev_intdoor_small" GUID="{A6295A75-F7C1-4547-A2CF-0B83B3DFE2CB}"/>
 			</IncludedAuxBusses>
 			<GameParameters>
+				<GameParameter Id="765892940" Name="del2_distance" ObjectPath="\Game Parameters\Default Work Unit\del2_distance" GUID="{984F06B5-B773-46DF-8299-6D6222E04A9B}"/>
+				<GameParameter Id="1308072702" Name="rev_hf_damping" ObjectPath="\Game Parameters\Default Work Unit\rev\rev_hf_damping" GUID="{A1A39C8C-AA58-4C85-A228-FE10734CEE3C}"/>
+				<GameParameter Id="1672330836" Name="rev_diffusion" ObjectPath="\Game Parameters\Default Work Unit\rev\rev_diffusion" GUID="{F238AA67-F22B-4648-9042-B8648D5FF09D}"/>
+				<GameParameter Id="1684592609" Name="rev_filter_band_gain" ObjectPath="\Game Parameters\Default Work Unit\rev\rev_filter_band_gain" GUID="{D6FBB5B8-06FD-4D6A-8157-1053C0F0A967}"/>
 				<GameParameter Id="3111693583" Name="wpn_tail" ObjectPath="\Game Parameters\Default Work Unit\wpn_tail" GUID="{C251EC34-5437-4C09-8749-3E2DC1E9BB06}"/>
 			</GameParameters>
 			<SwitchGroups>

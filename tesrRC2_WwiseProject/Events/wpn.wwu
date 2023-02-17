@@ -34,6 +34,51 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="play_wpn_shot_ref" ID="{BC8A563B-8F5A-491A-BFA5-4A1D85CEDFCC}">
+					<ChildrenList>
+						<Action Name="" ID="{67A2C7C0-19DA-4A24-88BF-1525A4A88335}" ShortID="388340449">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="wpn_shot_tail_ref" ID="{C917D38C-0DF0-442D-892C-8FDF67602247}" WorkUnitID="{79566E07-8B88-4955-8B1F-3DB23900A545}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F145437A-49F4-422F-9AF9-3A3F19753A03}" ShortID="336510120">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="36"/>
+								<Property Name="SeekPercent" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{394C8C51-E4B4-4EB5-B3AF-568A7183C040}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="15"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="SeekTime" Type="Real64" Value="0.03">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{9ED6D423-5A77-42AE-A0B1-54512C8A9B87}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="wpn_shot_tail_ref" ID="{C917D38C-0DF0-442D-892C-8FDF67602247}" WorkUnitID="{79566E07-8B88-4955-8B1F-3DB23900A545}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

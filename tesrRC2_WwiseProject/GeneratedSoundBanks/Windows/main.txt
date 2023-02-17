@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	326539261	play_chr_move_fts			\chr\play_chr_move_fts	
+	997856860	play_wpn_shot_ref			\wpn\play_wpn_shot_ref	
 	1065512946	play_wpn_shot			\wpn\play_wpn_shot	
 	2178935873	play_chr_move_foley			\chr\play_chr_move_foley	
 	2959533290	play_amb			\amb\play_amb	
@@ -21,63 +22,73 @@ State	ID	Name	State Group			Notes
 	3689046263	chr_outdoor	chr_indoor			
 
 Custom State	ID	Name	State Group	Owner		Notes
+	445836355	chr_indoor	chr_indoor	\Actor-Mixer Hierarchy\wpn\wpn\wpn_ref\wpn_shot_tail_ref		
 	791255567	chr_indoor	chr_indoor	\Actor-Mixer Hierarchy\amb\amb		
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
+	765892940	del2_distance			\Default Work Unit\del2_distance	
 	3111693583	wpn_tail			\Default Work Unit\wpn_tail	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	16703720	shot_tail_outdoor_01	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\shot_tail_outdoor\shot_tail_outdoor_01_25FCD860.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_ref\wpn_shot_tail_ref\wpn_shot_tail_middle\shot_tail_outdoor_01		472500
 	24916773	UEFPS_Clothes__Bag_4	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Bag\UEFPS_Clothes__Bag_4_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_foley\chr_move_foley_bag\UEFPS_Clothes__Bag_4		58916
-	119907385	WP_FP_AK47Shot_body_A01	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\WP_FP_AK47Shot_body_A01_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_body\WP_FP_AK47Shot_body_A01		90552
-	141748067	WP_FP_AK47Shot_transient_A04	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\WP_FP_AK47Shot_transient_A04_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_transient\WP_FP_AK47Shot_transient_A04		90552
-	179918553	Shoot_Punch_1	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Shoot_Punch_1_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_punch\Shoot_Punch_1		62254
+	32059659	shot_tail_indoor_04	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\shot_tail_indoor\shot_tail_indoor_04_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_ref\wpn_shot_tail_ref\wpn_shot_tail_short\shot_tail_indoor_04		200912
+	63756252	shot_tail_indoor_02	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\shot_tail_indoor\shot_tail_indoor_02_C56EDA19.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_ref\wpn_shot_tail_ref\wpn_shot_tail_short\shot_tail_indoor_02		181744
+	98637166	shot_transition_03	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\shot_transition\shot_transition_03_B5F56441.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_transient\shot_transition_03		45992
+	104081736	shot_tail_outdoor_02	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\shot_tail_outdoor\shot_tail_outdoor_02_7818EEF2.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_ref\wpn_shot_tail_ref\wpn_shot_tail_middle\shot_tail_outdoor_02		473944
+	105232043	shot_tail_outdoor_long_03	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\shot_tail_outdoor_long_03_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot_tail\wpn_shot_tail_long\shot_tail_outdoor_long_03		643688
+	169041833	shot_tail_outdoor_long_02	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\shot_tail_outdoor_long_02_E184A6F9.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_ref\wpn_shot_tail_ref\wpn_shot_tail_long\shot_tail_outdoor_long_02		702220
+	209765456	shot_tail_outdoor_04	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\shot_tail_outdoor\shot_tail_outdoor_04_A1D0DD47.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot_tail\wpn_shot_tail_middle\shot_tail_outdoor_04		493556
 	219438685	UEFPS_Clothes__Jacket_4	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Jacket\UEFPS_Clothes__Jacket_4_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_foley\chr_move_foley_jacket\UEFPS_Clothes__Jacket_4		102476
-	219938875	WP_FP_AK47Shot_mech_A01	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\WP_FP_AK47Shot_mech_A01_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_closure\WP_FP_AK47Shot_mech_A01		90552
+	242135135	shot_tail_outdoor_01	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\shot_tail_outdoor\shot_tail_outdoor_01_6F079940.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot_tail\wpn_shot_tail_middle\shot_tail_outdoor_01		469508
 	247241512	UEFPS_Footsteps_Stone_4	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Stone_Steps\UEFPS_Footsteps_Stone_4_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_fts\UEFPS_Footsteps_Stone_4		62516
-	286914954	WP_FP_AK47Shot_mech_A04	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\WP_FP_AK47Shot_mech_A04_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_closure\WP_FP_AK47Shot_mech_A04		90552
-	296647904	WP_FP_AK47Shot_Tail_A2	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\WP_FP_AK47Shot_Tail_A2_C6D51573.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot_tail\wpn_shot_tail_middle\WP_FP_AK47Shot_Tail_A2		277488
+	282526503	shot_mech_03	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\shot_mech\shot_mech_03_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_mech\shot_mech_03		48812
 	311082798	UEFPS_Footsteps_Stone_1	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Stone_Steps\UEFPS_Footsteps_Stone_1_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_fts\UEFPS_Footsteps_Stone_1		62516
+	319226548	shot_body_02	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\shot_body\shot_body_02_74888386.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_body\shot_body_02		44784
 	331882705	UEFPS_Footsteps_Stone_8	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Stone_Steps\UEFPS_Footsteps_Stone_8_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_fts\UEFPS_Footsteps_Stone_8		62516
-	335805685	WP_FP_AK47Shot_body_A02	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\WP_FP_AK47Shot_body_A02_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_body\WP_FP_AK47Shot_body_A02		90552
-	348322684	WP_FP_AK47Shot_Tail_A2	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\WP_FP_AK47Shot_Tail_A2_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot_tail\wpn_shot_tail_long\WP_FP_AK47Shot_Tail_A2		468460
-	372453720	WP_FP_AK47Shot_body_A04	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\WP_FP_AK47Shot_body_A04_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_body\WP_FP_AK47Shot_body_A04		90552
+	378852303	shot_tail_outdoor_long_03	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\shot_tail_outdoor_long_03_9646EDE5.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_ref\wpn_shot_tail_ref\wpn_shot_tail_long\shot_tail_outdoor_long_03		627732
 	387229046	UEFPS_Clothes__Bag_8	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Bag\UEFPS_Clothes__Bag_8_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_foley\chr_move_foley_bag\UEFPS_Clothes__Bag_8		58916
-	398448918	WP_FP_AK47Shot_transient_A02	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\WP_FP_AK47Shot_transient_A02_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_transient\WP_FP_AK47Shot_transient_A02		90552
+	412047916	shot_tail_indoor_03	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\shot_tail_indoor\shot_tail_indoor_03_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_ref\wpn_shot_tail_ref\wpn_shot_tail_short\shot_tail_indoor_03		155264
 	439433509	UEFPS_Clothes__Jacket_6	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Jacket\UEFPS_Clothes__Jacket_6_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_foley\chr_move_foley_jacket\UEFPS_Clothes__Jacket_6		102476
 	440826440	UEFPS_Clothes__Bag_6	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Bag\UEFPS_Clothes__Bag_6_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_foley\chr_move_foley_bag\UEFPS_Clothes__Bag_6		58916
-	447611173	Shoot_Tail_2	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Shoot_Tail_2_593E3545.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot_tail\wpn_shot_tail_short\Shoot_Tail_2		115232
+	442847679	shot_body_01	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\shot_body\shot_body_01_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_body\shot_body_01		41964
+	443553733	shot_tail_outdoor_long_01	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\shot_tail_outdoor_long_01_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot_tail\wpn_shot_tail_long\shot_tail_outdoor_long_01		687556
 	458855336	UEFPS_Clothes__Jacket_8	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Jacket\UEFPS_Clothes__Jacket_8_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_foley\chr_move_foley_jacket\UEFPS_Clothes__Jacket_8		102476
-	461898670	WP_FP_AK47Shot_Tail_A3	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\WP_FP_AK47Shot_Tail_A3_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot_tail\wpn_shot_tail_long\WP_FP_AK47Shot_Tail_A3		468460
-	485954773	Shoot_Punch_2	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Shoot_Punch_2_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_punch\Shoot_Punch_2		47488
-	494308763	WP_FP_AK47Shot_Tail_A1	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\WP_FP_AK47Shot_Tail_A1_47762486.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot_tail\wpn_shot_tail_middle\WP_FP_AK47Shot_Tail_A1		273796
-	501804727	Shoot_Punch_3	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Shoot_Punch_3_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_punch\Shoot_Punch_3		49194
-	536346620	WP_FP_AK47Shot_body_A03	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\WP_FP_AK47Shot_body_A03_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_body\WP_FP_AK47Shot_body_A03		90552
+	531000373	shot_tail_outdoor_03	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\shot_tail_outdoor\shot_tail_outdoor_03_7283B281.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_ref\wpn_shot_tail_ref\wpn_shot_tail_middle\shot_tail_outdoor_03		474724
+	537069956	shot_tail_outdoor_long_04	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\shot_tail_outdoor_long_04_AD41830E.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_ref\wpn_shot_tail_ref\wpn_shot_tail_long\shot_tail_outdoor_long_04		611456
 	547880536	Wind Gusts 2016 Lookout Snow - Biggest Gusts Long	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Wind Gusts 2016 Lookout Snow - Biggest Gusts Long_96233AD4.wem		\Actor-Mixer Hierarchy\amb\amb\Wind Gusts 2016 Lookout Snow - Biggest Gusts Long		35288128
-	550925127	WP_FP_AK47Shot_mech_A03	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\WP_FP_AK47Shot_mech_A03_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_closure\WP_FP_AK47Shot_mech_A03		90552
+	549399180	shot_mech_04	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\shot_mech\shot_mech_04_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_mech\shot_mech_04		44864
+	553348405	shot_tail_outdoor_long_02	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\shot_tail_outdoor_long_02_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot_tail\wpn_shot_tail_long\shot_tail_outdoor_long_02		702220
 	585910709	UEFPS_Footsteps_Stone_7	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Stone_Steps\UEFPS_Footsteps_Stone_7_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_fts\UEFPS_Footsteps_Stone_7		62516
-	599714546	WP_FP_AK47Shot_Tail_A4	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\WP_FP_AK47Shot_Tail_A4_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot_tail\wpn_shot_tail_long\WP_FP_AK47Shot_Tail_A4		481244
+	591919378	shot_tail_outdoor_03	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\shot_tail_outdoor\shot_tail_outdoor_03_9CBB8EF3.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot_tail\wpn_shot_tail_middle\shot_tail_outdoor_03		467860
 	606688462	UEFPS_Clothes__Bag_7	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Bag\UEFPS_Clothes__Bag_7_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_foley\chr_move_foley_bag\UEFPS_Clothes__Bag_7		58916
-	615400086	Shoot_Punch_4	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Shoot_Punch_4_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_punch\Shoot_Punch_4		47782
-	638749931	WP_FP_AK47Shot_Tail_A4	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\WP_FP_AK47Shot_Tail_A4_4E2AA773.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot_tail\wpn_shot_tail_middle\WP_FP_AK47Shot_Tail_A4		259876
+	630926644	shot_kick_04	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\shot_kick\shot_kick_04_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_kick\shot_kick_04		44864
 	641669533	UEFPS_Footsteps_Stone_2	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Stone_Steps\UEFPS_Footsteps_Stone_2_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_fts\UEFPS_Footsteps_Stone_2		62516
 	644199517	UEFPS_Footsteps_Stone_5	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Stone_Steps\UEFPS_Footsteps_Stone_5_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_fts\UEFPS_Footsteps_Stone_5		62516
-	661534329	WP_FP_AK47Shot_Tail_A1	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\WP_FP_AK47Shot_Tail_A1_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot_tail\wpn_shot_tail_long\WP_FP_AK47Shot_Tail_A1		481244
-	718845180	WP_FP_AK47Shot_transient_A03	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\WP_FP_AK47Shot_transient_A03_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_transient\WP_FP_AK47Shot_transient_A03		90552
+	667943352	shot_tail_outdoor_long_01	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\shot_tail_outdoor_long_01_91BAD89E.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_ref\wpn_shot_tail_ref\wpn_shot_tail_long\shot_tail_outdoor_long_01		672404
+	669380658	shot_kick_02	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\shot_kick\shot_kick_02_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_kick\shot_kick_02		48812
+	671186861	shot_transition_01	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\shot_transition\shot_transition_01_A69780FF.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_transient\shot_transition_01		40060
 	724455354	UEFPS_Clothes__Jacket_1	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Jacket\UEFPS_Clothes__Jacket_1_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_foley\chr_move_foley_jacket\UEFPS_Clothes__Jacket_1		102476
-	750480184	Shoot_Tail_3	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Shoot_Tail_3_42AEA847.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot_tail\wpn_shot_tail_short\Shoot_Tail_3		122206
-	769075720	WP_FP_AK47Shot_transient_A01	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\WP_FP_AK47Shot_transient_A01_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_transient\WP_FP_AK47Shot_transient_A01		90552
+	762718164	shot_kick_01	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\shot_kick\shot_kick_01_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_kick\shot_kick_01		41964
 	805748893	UEFPS_Clothes__Jacket_5	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Jacket\UEFPS_Clothes__Jacket_5_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_foley\chr_move_foley_jacket\UEFPS_Clothes__Jacket_5		102476
 	808823150	UEFPS_Clothes__Jacket_2	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Jacket\UEFPS_Clothes__Jacket_2_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_foley\chr_move_foley_jacket\UEFPS_Clothes__Jacket_2		102476
-	843689611	WP_FP_AK47Shot_Tail_A3	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\WP_FP_AK47Shot_Tail_A3_AD3DBAC7.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot_tail\wpn_shot_tail_middle\WP_FP_AK47Shot_Tail_A3		265232
-	851363444	Shoot_Tail_1	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Shoot_Tail_1_A0E6AD1F.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot_tail\wpn_shot_tail_short\Shoot_Tail_1		125294
+	813162444	shot_body_03	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\shot_body\shot_body_03_AB8F10D7.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_body\shot_body_03		46260
 	866608777	UEFPS_Clothes__Bag_5	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Bag\UEFPS_Clothes__Bag_5_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_foley\chr_move_foley_bag\UEFPS_Clothes__Bag_5		58916
+	877950958	shot_tail_outdoor_long_04	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\shot_tail_outdoor_long_04_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot_tail\wpn_shot_tail_long\shot_tail_outdoor_long_04		620864
+	880079457	shot_kick_03	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\shot_kick\shot_kick_03_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_kick\shot_kick_03		48812
 	913812359	UEFPS_Clothes__Bag_3	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Bag\UEFPS_Clothes__Bag_3_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_foley\chr_move_foley_bag\UEFPS_Clothes__Bag_3		58916
 	919242374	UEFPS_Clothes__Bag_2	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Bag\UEFPS_Clothes__Bag_2_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_foley\chr_move_foley_bag\UEFPS_Clothes__Bag_2		58916
+	938737134	shot_tail_outdoor_04	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\shot_tail_outdoor\shot_tail_outdoor_04_59FA8BF7.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_ref\wpn_shot_tail_ref\wpn_shot_tail_middle\shot_tail_outdoor_04		474504
+	945517092	shot_mech_01	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\shot_mech\shot_mech_01_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_mech\shot_mech_01		41964
 	949692509	UEFPS_Footsteps_Stone_6	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Stone_Steps\UEFPS_Footsteps_Stone_6_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_fts\UEFPS_Footsteps_Stone_6		62516
-	982294340	WP_FP_AK47Shot_mech_A02	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\WP_FP_AK47Shot_mech_A02_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_closure\WP_FP_AK47Shot_mech_A02		90552
+	969392037	shot_transition_04	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\shot_transition\shot_transition_04_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_transient\shot_transition_04		44864
+	979262880	shot_tail_indoor_01	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\shot_tail_indoor\shot_tail_indoor_01_93A2B593.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_ref\wpn_shot_tail_ref\wpn_shot_tail_short\shot_tail_indoor_01		170240
+	996357027	shot_mech_02	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\shot_mech\shot_mech_02_10C4C929.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_mech\shot_mech_02		48812
+	1007766969	shot_body_04	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\shot_body\shot_body_04_F2A1A740.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_body\shot_body_04		43508
 	1018279638	UEFPS_Footsteps_Stone_3	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Stone_Steps\UEFPS_Footsteps_Stone_3_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_fts\UEFPS_Footsteps_Stone_3		62516
 	1020422559	UEFPS_Clothes__Jacket_3	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Jacket\UEFPS_Clothes__Jacket_3_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_foley\chr_move_foley_jacket\UEFPS_Clothes__Jacket_3		102476
-	1025759597	Shoot_Tail_4	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Shoot_Tail_4_8A29C0F0.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot_tail\wpn_shot_tail_short\Shoot_Tail_4		125486
 	1030939619	UEFPS_Clothes__Bag_1	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Bag\UEFPS_Clothes__Bag_1_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_foley\chr_move_foley_bag\UEFPS_Clothes__Bag_1		58916
+	1042160656	shot_transition_02	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\shot_transition\shot_transition_02_220BC030.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot\wpn_shot_transient\shot_transition_02		47604
 	1067464638	UEFPS_Clothes__Jacket_7	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\Jacket\UEFPS_Clothes__Jacket_7_10C4C929.wem		\Actor-Mixer Hierarchy\chr\chr\chr_move\chr_move_foley\chr_move_foley_jacket\UEFPS_Clothes__Jacket_7		102476
+	1072918428	shot_tail_outdoor_02	D:\Projects\tesrRC2\tesrRC2_WwiseProject\.cache\Windows\SFX\shot_tail_outdoor\shot_tail_outdoor_02_AA47F898.wem		\Actor-Mixer Hierarchy\wpn\wpn\wpn_shot\wpn_shot_tail\wpn_shot_tail_middle\shot_tail_outdoor_02		493516
 

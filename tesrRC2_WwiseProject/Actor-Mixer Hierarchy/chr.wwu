@@ -4,6 +4,9 @@
 		<WorkUnit Name="chr" ID="{3724AC62-1C50-4093-93C9-AB2B8AD78039}" PersistMode="Standalone">
 			<ChildrenList>
 				<ActorMixer Name="chr" ID="{A2D35E86-1EF4-46AE-A764-E4B45F8A96FA}" ShortID="10374551">
+					<PropertyList>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE2B7858-959A-49B5-B63F-C41E6F84D707}"/>
@@ -469,6 +472,7 @@
 								<RandomSequenceContainer Name="chr_move_fts" ID="{B6489745-C500-4241-88FB-E4EA3B5E4209}" ShortID="760747642">
 									<PropertyList>
 										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -498,6 +502,9 @@
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="chr_move_fts" ID="{6E24998C-5832-49B4-AFB9-138776FE4D62}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="del" ID="{1E13EDEF-53CB-424E-BB78-DAB00E943DAF}" WorkUnitID="{E57B7995-1AE1-458A-AF79-EFC18C01F0DF}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>

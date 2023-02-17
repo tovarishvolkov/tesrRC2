@@ -1,6 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{53DE3298-D98B-41AE-A65A-926B4D634ACD}" SchemaVersion="103">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{53DE3298-D98B-41AE-A65A-926B4D634ACD}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{53DE3298-D98B-41AE-A65A-926B4D634ACD}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{375454D4-F080-4859-8629-E4FFE298E3FD}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="play_wpn_shot" ID="{A30167E7-A994-472B-A063-DF27896A0673}" WorkUnitID="{903DBC1C-8B93-40EC-8513-5A9FE64708B4}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="rev_balance_outdoor" ID="{3B85A441-6B2B-4085-9769-167CF5790ED8}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="del_out_dry" ID="{A3899155-A6FB-4201-B5D3-45D2F19C1008}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="del_filter_freq" ID="{48BC5F81-1455-4349-999D-8755ADDBF53A}"/>
+							<Value>20</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="rev_diffusion" ID="{F238AA67-F22B-4648-9042-B8648D5FF09D}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="del2_distance" ID="{984F06B5-B773-46DF-8299-6D6222E04A9B}"/>
+							<Value>28</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="rev_decay_time" ID="{C4A71F1B-8BDE-4881-A6A8-79341A38C092}"/>
+							<Value>3.38169642857143</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="del_crossfeed_l" ID="{491E0969-4AA3-496E-9310-584677A0725F}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="del_filter_gain" ID="{2AFCDF00-ED4F-4B7E-9ED8-4E06ED955113}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="wpn_tail" ID="{C251EC34-5437-4C09-8749-3E2DC1E9BB06}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="rev_hf_damping" ID="{A1A39C8C-AA58-4C85-A228-FE10734CEE3C}"/>
+							<Value>2.25</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="rev_filter_band_gain" ID="{D6FBB5B8-06FD-4D6A-8157-1053C0F0A967}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="rev_pre_delay" ID="{3E4FC29C-080B-4D6C-AAB0-05D36A9EF3B3}"/>
+							<Value>57.4776785714286</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="del_crossfeed_r" ID="{211E3999-D883-4D8F-948C-2E4AD8F5E5B0}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="del_out_wet" ID="{72A698F7-10FB-4DC7-BBE8-E83BD4E99D50}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="rev_balance" ID="{F75BC36C-3845-4E7E-A99A-124B9D0600A7}"/>
+							<Value>1500</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{871770D4-216A-49B8-8DCF-042FD471434C}"/>
+						<CurrentStateRef Name="chr_outdoor" ID="{CF0E3A23-FAEF-41BA-9EC3-D8DA4A494C82}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="wpn_tail_long" ID="{06C1B1EE-8B81-4693-9B60-B6B447C2952A}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

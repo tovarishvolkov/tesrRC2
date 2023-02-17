@@ -20,14 +20,20 @@ State	ID	Name	State Group			Notes
 	4235432358	rev_room_large	rev_room			
 
 Custom State	ID	Name	State Group	Owner		Notes
+	235584271	chr_indoor	chr_indoor	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\aux\del		
+	306467271	chr_indoor	chr_indoor	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\aux3\del2		
+	319642711	chr_indoor	chr_indoor	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\aux2\rev_outdoor_generic		
+	403021939	chr_indoor	chr_indoor	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\sfx\wpn		
 	604469591	rev_room_small	rev_room	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\aux\rev_indoor\Wwise RoomVerb (Custom)		
+	877807308	chr_outdoor	chr_indoor	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\sfx\wpn		
+	905044918	chr_indoor	chr_indoor	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\sfx\chr		
 	929193699	rev_room_medium	rev_room	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\aux\rev_indoor\Wwise RoomVerb (Custom)		
+	963572888	chr_indoor	chr_indoor	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\aux2\rev_outdoor_medium		
 	1003388938	rev_room_large	rev_room	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\aux\rev_indoor\Wwise RoomVerb (Custom)		
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	20863261	rev_decay_time			\Default Work Unit\rev\rev_decay_time	
 	22760086	rev_pre_delay			\Default Work Unit\rev\rev_pre_delay	
-	153877265	rev_balance			\Default Work Unit\rev_balance	
 	422411778	del_crossfeed_r			\Default Work Unit\del\del_crossfeed_r	
 	422411804	del_crossfeed_l			\Default Work Unit\del\del_crossfeed_l	
 	1192436428	del_out_wet			\Default Work Unit\del\del_out_wet	
@@ -35,6 +41,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	1672330836	rev_diffusion			\Default Work Unit\rev\rev_diffusion	
 	1684592609	rev_filter_band_gain			\Default Work Unit\rev\rev_filter_band_gain	
 	2267810008	rev_balance_outdoor			\Default Work Unit\rev_balance_outdoor	
+	2834370659	eq_band_gain			\Default Work Unit\eq_band_gain	
 	3684179601	del_filter_gain			\Default Work Unit\del\del_filter_gain	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
@@ -46,7 +53,9 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	1100459686	chr			\Default Work Unit\Master Audio Bus\sfx\chr	
 	1117531639	amb			\Default Work Unit\Master Audio Bus\sfx\amb	
 	1195860610	chr_move_fts			\Default Work Unit\Master Audio Bus\sfx\chr\chr_move\chr_move_fts	
+	2934116336	wpn_shot_tail_ref			\Default Work Unit\Master Audio Bus\sfx\wpn\wpn_shot_tail_ref	
 	3111693583	wpn_tail			\Default Work Unit\Master Audio Bus\sfx\wpn\wpn_tail	
+	3368497516	aux3			\Default Work Unit\Master Audio Bus\aux3	
 	3368497517	aux2			\Default Work Unit\Master Audio Bus\aux2	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
@@ -54,18 +63,28 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	377355006	rev_indoor			\Default Work Unit\Master Audio Bus\aux\rev_indoor	
 	378875104	del			\Default Work Unit\Master Audio Bus\aux\del	
 	1687993343	rev_outdoor_generic			\Default Work Unit\Master Audio Bus\aux2\rev_outdoor_generic	
+	1825940626	del2			\Default Work Unit\Master Audio Bus\aux3\del2	
 	1857588325	rev_outdoor			\Default Work Unit\Master Audio Bus\aux\rev_outdoor	
 	2061305165	rev_indoor_big			\Default Work Unit\Master Audio Bus\aux2\rev_indoor_big	
 	2118898693	rev_outdoor_medium			\Default Work Unit\Master Audio Bus\aux2\rev_outdoor_medium	
 	2380144714	rev_intdoor_small			\Default Work Unit\Master Audio Bus\aux2\rev_intdoor_small	
+	2587660709	del2_015			\Default Work Unit\Master Audio Bus\aux3\del2_015	
+	2604438288	del2_003			\Default Work Unit\Master Audio Bus\aux3\del2_003	
+	2621215878	del2_030			\Default Work Unit\Master Audio Bus\aux3\del2_030	
 
 Effect plug-ins	ID	Name	Type				Notes
 	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
 	393602995	Wwise Stereo Delay (Custom)	Wwise Stereo Delay			
+	394213430	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+	452215297	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+	467155485	_500ms_Per_Hour (Custom)	Wwise Stereo Delay			
 	561318128	Wwise RoomVerb (Custom)	Wwise RoomVerb			
-	713696496	Underground_Parking1 (Custom)	Wwise Matrix Reverb			
-	730890656	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb			
-	2171127646	Hall_Conversation	Wwise RoomVerb			
+	575093746	_500ms_Per_Hour (Custom)	Wwise Stereo Delay			
+	576417756	_500ms_Per_Hour (Custom)	Wwise Stereo Delay			
+	602546716	Room_Large	Wwise RoomVerb			
+	695316523	Hall_Small (Custom)	Wwise RoomVerb			
+	763380293	Space_Dreaming (Custom)	Wwise RoomVerb			
+	1057751137	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
 	2995775460	Room_Small	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes

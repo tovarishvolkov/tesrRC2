@@ -30,6 +30,10 @@ class AtesrRC2Character : public ACharacter
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	UCameraComponent* FirstPersonCameraComponent;
 
+
+
+
+
 public:
 	AtesrRC2Character();
 
@@ -37,6 +41,9 @@ protected:
 	virtual void BeginPlay();
 
 public:
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InDoor)
+	bool bInDoor = false;
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float TurnRateGamepad;
@@ -79,6 +86,7 @@ protected:
 	void EndTouch(const ETouchIndex::Type FingerIndex, const FVector Location);
 	void TouchUpdate(const ETouchIndex::Type FingerIndex, const FVector Location);
 	TouchData	TouchItem;
+
 	
 protected:
 	// APawn interface

@@ -17,13 +17,16 @@ class TESRRC2_API UTP_WeaponComponent : public UActorComponent
 	GENERATED_BODY()
 
 public:
+
+
+	
+
 	/** Projectile class to spawn */
 	UPROPERTY(EditDefaultsOnly, Category=Projectile)
 	TSubclassOf<class AtesrRC2Projectile> ProjectileClass;
 
-	/** Sound to play each time we fire */
-	//UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Gameplay)
-	//USoundBase* FireSound;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Test)
+		bool bIsFire = false;
 	
 	/** AnimMontage to play each time we fire */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)

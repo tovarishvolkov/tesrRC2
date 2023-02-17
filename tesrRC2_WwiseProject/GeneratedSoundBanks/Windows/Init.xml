@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>D:\Projects\tesrRC2\tesrRC2_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="2157411394">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="1604384123">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -16,15 +16,18 @@
 				<AuxBus Id="377355006" Name="rev_indoor" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\aux\rev_indoor" GUID="{5A7C09D3-CEFE-4752-9C7A-4EE38FFC6BD7}"/>
 				<AuxBus Id="378875104" Name="del" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\aux\del" GUID="{1E13EDEF-53CB-424E-BB78-DAB00E943DAF}"/>
 				<AuxBus Id="1687993343" Name="rev_outdoor_generic" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\aux2\rev_outdoor_generic" GUID="{254D0349-1BD1-4827-ADAD-0E80B6226717}"/>
+				<AuxBus Id="1825940626" Name="del2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\aux3\del2" GUID="{6EA4113C-5C50-4406-A0BD-2FDB21B0EF07}"/>
 				<AuxBus Id="1857588325" Name="rev_outdoor" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\aux\rev_outdoor" GUID="{59BAEE70-AC3D-47AE-8F72-D62634D713CB}"/>
 				<AuxBus Id="2061305165" Name="rev_indoor_big" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\aux2\rev_indoor_big" GUID="{5DF9886B-BB90-40A0-9FAF-479AFFA6FD61}"/>
 				<AuxBus Id="2118898693" Name="rev_outdoor_medium" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\aux2\rev_outdoor_medium" GUID="{99D901E7-AFC4-4B0D-B456-3AA7AD468C89}"/>
 				<AuxBus Id="2380144714" Name="rev_intdoor_small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\aux2\rev_intdoor_small" GUID="{A6295A75-F7C1-4547-A2CF-0B83B3DFE2CB}"/>
+				<AuxBus Id="2587660709" Name="del2_015" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\aux3\del2_015" GUID="{31511B15-54EB-491E-99A4-139B87D3AB23}"/>
+				<AuxBus Id="2604438288" Name="del2_003" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\aux3\del2_003" GUID="{A88EFA3F-9E4B-41CD-A9CF-6D18EF426FA1}"/>
+				<AuxBus Id="2621215878" Name="del2_030" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\aux3\del2_030" GUID="{EC81B701-AE42-480C-B4FD-9FE990B29472}"/>
 			</IncludedAuxBusses>
 			<GameParameters>
 				<GameParameter Id="20863261" Name="rev_decay_time" ObjectPath="\Game Parameters\Default Work Unit\rev\rev_decay_time" GUID="{C4A71F1B-8BDE-4881-A6A8-79341A38C092}"/>
 				<GameParameter Id="22760086" Name="rev_pre_delay" ObjectPath="\Game Parameters\Default Work Unit\rev\rev_pre_delay" GUID="{3E4FC29C-080B-4D6C-AAB0-05D36A9EF3B3}"/>
-				<GameParameter Id="153877265" Name="rev_balance" ObjectPath="\Game Parameters\Default Work Unit\rev_balance" GUID="{F75BC36C-3845-4E7E-A99A-124B9D0600A7}"/>
 				<GameParameter Id="422411778" Name="del_crossfeed_r" ObjectPath="\Game Parameters\Default Work Unit\del\del_crossfeed_r" GUID="{211E3999-D883-4D8F-948C-2E4AD8F5E5B0}"/>
 				<GameParameter Id="422411804" Name="del_crossfeed_l" ObjectPath="\Game Parameters\Default Work Unit\del\del_crossfeed_l" GUID="{491E0969-4AA3-496E-9310-584677A0725F}"/>
 				<GameParameter Id="1192436428" Name="del_out_wet" ObjectPath="\Game Parameters\Default Work Unit\del\del_out_wet" GUID="{72A698F7-10FB-4DC7-BBE8-E83BD4E99D50}"/>
@@ -32,8 +35,18 @@
 				<GameParameter Id="1672330836" Name="rev_diffusion" ObjectPath="\Game Parameters\Default Work Unit\rev\rev_diffusion" GUID="{F238AA67-F22B-4648-9042-B8648D5FF09D}"/>
 				<GameParameter Id="1684592609" Name="rev_filter_band_gain" ObjectPath="\Game Parameters\Default Work Unit\rev\rev_filter_band_gain" GUID="{D6FBB5B8-06FD-4D6A-8157-1053C0F0A967}"/>
 				<GameParameter Id="2267810008" Name="rev_balance_outdoor" ObjectPath="\Game Parameters\Default Work Unit\rev_balance_outdoor" GUID="{3B85A441-6B2B-4085-9769-167CF5790ED8}"/>
+				<GameParameter Id="2834370659" Name="eq_band_gain" ObjectPath="\Game Parameters\Default Work Unit\eq_band_gain" GUID="{18DE0141-C1D2-4661-8BA9-2F40A41D5616}"/>
 				<GameParameter Id="3684179601" Name="del_filter_gain" ObjectPath="\Game Parameters\Default Work Unit\del\del_filter_gain" GUID="{2AFCDF00-ED4F-4B7E-9ED8-4E06ED955113}"/>
 			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="971753100" Name="chr_indoor" ObjectPath="\States\Default Work Unit\chr_indoor" GUID="{48361964-45B5-4F67-9F67-5BFBA2E307B8}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\chr_indoor\None" GUID="{04264E31-A632-4AFE-9089-22C4CB6DE0AE}"/>
+						<State Id="971753100" Name="chr_indoor" ObjectPath="\States\Default Work Unit\chr_indoor\chr_indoor" GUID="{54BCEDA8-E39A-446B-A643-2947130D3717}"/>
+						<State Id="3689046263" Name="chr_outdoor" ObjectPath="\States\Default Work Unit\chr_indoor\chr_outdoor" GUID="{CF0E3A23-FAEF-41BA-9EC3-D8DA4A494C82}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

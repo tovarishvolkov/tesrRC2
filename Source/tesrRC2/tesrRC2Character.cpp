@@ -12,6 +12,8 @@
 //////////////////////////////////////////////////////////////////////////
 // AtesrRC2Character
 
+
+
 AtesrRC2Character::AtesrRC2Character()
 {
 	// Set size for collision capsule
@@ -35,7 +37,10 @@ AtesrRC2Character::AtesrRC2Character()
 	Mesh1P->SetRelativeRotation(FRotator(1.9f, -19.19f, 5.2f));
 	Mesh1P->SetRelativeLocation(FVector(-0.5f, -4.4f, -155.7f));
 
+
 }
+
+
 
 void AtesrRC2Character::BeginPlay()
 {
@@ -147,3 +152,5 @@ bool AtesrRC2Character::EnableTouchscreenMovement(class UInputComponent* PlayerI
 	
 	return false;
 }
+
+
