@@ -19,17 +19,11 @@
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "1604384123",
+    "Hash": "3397149057",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "IncludedAuxBusses": [
-     {
-      "Id": "377355006",
-      "Name": "rev_indoor",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\aux\\rev_indoor",
-      "GUID": "{5A7C09D3-CEFE-4752-9C7A-4EE38FFC6BD7}"
-     },
      {
       "Id": "378875104",
       "Name": "del",
@@ -41,18 +35,6 @@
       "Name": "rev_outdoor_generic",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\aux2\\rev_outdoor_generic",
       "GUID": "{254D0349-1BD1-4827-ADAD-0E80B6226717}"
-     },
-     {
-      "Id": "1825940626",
-      "Name": "del2",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\aux3\\del2",
-      "GUID": "{6EA4113C-5C50-4406-A0BD-2FDB21B0EF07}"
-     },
-     {
-      "Id": "1857588325",
-      "Name": "rev_outdoor",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\aux\\rev_outdoor",
-      "GUID": "{59BAEE70-AC3D-47AE-8F72-D62634D713CB}"
      },
      {
       "Id": "2061305165",
@@ -92,18 +74,6 @@
      }
     ],
     "GameParameters": [
-     {
-      "Id": "20863261",
-      "Name": "rev_decay_time",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\rev\\rev_decay_time",
-      "GUID": "{C4A71F1B-8BDE-4881-A6A8-79341A38C092}"
-     },
-     {
-      "Id": "22760086",
-      "Name": "rev_pre_delay",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\rev\\rev_pre_delay",
-      "GUID": "{3E4FC29C-080B-4D6C-AAB0-05D36A9EF3B3}"
-     },
      {
       "Id": "422411778",
       "Name": "del_crossfeed_r",
@@ -192,7 +162,7 @@
     "Id": "3161908922",
     "GUID": "{9AF0EBD7-2FD5-41AC-96AA-FBAEF073700F}",
     "Language": "SFX",
-    "Hash": "3474787703",
+    "Hash": "2654544282",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\main",
     "ShortName": "main",
     "Path": "main.bnk",

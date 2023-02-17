@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>D:\Projects\tesrRC2\tesrRC2_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="3161908922" GUID="{9AF0EBD7-2FD5-41AC-96AA-FBAEF073700F}" Language="SFX" Hash="219161321">
+		<SoundBank Id="3161908922" GUID="{9AF0EBD7-2FD5-41AC-96AA-FBAEF073700F}" Language="SFX" Hash="4193857101">
 			<ObjectPath>\SoundBanks\Default Work Unit\main</ObjectPath>
 			<ShortName>main</ShortName>
 			<Path>main.bnk</Path>
